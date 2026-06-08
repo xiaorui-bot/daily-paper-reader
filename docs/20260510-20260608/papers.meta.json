@@ -1,0 +1,69 @@
+{
+  "label": "2026-05-10 ~ 2026-06-08",
+  "date": "2026-05-10 ~ 2026-06-08",
+  "generated_at": "2026-06-08T07:05:01",
+  "count": 4,
+  "papers": [
+    {
+      "paper_id": "20260510-20260608/2605.29731v1-emag-differentiable-4d-gaussian-mixture-splatting-for-eeg-spatial-super-resolution",
+      "section": "quick",
+      "title_en": "EMAG: Differentiable 4D Gaussian Mixture Splatting for EEG Spatial Super-Resolution",
+      "authors": "Alex Lazarovich, Ofir Itzhak Shahar, Gur Elkin, Ohad Ben-Shahar",
+      "date": "2026-05-28",
+      "pdf": "https://arxiv.org/pdf/2605.29731v1",
+      "score": "9.0",
+      "evidence": "提出各向异性高斯混合先验用于EEG空间超分辨率中的脑源表示",
+      "tldr": "脑电图(EEG)空间分辨率低，高密度采集硬件昂贵且耗时。EMAG提出可微框架，在球形脑网格每点放置多个各向异性4D高斯（含4x4精度矩阵），从稀疏低密度电极可微渲染高密度信号，无需源定位监督即可端到端训练。在Localize-MI、SEED、SEED-IV三个基准上以2倍至16倍超分辨率因子超越当前最优方法。该显式参数化不仅实现低成本高分辨率EEG重建，还提供可解释的脑源结构，有利于临床源定位和生物标记发现。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "High-density electroencephalography (HD-EEG) enables fine-grained measurement of cortical activity but requires expensive hardware and lengthy setup times, limiting its clinical and research accessibility. We propose EMAG (EEG Mixture of Anisotropic Gaussians), a differentiable framework that reconstructs HD-EEG signals from a sparse subset of low-density (LD) electrodes by representing brain electrical sources as a mixture of anisotropic 4D space-time Gaussians. EMAG places a mixture of multiple Gaussians at each point of a spherical brain grid, each parameterized by a full 4 x 4 precision matrix, enabling anisotropic spatial spreads and explicit coupling between spatial and temporal dimensions. The forward model renders scalp EEG via differentiable Gaussian field contributions at electrode locations, enabling end-to-end training without explicit source localization supervision. We evaluate EMAG on three public EEG benchmarks (Localize-MI, SEED, and SEED-IV) at super-resolution factors of 2x through 8/16x. EMAG outperforms the current state-of-the-art EEG super-resolution method at most super-resolution factors on three standard benchmarks (Localize-MI, SEED, SEED-IV). The explicit Gaussian parameterization further enables direct visualization and interpretability of learned brain source configurations, potentially opening avenues for clinical and neuroscientific applications, such as source localization or biomarker discovery.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "20260510-20260608/2606.07196v1-structure-preserving-correction-learning-for-sparse-bayesian-inference-in-brain-source-imaging",
+      "section": "quick",
+      "title_en": "Structure-Preserving Correction Learning for Sparse Bayesian Inference in Brain Source Imaging",
+      "authors": "Marco Morik, Xiao Ruiting, Shinichi Nakajima, Stefan Haufe, Ismail Huseynov",
+      "date": "2026-06-05",
+      "pdf": "https://arxiv.org/pdf/2606.07196v1",
+      "score": "9.0",
+      "evidence": "直接针对EEG/MEG源定位，提出可学习的贝叶斯先验",
+      "tldr": "经典稀疏贝叶斯脑源成像依赖固定迭代更新规则，无法根据数据自适应。本文提出将联合超参数学习求解器展开为可训练神经网络，在保留贝叶斯结构的前提下学习结构化校正项，并通过可学习偏置、MLP和注意力机制逐步增强表达力。实验表明，该方法在不牺牲可解释性的情况下，显著提升重建精度并改善收敛行为。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Classical sparse Type-II Bayesian methods for M/EEG brain imaging support joint estimation of source and noise hyperparameters, but rely on fixed iterative update rules. Although these updates are principled and interpretable, their dynamics cannot be adapted from data. We propose to learn the update mechanism itself while preserving the underlying Bayesian structure by unfolding a classical joint hyperparameter-learning solver into a trainable neural architecture whose layers mirror the original iterations. The resulting framework is initialized to recover the classical solver exactly before training and is enriched through progressively more expressive correction-learning mechanisms, ranging from learnable biases to adaptive MLP and attention-based contextual refinements. In this way, training does not replace Bayesian inference with a black-box predictor, but instead learns structured correction terms while retaining the interpretability and model-based character of the original update dynamics. Structured correction learning therefore aims to improve empirical reconstruction performance without replacing the original model-based inference mechanism. Experimental results show that the learned correction variants improve reconstruction performance and convergence behavior over the baseline unfolded solver while preserving its algorithmic transparency.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "20260510-20260608/biorxiv-10-64898-2026-05-15-725408-v1-bandwidth-aware-fusion-of-resting-state-eeg-fmri-connectivity-in-cortical-eigenmode-space",
+      "section": "quick",
+      "title_en": "Bandwidth-aware fusion of resting-state EEG-fMRI connectivity in cortical eigenmode space",
+      "authors": "Park, H. G.",
+      "date": "2026-05-19",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.05.15.725408v1.full.pdf",
+      "score": "9.0",
+      "evidence": "使用皮层拉普拉斯-贝尔特拉米本征模作为EEG-fMRI融合的解剖先验",
+      "tldr": "针对EEG和fMRI连接性融合中模态带宽不匹配问题，提出在皮层Laplace-Beltrami本征模空间进行带宽感知融合。通过低秩分解共享网络因子和频率特定强度，并利用谱平滑正则化推断未观测频带。在MPI-LEMON队列中，融合表示支持年龄预测并产出可解释的多模态网络生物标志物，为个体差异研究提供新途径。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "We introduce a geometry-informed, bandwidth-aware model for fusing resting-state EEG and fMRI connectivity by treating each modality as a masked, physics-limited observation of a shared latent cortical connectivity structure. Both modalities are represented in a shared cortical Laplace-Beltrami (LB) eigenmode basis that provides an anatomically grounded ordering of spatial scales. In this coordinate system, fMRI constrains connectivity across a broad range of spatial scales but only at slow timescales, whereas EEG provides frequency-resolved information primarily for coarse spatial modes. We formalize this complementarity through a latent spatio-spectral connectivity object and estimate it using a low-rank factorization with shared eigenmode-network factors and subject- and frequency-specific nonnegative strengths. Estimation is driven by the regions supported by each modality (EEG: coarse spatial modes across broad frequencies; fMRI: broad spatial modes at low frequencies), while unobserved bands are inferred through shared low-rank structure and spectral smoothness regularization. In the MPI-LEMON cohort, the fused representation yields compact, interpretable subject features (fMRI network strengths and EEG oscillatory summaries) that support out-of-sample age prediction under nested cross-validation, and coherent multi-view interpretation through cortical maps, spectral profiles, and atlas-referenced system composition summaries. These results demonstrate that explicitly modeling modality-specific bandwidth gaps enables principled EEG-fMRI connectivity fusion and provides a practical route to multimodal network biomarkers for individual-differences research.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "20260510-20260608/biorxiv-10-64898-2026-05-25-726064-v1-cortical-eigenmode-coordinates-provide-compact-subject-level-signatures-across-structural-mri-resting-state-fmri-and-eeg",
+      "section": "quick",
+      "title_en": "Cortical eigenmode coordinates provide compact subject-level signatures across structural MRI, resting-state fMRI, and EEG",
+      "authors": "Park, H. G., Tarpey, T.",
+      "date": "2026-05-28",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.05.25.726064v1.full.pdf",
+      "score": "8.0",
+      "evidence": "皮层本征模坐标作为EEG源分析的几何对齐先验",
+      "tldr": "多模态脑影像分析面临数据空间不统一的问题。本文提出皮层拉普拉斯-贝尔特拉米本征模坐标作为共享几何对齐语言，统一结构MRI、静息态fMRI和脑电图。在MPI-LEMON数据集上，本征模坐标表示相比传统方法在年龄预测任务中达到更高性能且维度更紧凑。GEMF模型进一步提取低维共享因子，提供了可解释的模态共享与特异性成分。该框架为构建跨模态的紧凑、可解释受试者级别脑特征奠定了实用基础。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "A practical barrier in multimodal neuroimaging is that structural MRI, fMRI, and EEG are often analyzed in modality-specific spaces or reduced to atlas- and sensor-based summaries, limiting the construction of common, interpretable subject-level brain signatures. We evaluate cortical Laplace-Beltrami eigenmode coordinates as a shared geometry-aligned language for structural MRI (sMRI), resting-state fMRI (rs-fMRI), and EEG. In this framework, sMRI morphometric fields are represented by cortical eigenmode coefficients, rs-fMRI by covariance among eigenmode time-series coefficients, and EEG by mode-frequency-condition summaries.\n\nUsing the Max Planck Institute Leipzig Mind-Brain-Body dataset (MPI-LEMON), we compared unimodal eigenmode-coordinate summaries, multimodal cortical eigenmode-coordinate PCA, conventional atlas/sensor-based PCA and ridge representations, and geometric eigenmode multiview factorization (GEMF). GEMF is a structured decomposition that preserves the modality-native organization of the data objects while separating shared from modality-specific variation. Eigenmode-coordinate representations yielded compact subject-level signatures with strong external validity for chronological age and a secondary cognitive outcome. Multimodal eigenmode-coordinate PCA was among the strongest-performing approaches, reached high age-prediction performance at moderate dimension, and consistently outperformed conventional low-dimensional PCA. GEMF selected an even lower-dimensional shared representation and remained competitive with the benefit of providing interpretable shared and modality-specific factors.\n\nThese findings support cortical eigenmode coordinates as a practical foundation for compact, interpretable, and multimodally aligned subject-level brain signatures.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
