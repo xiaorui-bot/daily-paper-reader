@@ -1,0 +1,101 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-09T21:32:16.497697+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 2,
+    "quick_skim_target": 11,
+    "quick_selected": 2
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-06-01-729093-v1",
+      "source": "biorxiv",
+      "title": "Adaptive Bayesian localization of motor representation areas",
+      "abstract": "Transcranial magnetic stimulation (TMS) enables non-invasive localization of cortical motor representations, with important clinical applications in presurgical planning. Existing methods either disregard spatial information about the TMS-induced electric field (E-field) or use acquisition schemes that do not leverage previously elicited motor responses to guide subsequent stimulation. We present an adaptive Bayesian localization method that combines real-time E-field optimization with per-trial probabilistic inference. The cortical origin of the motor responses is represented as a spatial probability distribution that is updated after each stimulus. Subsequent stimuli are then optimized to maximize the expected localization improvement given previous responses. We validated the method experimentally, using multi-locus TMS for adaptive localization and single-coil TMS as a non-adaptive reference with randomized coil placements. Across eight subjects, the adaptive protocol at least halved the number of stimuli required for stable localization compared to the randomized protocol, converging in 60 stimuli on average, with 95% highest-density regions often below 10 mm2 by 150 stimuli.",
+      "authors": [
+        "Laine, M.",
+        "Mutanen, T. P.",
+        "Parvin, S.",
+        "Numssen, O.",
+        "Weise, K.",
+        "Stenroos, M.",
+        "Granö, I.",
+        "Soto, A. M.",
+        "Matsuda, R. H.",
+        "Souza, V. H.",
+        "Knösche, T. R.",
+        "Ilmoniemi, R. J."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-06-04T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.01.729093v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "adaptive Bayesian localization using spatial priors for TMS motor representation",
+      "llm_evidence_cn": "自适应贝叶斯定位方法利用空间先验定位运动皮层",
+      "llm_evidence": "自适应贝叶斯定位方法利用空间先验定位运动皮层",
+      "canonical_evidence": "自适应贝叶斯定位方法利用空间先验定位运动皮层",
+      "llm_tldr_en": "Proposes adaptive Bayesian method that uses spatial probability priors to localize cortical motor areas with TMS.",
+      "llm_tldr_cn": "该论文针对经颅磁刺激（TMS）定位运动皮层时忽略空间先验的问题，提出自适应贝叶斯方法，将运动反应起源表示为空间概率分布，每轮刺激后更新。这种方法与EEG源定位中利用解剖先验的思路高度一致，为脑区先验的应用提供了可直接迁移的框架。",
+      "llm_tldr": "该论文针对经颅磁刺激（TMS）定位运动皮层时忽略空间先验的问题，提出自适应贝叶斯方法，将运动反应起源表示为空间概率分布，每轮刺激后更新。这种方法与EEG源定位中利用解剖先验的思路高度一致，为脑区先验的应用提供了可直接迁移的框架。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-05-31-729074-v1",
+      "source": "biorxiv",
+      "title": "Quilting the Brain: Whole-Brain iEEG Reconstruction via Incomplete Observation Linear Mixed Models",
+      "abstract": "Mapping human brain function at high spatiotemporal resolution is constrained by the physical limitations of non-invasive imaging and the sparse sampling of invasive electrophysiology. While intracranial electroencephalography (iEEG) captures local eld potentials with millimeter precision, clinical implantation strategies result in a \"coverage paradox\" : observations are restricted to disjoint, patient-specific patches, leaving most of the cortex unobserved. This study introduces the Incomplete Observation Linear Mixed-Effect Model (IOLMM), a statistical framework that resolves this paradox by \"quilting\" fragmented observations into continuous, whole-brain source activity maps. Our approach integrates two innovations: (1) Sure Independence Screening (SIS) adapted from ultra-high-dimensional statistics to distinguish true physiological signals from volume-conducted \"ghost sources\"; (2) a hierarchical IOLMM that decouples group-level physiological fixed effects from subject-specific instrumental random effects, solving the scaling ambiguities that plague iEEG group analyses. Applied to the MNI Open iEEG Atlas, the framework is validated through sleep stage-dependent cortical source power reconstruction across Wake, N2, N3, and REM states, recovering the frontal predominance of NREM slow-wave activity and the graded electrophysiological hierarchy from fragmented recordings of 106 patients. This work establishes the first cortical surface-level normative electrophysiological atlas derived from iEEG, providing a quantitative reference for detecting and predicting epileptogenic lesions and bridging the gap between the microscopic precision of electrophysiology and the macroscopic scope of systems neuroscience.\n\nHighlightsO_LISolving the Coverage Paradox: A novel IOLMM statistical framework quilts sparse, non-overlapping iEEG data into a unified whole-brain probabilistic map.\nC_LIO_LIGeometric Screening: Adapts high-dimensional Sure Independence Screening (SIS) using cortical geometric eigenmodes to effectively filter out spurious ghost sources in inverse solutions.\nC_LIO_LIRobust Harmonization: Decouples group-level physiological fixed effects from subject-specific random effects, resolving scaling ambiguities inherent in heterogeneous multi-center recordings.\nC_LIO_LIBiological Validation: Validates the framework on real multi-center iEEG data by reconstructing sleep stage-dependent cortical source power maps, recovering known electrophysiological signatures of NREM and REM sleep from fragmented recordings.\nC_LI",
+      "authors": [
+        "Wang, Y.",
+        "Li, M.",
+        "Bringas Vega, M. L.",
+        "Valdes-Sosa, P. A."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-06-03T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.05.31.729074v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "uses statistical priors in linear mixed model to reconstruct whole-brain iEEG from sparse samples",
+      "llm_evidence_cn": "利用线性混合模型中的统计先验从稀疏iEEG重建全脑源活动",
+      "llm_evidence": "利用线性混合模型中的统计先验从稀疏iEEG重建全脑源活动",
+      "canonical_evidence": "利用线性混合模型中的统计先验从稀疏iEEG重建全脑源活动",
+      "llm_tldr_en": "Introduces IOLMM that uses linear mixed-effect priors to quilt fragmented iEEG observations into whole-brain maps.",
+      "llm_tldr_cn": "该论文针对颅内脑电图（iEEG）采样稀疏导致皮层覆盖不全的问题，提出不完全观测线性混合效应模型（IOLMM），通过整合空间平滑等统计先验来'拼接'不连续记录为全脑源活动图。该框架中的先验思想可直接为EEG源定位中的解剖先验设计提供借鉴。",
+      "llm_tldr": "该论文针对颅内脑电图（iEEG）采样稀疏导致皮层覆盖不全的问题，提出不完全观测线性混合效应模型（IOLMM），通过整合空间平滑等统计先验来'拼接'不连续记录为全脑源活动图。该框架中的先验思想可直接为EEG源定位中的解剖先验设计提供借鉴。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
