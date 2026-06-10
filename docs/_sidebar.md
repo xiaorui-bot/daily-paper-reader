@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-06-10 <!--dpr-date:20260610-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202606/10/biorxiv-10-64898-2026-06-07-730702-v1-homophily-informed-generative-models-of-brain-maps" data-sidebar-item="{&quot;title&quot;: &quot;Homophily-informed generative models of brain maps&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-06-07-730702-v1-homophily-informed-generative-models-of-brain-maps&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;利用区域间同质性建模脑图，为EEG分析提供解剖先验&quot;}">Homophily-informed generative models of brain maps</a>
   * 2026-06-09 <!--dpr-date:20260609-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202606/09/biorxiv-10-64898-2026-06-01-729093-v1-adaptive-bayesian-localization-of-motor-representation-areas" data-sidebar-item="{&quot;title&quot;: &quot;Adaptive Bayesian localization of motor representation areas&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-06-01-729093-v1-adaptive-bayesian-localization-of-motor-representation-areas&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;自适应贝叶斯定位方法利用空间先验定位运动皮层&quot;}">Adaptive Bayesian localization of motor representation areas</a>

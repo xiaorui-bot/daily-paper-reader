@@ -1,0 +1,56 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-10T21:10:39.612579+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-06-07-730702-v1",
+      "source": "biorxiv",
+      "title": "Homophily-informed generative models of brain maps",
+      "abstract": "The structural and functional organization of the brain can be studied across multiple scales, yielding richly detailed topographic brain maps of biological features. What are the underlying forces that shape their spatial patterning? Here we introduce a simple generative model of multiscale brain maps based on the concept of inter-regional homophily: the tendency for regions that are proximal in a given physical, molecular or functional space to display similar biological features. We evaluate the model with respect to six definitions of inter-regional homophily, including physical proximity, structural and functional connectivity, and laminar, receptor and transcriptional similarity, and across 43 empirical brain maps estimated using multiple imaging, electrophysiological and histological technologies. We show that homophilic principles are sufficient to accurately reconstruct many maps, with biological similarity and functional connectivity often contributing more than the brain's geometry. We also identify consistent patterns of unexplained variation in maps with low homophily, revealing axes of cortical organization not captured by canonical inter-regional relationships. Finally, we show that homophily-informed generative models can be used to disentangle complex relationships between brain features and make new inferences on how they fit together. Collectively, this work highlights the fundamental contribution of homophily to the topographic layout of numerous biological features of the brain.",
+      "authors": [
+        "Bazinet, V.",
+        "Liu, Z.-Q.",
+        "Milisav, F.",
+        "Luppi, A. I.",
+        "Misic, B."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-06-08T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.07.730702v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "uses inter-regional homophily to model brain maps, providing anatomical priors for EEG analysis",
+      "llm_evidence_cn": "利用区域间同质性建模脑图，为EEG分析提供解剖先验",
+      "llm_evidence": "利用区域间同质性建模脑图，为EEG分析提供解剖先验",
+      "canonical_evidence": "利用区域间同质性建模脑图，为EEG分析提供解剖先验",
+      "llm_tldr_en": "Proposes a generative model of brain maps based on inter-regional homophily, which can serve as anatomical priors for EEG source localization.",
+      "llm_tldr_cn": "本文针对脑图谱空间模式的形成机制，提出基于区域间同质性的生成模型。模型引入六种同质性定义（物理邻近、连接、层状、受体、转录相似性等），在43个多模态脑图谱上评估。该工作为EEG源定位提供了可迁移的解剖先验，有助于将脑区结构约束融入神经成像分析，揭示脑空间模式的底层驱动力。",
+      "llm_tldr": "本文针对脑图谱空间模式的形成机制，提出基于区域间同质性的生成模型。模型引入六种同质性定义（物理邻近、连接、层状、受体、转录相似性等），在43个多模态脑图谱上评估。该工作为EEG源定位提供了可迁移的解剖先验，有助于将脑区结构约束融入神经成像分析，揭示脑空间模式的底层驱动力。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

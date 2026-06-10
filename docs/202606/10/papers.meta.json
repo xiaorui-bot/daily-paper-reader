@@ -1,0 +1,24 @@
+{
+  "label": "2026-06-10",
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T21:11:02",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202606/10/biorxiv-10-64898-2026-06-07-730702-v1-homophily-informed-generative-models-of-brain-maps",
+      "section": "quick",
+      "title_en": "Homophily-informed generative models of brain maps",
+      "authors": "Bazinet, V., Liu, Z.-Q., Milisav, F., Luppi, A. I., Misic, B.",
+      "date": "2026-06-08",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.06.07.730702v1.full.pdf",
+      "score": "6.0",
+      "evidence": "利用区域间同质性建模脑图，为EEG分析提供解剖先验",
+      "tldr": "大脑的多尺度脑图成因不明。本文基于区域间同质性提出生成模型，评估六种定义和43个经验脑图，发现同质性足以重建多数脑图，生物相似性和功能连接贡献常超过几何距离；低同质性脑图存在未解释变异，揭示规范关系未捕获的皮层组织轴。该模型能解缠脑特征间复杂关系并推断其整合，突出同质性对脑图布局的基础贡献。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "The structural and functional organization of the brain can be studied across multiple scales, yielding richly detailed topographic brain maps of biological features. What are the underlying forces that shape their spatial patterning? Here we introduce a simple generative model of multiscale brain maps based on the concept of inter-regional homophily: the tendency for regions that are proximal in a given physical, molecular or functional space to display similar biological features. We evaluate the model with respect to six definitions of inter-regional homophily, including physical proximity, structural and functional connectivity, and laminar, receptor and transcriptional similarity, and across 43 empirical brain maps estimated using multiple imaging, electrophysiological and histological technologies. We show that homophilic principles are sufficient to accurately reconstruct many maps, with biological similarity and functional connectivity often contributing more than the brain's geometry. We also identify consistent patterns of unexplained variation in maps with low homophily, revealing axes of cortical organization not captured by canonical inter-regional relationships. Finally, we show that homophily-informed generative models can be used to disentangle complex relationships between brain features and make new inferences on how they fit together. Collectively, this work highlights the fundamental contribution of homophily to the topographic layout of numerous biological features of the brain.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

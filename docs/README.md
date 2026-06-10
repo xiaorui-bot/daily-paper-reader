@@ -6,31 +6,28 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-06-09
-- 运行时间：2026-06-09 21:32:33 UTC
+- 最新运行日期：2026-06-10
+- 运行时间：2026-06-10 21:10:55 UTC
 - 运行状态：成功
-- 本次总论文数：2
+- 本次总论文数：1
 - 精读区：0
-- 速读区：2
+- 速读区：1
 
 ### 今日简报（AI）
-今日速读2篇脑科学论文，聚焦运动区定位与全脑脑电重建技术。
+今日仅速读1篇论文，分数6.0，主题聚焦脑图生成模型。
 
-最值得关注：自适应贝叶斯方法高效定位运动皮层区域，以及线性混合模型实现全脑iEEG信号重建。
+最值得关注的是将同质性信息融入脑图谱生成的研究，为理解大脑功能连接提供了新视角。
 
-建议：可进一步探索贝叶斯定位在实际临床中的应用，或了解iEEG重建对脑网络研究的提升潜力。
-- 详情：[/202606/09/README](/202606/09/README)
+建议普通读者关注该模型如何利用网络同质性特征改进脑部疾病应用。
+- 详情：[/202606/10/README](/202606/10/README)
 
 ### 精读区论文标签
 - 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Adaptive Bayesian localization of motor representation areas](/202606/09/biorxiv-10-64898-2026-06-01-729093-v1-adaptive-bayesian-localization-of-motor-representation-areas)  
-   标签：评分：7.0/10、query:eeg-priors
-   evidence：自适应贝叶斯定位方法利用空间先验定位运动皮层
-2. [Quilting the Brain: Whole-Brain iEEG Reconstruction via Incomplete Observation Linear Mixed Models](/202606/09/biorxiv-10-64898-2026-05-31-729074-v1-quilting-the-brain-whole-brain-ieeg-reconstruction-via-incomplete-observation-linear-mixed-models)  
+1. [Homophily-informed generative models of brain maps](/202606/10/biorxiv-10-64898-2026-06-07-730702-v1-homophily-informed-generative-models-of-brain-maps)  
    标签：评分：6.0/10、query:eeg-priors
-   evidence：利用线性混合模型中的统计先验从稀疏iEEG重建全脑源活动
+   evidence：利用区域间同质性建模脑图，为EEG分析提供解剖先验
 
 
 <div class="dpr-home-promo-card">
