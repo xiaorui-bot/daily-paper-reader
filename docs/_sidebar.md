@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-06-11 <!--dpr-date:20260611-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202606/11/2606.11415v1-spatially-masked-regression-reveals-local-and-distributed-predictability-in-electrophysiological-recordings" data-sidebar-item="{&quot;title&quot;: &quot;Spatially Masked Regression Reveals Local and Distributed Predictability in Electrophysiological Recordings&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2606.11415v1-spatially-masked-regression-reveals-local-and-distributed-predictability-in-electrophysiological-recordings&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;电生理学中的空间局部性分析&quot;}">Spatially Masked Regression Reveals Local and Distributed Predictability in Electrophysiological Recordings</a>
   * 2026-06-10 <!--dpr-date:20260610-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202606/10/biorxiv-10-64898-2026-06-07-730702-v1-homophily-informed-generative-models-of-brain-maps" data-sidebar-item="{&quot;title&quot;: &quot;Homophily-informed generative models of brain maps&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-06-07-730702-v1-homophily-informed-generative-models-of-brain-maps&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;利用区域间同质性建模脑图，为EEG分析提供解剖先验&quot;}">Homophily-informed generative models of brain maps</a>

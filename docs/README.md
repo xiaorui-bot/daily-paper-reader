@@ -6,28 +6,26 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-06-10
-- 运行时间：2026-06-10 21:10:55 UTC
+- 最新运行日期：2026-06-11
+- 运行时间：2026-06-11 21:42:58 UTC
 - 运行状态：成功
 - 本次总论文数：1
 - 精读区：0
 - 速读区：1
 
 ### 今日简报（AI）
-今日仅速读1篇论文，分数6.0，主题聚焦脑图生成模型。
-
-最值得关注的是将同质性信息融入脑图谱生成的研究，为理解大脑功能连接提供了新视角。
-
-建议普通读者关注该模型如何利用网络同质性特征改进脑部疾病应用。
-- 详情：[/202606/10/README](/202606/10/README)
+1) 今日速读一篇6分论文，聚焦空间掩蔽回归揭示电生理记录中的局部与分布式可预测性。  
+2) 最值得关注：该方法同时捕捉了神经信号的局部和全局预测模式，颠覆了传统单一编码假设。  
+3) 建议读者：若研究神经解码或脑机接口，可尝试将此法应用于自身数据集，验证其泛化能力。
+- 详情：[/202606/11/README](/202606/11/README)
 
 ### 精读区论文标签
 - 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Homophily-informed generative models of brain maps](/202606/10/biorxiv-10-64898-2026-06-07-730702-v1-homophily-informed-generative-models-of-brain-maps)  
+1. [Spatially Masked Regression Reveals Local and Distributed Predictability in Electrophysiological Recordings](/202606/11/2606.11415v1-spatially-masked-regression-reveals-local-and-distributed-predictability-in-electrophysiological-recordings)  
    标签：评分：6.0/10、query:eeg-priors
-   evidence：利用区域间同质性建模脑图，为EEG分析提供解剖先验
+   evidence：电生理学中的空间局部性分析
 
 
 <div class="dpr-home-promo-card">
