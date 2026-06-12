@@ -6,26 +6,27 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-06-11
-- 运行时间：2026-06-11 21:42:58 UTC
+- 最新运行日期：2026-06-12
+- 运行时间：2026-06-12 21:34:35 UTC
 - 运行状态：成功
-- 本次总论文数：1
+- 本次总论文数：2
 - 精读区：0
-- 速读区：1
+- 速读区：2
 
 ### 今日简报（AI）
-1) 今日速读一篇6分论文，聚焦空间掩蔽回归揭示电生理记录中的局部与分布式可预测性。  
-2) 最值得关注：该方法同时捕捉了神经信号的局部和全局预测模式，颠覆了传统单一编码假设。  
-3) 建议读者：若研究神经解码或脑机接口，可尝试将此法应用于自身数据集，验证其泛化能力。
-- 详情：[/202606/11/README](/202606/11/README)
+今天阅读了两篇电生理与多模态成像、连接组学相关的速读论文。其中《The electro-MICA toolbox》介绍了整合电生理与影像工作流的工具箱，另一篇《Spatially Masked Regression》则提出了局部与分布式预测的新方法。建议关注电生理数据与影像融合的方法学进展，有助于理解脑网络功能。
+- 详情：[/202606/12/README](/202606/12/README)
 
 ### 精读区论文标签
 - 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Spatially Masked Regression Reveals Local and Distributed Predictability in Electrophysiological Recordings](/202606/11/2606.11415v1-spatially-masked-regression-reveals-local-and-distributed-predictability-in-electrophysiological-recordings)  
+1. [The electro-MICA toolbox for integrating electrophysiology within multimodal imaging and connectomics workflows](/202606/12/biorxiv-10-64898-2026-06-08-730888-v1-the-electro-mica-toolbox-for-integrating-electrophysiology-within-multimodal-imaging-and-connectomics-workflows)  
+   标签：评分：7.0/10、query:eeg-priors
+   evidence：提供基于数值解的EEG源定位流程，依赖解剖先验
+2. [Spatially Masked Regression Reveals Local and Distributed Predictability in Electrophysiological Recordings](/202606/12/2606.11415v1-spatially-masked-regression-reveals-local-and-distributed-predictability-in-electrophysiological-recordings)  
    标签：评分：6.0/10、query:eeg-priors
-   evidence：电生理学中的空间局部性分析
+   evidence：空间掩蔽揭示神经记录中局部与分布式信息
 
 
 <div class="dpr-home-promo-card">
