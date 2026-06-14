@@ -1,0 +1,105 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-14T20:48:33.282179+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "biorxiv-10-64898-2026-05-07-723671-v2",
+      "source": "biorxiv",
+      "title": "Source-space EEG functional connectivity and prediction of cognition in Parkinsons disease: No added benefit of individualized head models over standard templates",
+      "abstract": "Introduction: Cognitive decline is a major non-motor feature of Parkinson s disease (PD), but reliable and accessible biomarkers remain limited. Resting-state electroencephalography (EEG) is a promising candidate because it is low-cost, portable, and well suited to repeated assessment. Recent work has increasingly focused on source-space functional connectivity (FC) for the prediction of cognition. However, the influence of source modelling based on an individualized MRI-based head model relative to that based on standard template model is unknown. Methods: To compare these two source-space EEG FC methods, we analysed EEG data from the New Zealand Parkinson s Progression Programme, including 136 people with PD and 51 age-similar controls. Source space resting-state EEG, parcellated with the HCP-MMP1 atlas, was used to derive amplitude envelope correlation (AEC) and debiased weighted phase lag index (dwPLI) across six canonical frequency bands. The resulting twenty-four FC modalities were evaluated using six machine-learning regression algorithms within a nested cross-validation framework. Results: Theta-, alpha-, and beta-band FC showed the most consistent prediction of global cognition. The strongest performance was observed for theta- and alpha-band AEC and dwPLI features (max R2 = 0.170, 95% CI = 0.067-0.262; max r = 0.439, 95% CI = 0.328-0.537). Standard and individualized head models showed comparable predictive performance across nearly all modalities. The feature-importance neuroanatomical patterns for Cole-Anticevic networks were also similar between the two head-model options. Conclusions: We found that source-space resting-state EEG FC can predict cognitive performance in PD. The comparability of the two head models suggests that the more user-friendly and less resource-intensive standard template head model is sufficient for this purpose. This supports feasible, scalable, and clinically accessible EEG-based FC biomarkers of cognition in PD.",
+      "authors": [
+        "Tetereva, A.",
+        "Hall-McMaster, G.",
+        "Slater, N.",
+        "Harris, A.",
+        "Shoorangiz, R.",
+        "Le Heron, C.",
+        "Keenan, R.",
+        "Myall, D.",
+        "Pitcher, T.",
+        "Kirk, I.",
+        "Meissner, W.",
+        "Anderson, T.",
+        "Melzer, T.",
+        "Pat, N.",
+        "Dalrymple-Alford, J."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-06-11T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.05.07.723671v2.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "compares individualized MRI head model vs template for source-space EEG FC, directly evaluating anatomical prior influence",
+      "llm_evidence_cn": "比较了个体化MRI头模型与标准模板在源空间EEG功能连接中的作用，直接评估解剖先验影响",
+      "llm_evidence": "比较了个体化MRI头模型与标准模板在源空间EEG功能连接中的作用，直接评估解剖先验影响",
+      "canonical_evidence": "比较了个体化MRI头模型与标准模板在源空间EEG功能连接中的作用，直接评估解剖先验影响",
+      "llm_tldr_en": "This study compares source-space EEG functional connectivity using individualized MRI-based head models versus standard templates for cognitive prediction in Parkinson's disease, finding no added benefit of individualization, thus informing the choice of anatomical priors in EEG source analysis.",
+      "llm_tldr_cn": "在帕金森病认知预测中，该研究比较了基于个体化MRI的头模型与标准模板在源空间脑电图功能连接中的表现。结果表明，个体化头模型并未带来额外收益，标准模板足以胜任。这一发现为脑电图源分析中选择解剖先验提供了实证依据，提示在特定临床应用中可简化处理流程。",
+      "llm_tldr": "在帕金森病认知预测中，该研究比较了基于个体化MRI的头模型与标准模板在源空间脑电图功能连接中的表现。结果表明，个体化头模型并未带来额外收益，标准模板足以胜任。这一发现为脑电图源分析中选择解剖先验提供了实证依据，提示在特定临床应用中可简化处理流程。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2606.11833v1",
+      "source": "arxiv",
+      "title": "Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics",
+      "abstract": "Flow matching and diffusion models enable conditional generation across domains ranging from images to proteins, with recent extensions to out-of-distribution contexts. Yet generative models of neural time series have largely remained restricted to categorical conditioning, precluding compositional and zero-shot generalization. In this work, we propose a per-timestep conditioned diffusion transformer for generating realistic fMRI brain dynamics during unseen cognitive tasks by injecting both compositional language and optional spatial priors in-context. Such zero-shot generation could enable counterfactual neuroscience by supporting in-silico design and evaluation of novel cognitive experiments before empirical validation. Leveraging this model, we evaluate across hundreds of held-out task conditions and characterize predictive performance in relation to the training manifold. From language alone, the model recovers region-specific recruitment across tasks and held-out spatial activation patterns. Spatial priors, when available, complement the text pathway by anchoring generation in regions of task space where language alone degrades, while retaining the compositional structure needed for counterfactual task specification. To our knowledge this is the first generative model of whole-cortex fMRI dynamics for unseen cognitive tasks, advancing counterfactual neuroscience and data-driven experimental design.",
+      "authors": [
+        "Sam Gijsen",
+        "Michał Łukomski",
+        "Marc-André Schulz",
+        "Kerstin Ritter"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "published": "2026-06-10T09:15:33+00:00",
+      "link": "https://arxiv.org/pdf/2606.11833v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "uses in-context priors including spatial priors for brain dynamics generation, applicable to EEG prior concept",
+      "llm_evidence_cn": "使用上下文先验包括空间先验生成脑动力学，可应用于EEG先验概念",
+      "llm_evidence": "使用上下文先验包括空间先验生成脑动力学，可应用于EEG先验概念",
+      "canonical_evidence": "使用上下文先验包括空间先验生成脑动力学，可应用于EEG先验概念",
+      "llm_tldr_en": "Proposes a per-timestep conditioned diffusion transformer for generating realistic fMRI brain dynamics during unseen cognitive tasks using compositional language and optional spatial priors in-context, enabling zero-shot counterfactual neuroscience.",
+      "llm_tldr_cn": "针对现有神经时间序列生成模型仅限于分类条件、无法实现组合和零样本泛化的局限，本文提出了一种基于扩散Transformer的逐时间步条件生成模型，通过注入组合语言和可选的空间先验，在未见过的认知任务下生成逼真的fMRI脑动力学。该方法支持零样本反事实神经科学，可在实验验证前进行计算机内设计评估。",
+      "llm_tldr": "针对现有神经时间序列生成模型仅限于分类条件、无法实现组合和零样本泛化的局限，本文提出了一种基于扩散Transformer的逐时间步条件生成模型，通过注入组合语言和可选的空间先验，在未见过的认知任务下生成逼真的fMRI脑动力学。该方法支持零样本反事实神经科学，可在实验验证前进行计算机内设计评估。",
+      "llm_tags": [
+        "query:eeg-priors:composite"
+      ],
+      "matched_query_tag": "query:eeg-priors:composite",
+      "matched_query_text": "Papers central to 请帮我查找EEG脑区先验的相关论文, especially work that connects or combines: electroencephalography brain region priors; anatomical prior information in EEG analysis; What priors are commonly used in EEG source localization?.",
+      "matched_requirement_id": "req-composite-eeg-priors",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
