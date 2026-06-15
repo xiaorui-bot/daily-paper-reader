@@ -1,0 +1,56 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-15T22:36:12.512230+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2606.11833v1",
+      "source": "arxiv",
+      "title": "Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics",
+      "abstract": "Flow matching and diffusion models enable conditional generation across domains ranging from images to proteins, with recent extensions to out-of-distribution contexts. Yet generative models of neural time series have largely remained restricted to categorical conditioning, precluding compositional and zero-shot generalization. In this work, we propose a per-timestep conditioned diffusion transformer for generating realistic fMRI brain dynamics during unseen cognitive tasks by injecting both compositional language and optional spatial priors in-context. Such zero-shot generation could enable counterfactual neuroscience by supporting in-silico design and evaluation of novel cognitive experiments before empirical validation. Leveraging this model, we evaluate across hundreds of held-out task conditions and characterize predictive performance in relation to the training manifold. From language alone, the model recovers region-specific recruitment across tasks and held-out spatial activation patterns. Spatial priors, when available, complement the text pathway by anchoring generation in regions of task space where language alone degrades, while retaining the compositional structure needed for counterfactual task specification. To our knowledge this is the first generative model of whole-cortex fMRI dynamics for unseen cognitive tasks, advancing counterfactual neuroscience and data-driven experimental design.",
+      "authors": [
+        "Sam Gijsen",
+        "Michał Łukomski",
+        "Marc-André Schulz",
+        "Kerstin Ritter"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "published": "2026-06-10T09:15:33+00:00",
+      "link": "https://arxiv.org/pdf/2606.11833v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "flow matching with in-context priors for generating brain dynamics; spatial priors directly relevant to EEG source localization prior design",
+      "llm_evidence_cn": "利用上下文先验的流匹配生成脑动力学；空间先验直接关联EEG源定位先验设计",
+      "llm_evidence": "利用上下文先验的流匹配生成脑动力学；空间先验直接关联EEG源定位先验设计",
+      "canonical_evidence": "利用上下文先验的流匹配生成脑动力学；空间先验直接关联EEG源定位先验设计",
+      "llm_tldr_en": "Proposes a per-timestep conditioned diffusion transformer for generating fMRI brain dynamics using compositional language and optional spatial priors in-context; enables zero-shot generation for cognitive experiments; prior design relevant to EEG.",
+      "llm_tldr_cn": "本文提出一种逐时间步条件扩散变压器，通过上下文注入组合语言和可选空间先验，生成未知认知任务下的fMRI脑动力学。该方法支持零样本生成，可用于反事实神经科学。其空间先验的设计与EEG源定位中的先验问题高度相关，提供了可迁移的先验建模策略。",
+      "llm_tldr": "本文提出一种逐时间步条件扩散变压器，通过上下文注入组合语言和可选空间先验，生成未知认知任务下的fMRI脑动力学。该方法支持零样本生成，可用于反事实神经科学。其空间先验的设计与EEG源定位中的先验问题高度相关，提供了可迁移的先验建模策略。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

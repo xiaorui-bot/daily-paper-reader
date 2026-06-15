@@ -6,30 +6,26 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-06-14
-- 运行时间：2026-06-14 20:50:27 UTC
+- 最新运行日期：2026-06-15
+- 运行时间：2026-06-15 22:36:34 UTC
 - 运行状态：成功
-- 本次总论文数：2
-- 精读区：1
+- 本次总论文数：1
+- 精读区：0
 - 速读区：1
 
 ### 今日简报（AI）
-今日速览2篇脑科学论文，精读帕金森病EEG功能连接预测认知的新研究，速读出流匹配模型处理分布外脑动态。
-
-最值得关注：精读文章发现，在帕金森病认知预测中，使用个体化头模型相比标准模板并未带来额外收益，简化分析即可。
-
-建议普通读者：想了解脑功能连接分析，可优先关注标准模板方法，后续可探索流匹配等生成模型在异常脑动态中的应用。
-- 详情：[/202606/14/README](/202606/14/README)
+1) 今日速读1篇关于脑动力学分布外泛化的流匹配论文，评分6.0/10。  
+2) 核心亮点：提出上下文先验（in-context priors）改进流匹配模型对分布外脑动态数据的适应能力。  
+3) 建议：关注该上下文先验方法是否能推广到其他医学时序异常检测任务。
+- 详情：[/202606/15/README](/202606/15/README)
 
 ### 精读区论文标签
-1. [Source-space EEG functional connectivity and prediction of cognition in Parkinsons disease: No added benefit of individualized head models over standard templates](/202606/14/biorxiv-10-64898-2026-05-07-723671-v2-source-space-eeg-functional-connectivity-and-prediction-of-cognition-in-parkinsons-disease-no-added-benefit-of-individualized-head-models-over-standard-templates)  
-   标签：评分：8.0/10、query:eeg-priors
-   evidence：比较了个体化MRI头模型与标准模板在源空间EEG功能连接中的作用，直接评估解剖先验影响
+- 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics](/202606/14/2606.11833v1-flow-matching-with-in-context-priors-for-out-of-distribution-brain-dynamics)  
+1. [Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics](/202606/15/2606.11833v1-flow-matching-with-in-context-priors-for-out-of-distribution-brain-dynamics)  
    标签：评分：6.0/10、query:eeg-priors
-   evidence：使用上下文先验包括空间先验生成脑动力学，可应用于EEG先验概念
+   evidence：利用上下文先验的流匹配生成脑动力学；空间先验直接关联EEG源定位先验设计
 
 
 <div class="dpr-home-promo-card">
