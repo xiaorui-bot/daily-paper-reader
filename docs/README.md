@@ -6,26 +6,26 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-06-15
-- 运行时间：2026-06-15 22:36:34 UTC
+- 最新运行日期：2026-06-16
+- 运行时间：2026-06-16 22:18:27 UTC
 - 运行状态：成功
-- 本次总论文数：1
-- 精读区：0
+- 本次总论文数：2
+- 精读区：1
 - 速读区：1
 
 ### 今日简报（AI）
-1) 今日速读1篇关于脑动力学分布外泛化的流匹配论文，评分6.0/10。  
-2) 核心亮点：提出上下文先验（in-context priors）改进流匹配模型对分布外脑动态数据的适应能力。  
-3) 建议：关注该上下文先验方法是否能推广到其他医学时序异常检测任务。
-- 详情：[/202606/15/README](/202606/15/README)
+今日精读高分论文《RECTOR》，探索掩码区域-通道-时间建模的情感与认知表征；速读一篇手术视频检测论文。最值得关注的是情感认知表征学习的创新框架，结合掩码策略提升表示质量。建议后续关注多模态融合在视频理解中的迁移应用。
+- 详情：[/202606/16/README](/202606/16/README)
 
 ### 精读区论文标签
-- 本次无精读推荐。
+1. [RECTOR: Masked Region-Channel-Temporal Modeling for Affective and Cognitive Representation Learning](/202606/16/2606.15278v1-rector-masked-region-channel-temporal-modeling-for-affective-and-cognitive-representation-learning)  
+   标签：评分：9.0/10、query:eeg-priors
+   evidence：超越固定解剖先验的自适应功能分区
 
 ### 速读区论文标签
-1. [Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics](/202606/15/2606.11833v1-flow-matching-with-in-context-priors-for-out-of-distribution-brain-dynamics)  
+1. [Gaussian Spatial Priors for Anatomy-Aware Object Detection in Surgical Videos](/202606/16/2606.15049v1-gaussian-spatial-priors-for-anatomy-aware-object-detection-in-surgical-videos)  
    标签：评分：6.0/10、query:eeg-priors
-   evidence：利用上下文先验的流匹配生成脑动力学；空间先验直接关联EEG源定位先验设计
+   evidence：用于手术视频中解剖结构检测的高斯空间先验，可迁移至EEG脑区先验
 
 
 <div class="dpr-home-promo-card">

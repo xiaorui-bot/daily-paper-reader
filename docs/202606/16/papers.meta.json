@@ -1,0 +1,39 @@
+{
+  "label": "2026-06-16",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T22:18:34",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202606/16/2606.15278v1-rector-masked-region-channel-temporal-modeling-for-affective-and-cognitive-representation-learning",
+      "section": "deep",
+      "title_en": "RECTOR: Masked Region-Channel-Temporal Modeling for Affective and Cognitive Representation Learning",
+      "authors": "Jinhan Liu, Mahsa Shoaran",
+      "date": "2026-06-13",
+      "pdf": "https://arxiv.org/pdf/2606.15278v1",
+      "score": "9.0",
+      "evidence": "超越固定解剖先验的自适应功能分区",
+      "tldr": "情感和认知障碍的EEG/sEEG信号存在跨区域、通道和时间的动态脑网络变化，给表示学习带来挑战。为此提出RECTOR，一种基于掩码区域-通道-时间建模的自监督框架，通过自适应功能分区和层次化块稀疏自注意力实现统一表示学习。模型联合优化掩码预测、拓扑结构和跨视图一致性三个目标，在情感识别和任务分类任务上达到新SOTA。其对缺失通道和跨蒙太奇具有强鲁棒性，为异构脑电大规模预训练提供了可行方案和可解释性。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Affective and cognitive disorders manifest as distributed, time-varying brain network dynamics across regions, channels, and time, challenging robust representation learning from EEG/sEEG for clinical diagnosis. We propose RECTOR (Masked Region-Channel-Temporal Modeling), an end-to-end self-supervised framework that unifies joint region-channel-temporal representation learning beyond fixed anatomical priors. At its core, RECTOR-SA is a hierarchical, block-sparse self-attention induced by Adaptive Functional Partitioning that evolves region structures from static anatomical definitions to adaptive functional regions. The self-supervision is driven by Masked Topology and Representation Learning, which jointly optimizes three complementary objectives: Masked Predictive Modeling, Topological Structure Modeling, and Cross-View Consistency. Across diverse benchmarks, RECTOR sets a new state-of-the-art in EEG emotion recognition and sEEG task-engagement classification. Crucially, its strong robustness to missing channels and cross-montage generalization underscores its potential for large-scale pre-training on heterogeneous EEG/sEEG, providing interpretable insights at both region and channel levels.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202606/16/2606.15049v1-gaussian-spatial-priors-for-anatomy-aware-object-detection-in-surgical-videos",
+      "section": "quick",
+      "title_en": "Gaussian Spatial Priors for Anatomy-Aware Object Detection in Surgical Videos",
+      "authors": "Yunfan Li, Artem Shmelev, Himanshu Gupta",
+      "date": "2026-06-13",
+      "pdf": "https://arxiv.org/pdf/2606.15049v1",
+      "score": "6.0",
+      "evidence": "用于手术视频中解剖结构检测的高斯空间先验，可迁移至EEG脑区先验",
+      "tldr": "手术视频中解剖结构检测对术中安全至关重要，但小结构如腹壁下动脉因视觉模糊和间歇可见难以检测。本文提出高斯空间先验(GSP)模块，将结构间空间关系编码为紧凑参数偏置，注入DAB-DETR解码器自注意力。先验离线从训练标注计算并冻结，在每层解码器重计算。在疝修补视频数据集上，GSP提升依赖类AP50 33.5% over DAB-DETR和53.9% over YOLOv26，锚点检测提升6.0%，所有折统计显著(p=0.012)。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Detecting anatomical structures in surgical video is essential for intraoperative safety frameworks such as the Critical View of Myopectineal Orifice (CVMPO) in inguinal hernia repair. While prominent structures like the Cooper's Ligament and Triangle of Doom are reliably detected by standard methods, smaller structures such as the epigastric vessels remain challenging due to their visual ambiguity and intermittent visibility. We observe that the spatial relationship between structures is anatomically constrained, and propose a Gaussian Spatial Prior (GSP) module that encodes this relationship as a compact, parametric bias injected into the self-attention of a DAB-DETR decoder. The prior is computed offline from training annotations as a small set of frozen Gaussian parameters and recomputed at each decoder layer using the iteratively refined reference points. On a dataset of inguinal hernia repair videos with 5-fold cross-validation, GSP improves dependent class detection by $+33.5\\%$ ($\\text{AP}_{50}$) over DAB-DETR and $+53.9\\%$ over YOLOv26, while also improving anchor detection by $+6.0\\%$. These gains are statistically significant across all folds ($p=0.012$, paired $t-$test).",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
