@@ -1,0 +1,57 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-17T21:56:38.580537+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 0,
+    "quick_skim_target": 11,
+    "quick_selected": 0
+  },
+  "deep_dive": [
+    {
+      "id": "biorxiv-10-1101-2025-02-16-638512-v2",
+      "source": "biorxiv",
+      "title": "EPICURUS: E-field-based spatial filtering procedure for an accurate estimation of local EEG activity evoked by Transcranial Magnetic Stimulation",
+      "abstract": "Background: The concurrent use of Transcranial magnetic stimulation and electroencephalography (TMS-EEG) is increasingly integrated into research and clinical protocols. However, a reliable isolation of EEG responses that are locally evoked by TMS at the targeted cortical sites independent from contaminating sources, remains challenging. Methods: Here we introduce EPICURUS, a novel spatial filtering approach for TMS-EEG that uses individualized MRI-based simulations of the TMS-induced electric field (E-field) to define the spatial extent of locally evoked activity. This method guides the reconstruction of EEG signals originating from the direct stimulation site while minimizing crosstalk from distant, non-targeted sources. Results: In synthetic simulations and a human TMS-EEG dataset, EPICURUS preserved early-latency TMS-evoked local activity while substantially attenuating later components, consistent with suppression of non-local activity. Conclusion: By leveraging the spatial precision of individualized E-field modeling, EPICURUS may enhance the specificity of EEG signal reconstruction, offering a promising tool for improving the spatiotemporal resolution of local early and late cortical local responses directly elicited by TMS.",
+      "authors": [
+        "Corominas-Teruel, X.",
+        "Mutanen, T.",
+        "Leto, C.",
+        "Colomina, M. T.",
+        "Gallea, C.",
+        "Bracco, M.",
+        "Cabre, A. V."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-06-15T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2025.02.16.638512v2.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "E-field spatial filter as anatomical prior for TMS-EEG source localization",
+      "llm_evidence_cn": "使用电场空间滤波作为TMS-EEG源定位的解剖先验",
+      "llm_evidence": "使用电场空间滤波作为TMS-EEG源定位的解剖先验",
+      "canonical_evidence": "使用电场空间滤波作为TMS-EEG源定位的解剖先验",
+      "llm_tldr_en": "EPICURUS introduces an MRI-based E-field spatial filtering method to isolate locally evoked EEG activity from TMS, using individualized anatomical priors to improve source localization accuracy.",
+      "llm_tldr_cn": "经颅磁刺激(TMS)结合脑电(EEG)时，准确提取局部诱发电位极具挑战。本文提出EPICURUS方法，利用个体化MRI模拟的电场分布作为空间滤波先验，从TMS-EEG记录中分离出靶点区域的局部活动。实验表明该方法有效减少了远场干扰，显著提升了源定位的空间特异性。该工作为EEG源定位中整合解剖先验提供了新思路。",
+      "llm_tldr": "经颅磁刺激(TMS)结合脑电(EEG)时，准确提取局部诱发电位极具挑战。本文提出EPICURUS方法，利用个体化MRI模拟的电场分布作为空间滤波先验，从TMS-EEG记录中分离出靶点区域的局部活动。实验表明该方法有效减少了远场干扰，显著提升了源定位的空间特异性。该工作为EEG源定位中整合解剖先验提供了新思路。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": []
+}

@@ -1,0 +1,24 @@
+{
+  "label": "2026-06-17",
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T21:57:29",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202606/17/biorxiv-10-1101-2025-02-16-638512-v2-epicurus-e-field-based-spatial-filtering-procedure-for-an-accurate-estimation-of-local-eeg-activity-evoked-by-transcranial-magnetic-stimulation",
+      "section": "deep",
+      "title_en": "EPICURUS: E-field-based spatial filtering procedure for an accurate estimation of local EEG activity evoked by Transcranial Magnetic Stimulation",
+      "authors": "Corominas-Teruel, X., Mutanen, T., Leto, C., Colomina, M. T., Gallea, C., Bracco, M., Cabre, A. V.",
+      "date": "2026-06-15",
+      "pdf": "https://www.biorxiv.org/content/10.1101/2025.02.16.638512v2.full.pdf",
+      "score": "8.0",
+      "evidence": "使用电场空间滤波作为TMS-EEG源定位的解剖先验",
+      "tldr": "TMS-EEG中分离目标皮质局部诱发电活动受远场污染，挑战严峻。EPICURUS方法基于个体化MRI模拟TMS感应电场定义局部空间范围，设计空间滤波器重建刺激位点信号。合成与人类数据表明，该方法有效保留早期局部响应而衰减后期远场成分。其贡献在于利用电场空间精度提升EEG特异性，为改善TMS-EEG时空分辨率提供新工具。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Background: The concurrent use of Transcranial magnetic stimulation and electroencephalography (TMS-EEG) is increasingly integrated into research and clinical protocols. However, a reliable isolation of EEG responses that are locally evoked by TMS at the targeted cortical sites independent from contaminating sources, remains challenging. Methods: Here we introduce EPICURUS, a novel spatial filtering approach for TMS-EEG that uses individualized MRI-based simulations of the TMS-induced electric field (E-field) to define the spatial extent of locally evoked activity. This method guides the reconstruction of EEG signals originating from the direct stimulation site while minimizing crosstalk from distant, non-targeted sources. Results: In synthetic simulations and a human TMS-EEG dataset, EPICURUS preserved early-latency TMS-evoked local activity while substantially attenuating later components, consistent with suppression of non-local activity. Conclusion: By leveraging the spatial precision of individualized E-field modeling, EPICURUS may enhance the specificity of EEG signal reconstruction, offering a promising tool for improving the spatiotemporal resolution of local early and late cortical local responses directly elicited by TMS.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
