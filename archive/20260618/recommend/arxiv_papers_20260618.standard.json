@@ -1,0 +1,56 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-18T21:34:21.010822+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2606.18753v1",
+      "source": "arxiv",
+      "title": "SMART: A Flexible, Interpretable, and Scalable Spatio-temporal Brain Atlas from High-Resolution Imaging Data",
+      "abstract": "We introduce SMART, a framework for learning a flexible, interpretable, and scalable spatio-temporal brain atlas from longitudinal high-resolution 3D medical images. Existing approaches to spatio-temporal atlas construction rely on black-box generative models that lack flexibility, limit interpretability, and struggle to scale to high-dimensional data. SMART addresses these challenges by learning a continuous disease-time atlas that decouples global group-wise disease dynamics from their patient-specific anatomical manifestation. Guided by anatomically inspired priors, SMART models interpretable global trajectories of regional progression along a shared disease timeline through region-specific differential equations. Global trajectories are further personalized to individual anatomies via dense diffeomorphic displacements parameterized by a flexible and scalable multi-scale Neural Cellular Automata. Evaluated on five longitudinal MRI datasets in Alzheimer's disease (ADNI-1/GO/2, OASIS-3, AIBL; > 1,300 subjects), SMART produces anatomically meaningful predictions of disease progression and achieves state-of-the-art forecasting accuracy and improved temporal consistency over adversarial and diffusion baselines. Our approach establishes a new paradigm for flexible, interpretable, and scalable modeling of spatio-temporal change in high-dimensional medical image time-series.",
+      "authors": [
+        "John Kalkhof",
+        "Boris Gutman",
+        "Emile d'Angremont",
+        "Daniel C. Alexander",
+        "Marco Lorenzi"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-17T06:57:22+00:00",
+      "link": "https://arxiv.org/pdf/2606.18753v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "uses anatomically inspired priors for brain atlas construction, relevant to anatomical priors in EEG",
+      "llm_evidence_cn": "使用解剖学启发的先验构建脑图谱，与EEG解剖先验相关",
+      "llm_evidence": "使用解剖学启发的先验构建脑图谱，与EEG解剖先验相关",
+      "canonical_evidence": "使用解剖学启发的先验构建脑图谱，与EEG解剖先验相关",
+      "llm_tldr_en": "SMART learns a continuous disease-time brain atlas guided by anatomically inspired priors, decoupling group dynamics from patient-specific anatomy.",
+      "llm_tldr_cn": "SMART框架通过学习连续疾病进展时间图谱，利用解剖学启发的先验将群体疾病动态与个体解剖变异解耦，生成了可解释的区域进展轨迹。该方法灵活、可扩展，为脑图谱构建提供了新思路，其解剖先验思想可迁移至EEG源定位中的脑区先验设计。",
+      "llm_tldr": "SMART框架通过学习连续疾病进展时间图谱，利用解剖学启发的先验将群体疾病动态与个体解剖变异解耦，生成了可解释的区域进展轨迹。该方法灵活、可扩展，为脑图谱构建提供了新思路，其解剖先验思想可迁移至EEG源定位中的脑区先验设计。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

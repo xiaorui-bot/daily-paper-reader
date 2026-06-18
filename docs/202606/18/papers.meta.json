@@ -1,0 +1,24 @@
+{
+  "label": "2026-06-18",
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T21:35:07",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202606/18/2606.18753v1-smart-a-flexible-interpretable-and-scalable-spatio-temporal-brain-atlas-from-high-resolution-imaging-data",
+      "section": "quick",
+      "title_en": "SMART: A Flexible, Interpretable, and Scalable Spatio-temporal Brain Atlas from High-Resolution Imaging Data",
+      "authors": "John Kalkhof, Boris Gutman, Emile d'Angremont, Daniel C. Alexander, Marco Lorenzi",
+      "date": "2026-06-17",
+      "pdf": "https://arxiv.org/pdf/2606.18753v1",
+      "score": "6.0",
+      "evidence": "使用解剖学启发的先验构建脑图谱，与EEG解剖先验相关",
+      "tldr": "现有时空脑图谱构建方法依赖黑盒生成模型，缺乏灵活性、可解释性和可扩展性。SMART通过学习连续疾病时间图谱，解耦全局群体动态与个体解剖变异，利用区域微分方程和多尺度神经细胞自动机实现个性化。在五个阿尔茨海默病MRI数据集上，SMART实现了解剖合理的预测和最优的预测准确性及时间一致性，为高维医学图像时空建模建立了新范式。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "We introduce SMART, a framework for learning a flexible, interpretable, and scalable spatio-temporal brain atlas from longitudinal high-resolution 3D medical images. Existing approaches to spatio-temporal atlas construction rely on black-box generative models that lack flexibility, limit interpretability, and struggle to scale to high-dimensional data. SMART addresses these challenges by learning a continuous disease-time atlas that decouples global group-wise disease dynamics from their patient-specific anatomical manifestation. Guided by anatomically inspired priors, SMART models interpretable global trajectories of regional progression along a shared disease timeline through region-specific differential equations. Global trajectories are further personalized to individual anatomies via dense diffeomorphic displacements parameterized by a flexible and scalable multi-scale Neural Cellular Automata. Evaluated on five longitudinal MRI datasets in Alzheimer's disease (ADNI-1/GO/2, OASIS-3, AIBL; > 1,300 subjects), SMART produces anatomically meaningful predictions of disease progression and achieves state-of-the-art forecasting accuracy and improved temporal consistency over adversarial and diffusion baselines. Our approach establishes a new paradigm for flexible, interpretable, and scalable modeling of spatio-temporal change in high-dimensional medical image time-series.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
