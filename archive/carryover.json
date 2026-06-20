@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-19T21:06:48.977289+00:00",
-  "updated_date": "20260619",
+  "generated_at": "2026-06-20T21:18:40.671526+00:00",
+  "updated_date": "20260620",
   "carryover_days": 9,
   "tag_states": {
     "eeg-priors": {
-      "updated_date": "20260619",
+      "updated_date": "20260620",
       "carryover_days": 9,
       "items": []
     }
