@@ -1,0 +1,24 @@
+{
+  "label": "2026-06-23",
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T20:55:59",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202606/23/biorxiv-10-64898-2026-06-11-731643-v1-precision-functional-parcellation-of-the-human-cortex-via-rest-task-fmri-fusion",
+      "section": "quick",
+      "title_en": "Precision Functional Parcellation of the Human Cortex via Rest-Task fMRI Fusion",
+      "authors": "Zhi, D., Du, J., Whitfield-Gabrieli, S., Diedrichsen, J., Ge, T.",
+      "date": "2026-06-16",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.06.11.731643v1.full.pdf",
+      "score": "6.0",
+      "evidence": "使用fMRI的皮层分区提供了可用于EEG源定位的解剖脑区先验",
+      "tldr": "个体化皮层分区多基于静息态fMRI，忽视了任务态数据的互补信息。本文提出mRBM-HBP分层贝叶斯框架，通过多项受限玻尔兹曼机高效融合多源静息态和任务态fMRI，推断群组与个体分区。该方法计算成本低，任务数据提供状态特异性边界细化；融合图谱在个体数据有限时显著提升准确性和可靠性。结果表明，整合两类fMRI可增强人脑功能组织的精确映射。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Individual-specific cortical parcellations enable the characterization of brain network organization that is often obscured by population-level atlases, with broad implications for both basic neuroscience and translational applications. However, existing methods rely primarily on resting-state fMRI and underutilize task-evoked data, which provide complementary information about functional specialization. This limitation partly reflects the challenge of integrating heterogeneous datasets that differ in task design, sample size, and cortical coverage. Here, we present mRBM-HBP, a scalable hierarchical Bayesian framework that incorporates a multinomial restricted Boltzmann machine to model spatial dependencies, enabling efficient and flexible integration of resting-state and task fMRI across diverse datasets and inference of both group-level and individual-level cortical parcellations. We show that mRBM-HBP achieves performance comparable to state-of-the-art resting-state-based parcellation methods while substantially reducing computational cost. By integrating large-scale task-fMRI datasets, we derive a task-based parcellation and demonstrate that resting-state and task conditions reveal largely consistent macroscopic networks, while task data provide state-specific refinements of functional boundaries. Moreover, a fused rest-task group-level atlas improves the accuracy, reliability, and individual specificity of inferred parcellations, particularly when individual-level data are limited. These results indicate that integrating resting-state and task fMRI enhances precision mapping of functional brain organization.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

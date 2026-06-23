@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-06-23 <!--dpr-date:20260623-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202606/23/biorxiv-10-64898-2026-06-11-731643-v1-precision-functional-parcellation-of-the-human-cortex-via-rest-task-fmri-fusion" data-sidebar-item="{&quot;title&quot;: &quot;Precision Functional Parcellation of the Human Cortex via Rest-Task fMRI Fusion&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-06-11-731643-v1-precision-functional-parcellation-of-the-human-cortex-via-rest-task-fmri-fusion&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;使用fMRI的皮层分区提供了可用于EEG源定位的解剖脑区先验&quot;}">Precision Functional Parcellation of the Human Cortex via Rest-Task fMRI Fusion</a>
   * 2026-06-18 <!--dpr-date:20260618-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202606/18/2606.18753v1-smart-a-flexible-interpretable-and-scalable-spatio-temporal-brain-atlas-from-high-resolution-imaging-data" data-sidebar-item="{&quot;title&quot;: &quot;SMART: A Flexible, Interpretable, and Scalable Spatio-temporal Brain Atlas from High-Resolution Imaging Data&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2606.18753v1-smart-a-flexible-interpretable-and-scalable-spatio-temporal-brain-atlas-from-high-resolution-imaging-data&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;使用解剖学启发的先验构建脑图谱，与EEG解剖先验相关&quot;}">SMART: A Flexible, Interpretable, and Scalable Spatio-temporal Brain Atlas from High-Resolution Imaging Data</a>
