@@ -1,0 +1,39 @@
+{
+  "label": "2026-06-25",
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T20:48:39",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202606/25/biorxiv-10-64898-2026-06-19-732815-v1-source-space-precision-charts-for-lifespan-eeg-connectomics",
+      "section": "deep",
+      "title_en": "Source-space precision charts for lifespan EEG connectomics",
+      "authors": "Jin, Y., Reyes, R. G., Wang, Y., Bringas Vega, M. L. L., Valdes-Sosa, P. A.",
+      "date": "2026-06-24",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.06.19.732815v1.full.pdf",
+      "score": "8.0",
+      "evidence": "使用解剖正则化进行EEG源精度估计",
+      "tldr": "源空间EEG连接组学因头场混合导致泄漏、共同驱动等问题，难以估计条件交互。本文提出JSPACE框架，通过后验源跨谱估计与标准化精度拟合，结合稀疏频率平滑正则化，从头皮跨谱恢复多频源精度矩阵。仿真中，JSPACE有效降低相干膨胀，支持恢复精度最高。应用于1935人5-97岁数据，构建了360个脑区对角及64,620个源对的年龄-频率图谱，揭示连续形态景观，其中δ频段梯度与感觉运动-联合皮层组织适度对齐。JSPACE为生命周期EEG频率分辨源精度制图提供了可扩展方案。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Source-space electroencephalography (EEG) connectomics aims to estimate interactions among cortical generators from sensor cross-spectra that are mixed by the head and lead field. This task is difficult because marginal source covariance or coherence can retain leakage, common drive and indirect mediation, whereas developmental mapping requires conditional interactions that can be estimated repeatedly across large cohorts. We developed JSPACE (Joint Source-space Precision And Cross-spectral Estimation), a frequency-domain inverse framework for estimating multi-frequency source precision matrices from scalp cross-spectra. JSPACE couples posterior source cross-spectral estimation with standardized precision fitting, sparse frequency-smooth anatomical regularization, stochastic active-set optimization and post-selection refitting. In simulations, its advantage was target-specific: JSPACE reduced coherence inflation and achieved the lowest imaginary-coherence and peak-frequency errors in a forward neural-mass benchmark. When the ground-truth precision matrix was known, it achieved the highest exact, edge-collapsed and leakage-aware support recovery. We applied JSPACE to HarMNqEEG cross-spectral data from 1,935 participants aged 5.17--97.00 years, spanning 47 frequency bins and 360 cortical parcels. Affine-invariant Karcher tangent harmonization reconstructed subject-level estimates into a lifespan atlas of 360 diagonal and 64,620 source-pair age-frequency surfaces. The atlas revealed a continuous off-diagonal morphology landscape, in which age direction, frequency preference and interaction strength varied as overlapping axes rather than discrete edge classes. In contrast, diagonal precision surfaces shared a conserved alpha-trough morphology across parcels. Representative real-precision pathways captured posterior parietal, sensorimotor-parietal, frontopolar and visual-parietal motifs. Delta-band gradients were moderately aligned with the sensorimotor-association (S-A) organization of cortex from childhood through late adulthood, with a candidate oldest-old deviation in the sparsest age range. JSPACE provides a scalable framework for frequency-resolved source-precision charting in lifespan EEG.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202606/25/biorxiv-10-1101-2025-05-28-656642-v3-multilayer-meg-source-modelling-enables-depth-resolved-laminar-inference-in-humans",
+      "section": "quick",
+      "title_en": "Multilayer MEG source modelling enables depth-resolved laminar inference in humans",
+      "authors": "Szul, M. J., Maspoli, M., Shelepenkov, D., Agarwal, I., Moreau, Q., Gailhard, S., Ferez, M., Fernandez Pujol, C., Zhu, Y., Hiba, B., Daligault, S., Lamberton, F., Schwartz, D., Mattout, J., Bonnefond, M., Dykstra, A. R., Bestmann, S., Barnes, G. R., Bonaiuto, J. J.",
+      "date": "2026-06-24",
+      "pdf": "https://www.biorxiv.org/content/10.1101/2025.05.28.656642v3.full.pdf",
+      "score": "7.0",
+      "evidence": "多层MEG源重建利用皮层解剖先验实现层状分辨",
+      "tldr": "神经活动层流级解析对理解皮层计算至关重要，但现有无创方法仅能粗略区分深浅层。本文提出多层MEG源重建框架，通过系统模拟评估深度分辨的可行性，发现信噪比、配准精度和柱取向是关键因素，且导引场可分性决定重建保真度。在三个独立数据集中，该框架成功识别出与视觉和感觉运动环路中典型前馈、反馈模式一致的层流激活模式。该工作为连接侵入性电生理与人类神经影像提供了新途径。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Neural dynamics at the laminar level are critical for cortical computation. However, in humans, non-invasive methods to probe such dynamics have been limited to coarse distinctions between deep and superficial layers. Here, we present a multilayer magnetoencephalography source reconstruction framework and evaluate the conditions under which depth-resolved laminar inference may be feasible. Using simulations, we systematically assess the limits of magnetoencephalography depth resolution, showing that laminar discrimination depends on sufficiently high signal-to-noise ratio, precise co-registration, and accurate specification of cortical column orientation. We demonstrate that regional variations in cortical anatomy influence reconstruction fidelity, with lead-field separability emerging as a key determinant. We then apply this framework to empirical data from three independent datasets and find laminar activation patterns that align with canonical feedforward and feedback motifs in visual and sensorimotor circuits, supporting the plausibility of laminar inference under favorable conditions and offering opportunities to bridge invasive electrophysiology and human neuroimaging.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
