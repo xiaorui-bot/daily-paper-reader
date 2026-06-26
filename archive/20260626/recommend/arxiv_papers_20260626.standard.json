@@ -1,0 +1,56 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-26T21:14:15.977226+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2606.22182v1",
+      "source": "arxiv",
+      "title": "Dual-Stream EEG Decoding for 3D Visual Perception",
+      "abstract": "This paper explores a novel brain decoding model for 3D shape perception through a dual pathway architecture mirroring biological vision. Our bio-inspired approach implements separate decoding modules for object identity and spatial orientation, inspired by ventral and dorsal pathways, during continuous rotations. We employ circular regression for angle prediction and develop EEG-conditioned multiview diffusion for 3D reconstruction. Our approach successfully decodes both object identity and spatial orientation from EEG signals and enables 3D reconstruction from neural activity, with interpretability analyses revealing temporally structured involvement of ventral, dorsal, and motor-related channels rather than a static ventral dominance in supporting object and angle decoding.",
+      "authors": [
+        "Ninon Lizé Masclef",
+        "Taisija Demcenko",
+        "Antonella Catanzaro",
+        "Nataliya Kosmyna"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "published": "2026-06-20T18:25:16+00:00",
+      "link": "https://arxiv.org/pdf/2606.22182v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "uses prior anatomical knowledge of ventral/dorsal visual streams for EEG decoding",
+      "llm_evidence_cn": "利用了关于腹侧和背侧视觉通路的先验解剖知识进行EEG解码",
+      "llm_evidence": "利用了关于腹侧和背侧视觉通路的先验解剖知识进行EEG解码",
+      "canonical_evidence": "利用了关于腹侧和背侧视觉通路的先验解剖知识进行EEG解码",
+      "llm_tldr_en": "A dual-stream EEG decoding model inspired by biological vision leverages anatomical priors of ventral and dorsal pathways to decode object identity and spatial orientation from EEG, achieving 3D reconstruction via multiview diffusion.",
+      "llm_tldr_cn": "该论文提出了一种受生物学视觉启发的双流EEG解码模型，利用腹侧和背侧通路的先验解剖知识来解码物体身份和空间朝向。通过循环回归预测角度，并采用EEG条件多视角扩散实现3D重建。实验证明该模型有效，且可解释性分析揭示了腹侧、背侧和运动相关通道在解码中的动态参与，而非静态的腹侧主导。这项研究展示了将解剖先验融入EEG解码的潜力。",
+      "llm_tldr": "该论文提出了一种受生物学视觉启发的双流EEG解码模型，利用腹侧和背侧通路的先验解剖知识来解码物体身份和空间朝向。通过循环回归预测角度，并采用EEG条件多视角扩散实现3D重建。实验证明该模型有效，且可解释性分析揭示了腹侧、背侧和运动相关通道在解码中的动态参与，而非静态的腹侧主导。这项研究展示了将解剖先验融入EEG解码的潜力。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

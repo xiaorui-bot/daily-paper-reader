@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-06-26 <!--dpr-date:20260626-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202606/26/2606.22182v1-dual-stream-eeg-decoding-for-3d-visual-perception" data-sidebar-item="{&quot;title&quot;: &quot;Dual-Stream EEG Decoding for 3D Visual Perception&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2606.22182v1-dual-stream-eeg-decoding-for-3d-visual-perception&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;利用了关于腹侧和背侧视觉通路的先验解剖知识进行EEG解码&quot;}">Dual-Stream EEG Decoding for 3D Visual Perception</a>
   * 2026-06-25 <!--dpr-date:20260625-->
     * 精读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202606/25/biorxiv-10-64898-2026-06-19-732815-v1-source-space-precision-charts-for-lifespan-eeg-connectomics" data-sidebar-item="{&quot;title&quot;: &quot;Source-space precision charts for lifespan EEG connectomics&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-06-19-732815-v1-source-space-precision-charts-for-lifespan-eeg-connectomics&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;使用解剖正则化进行EEG源精度估计&quot;}">Source-space precision charts for lifespan EEG connectomics</a>
