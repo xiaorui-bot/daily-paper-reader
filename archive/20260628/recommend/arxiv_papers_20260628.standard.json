@@ -1,0 +1,93 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-28T20:54:45.423569+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 2,
+    "quick_skim_target": 11,
+    "quick_selected": 2
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2606.25718v1",
+      "source": "arxiv",
+      "title": "What Does the Brain See? Multiview Neural Representations to Demystify the Brain-Visual Alignment",
+      "abstract": "Zero-shot visual decoding from electroencephalography (EEG) aims to infer visual semantics from non-invasive neural recordings, but remains challenging due to the low signal-to-noise ratio, non-stationarity, and limited spatial resolution of EEG. Existing EEG-vision alignment methods often rely on holistic EEG embeddings, which can obscure the complementary temporal, spectral, and spatial structure underlying visual perception. We introduce a unified multiview EEG representation learning framework for aligning brain responses with visual semantic embeddings. Our method builds an EEG encoder that jointly models three complementary views: input-conditioned state-space temporal dynamics, learnable wavelet-based spectral decomposition for sample-adaptive frequency modeling, and attention-modulated graph learning for structured electrode interactions. The resulting multiview EEG embeddings are fused and aligned with pretrained visual representations in a shared semantic space using contrastive learning with EEG-specific regularization, enabling 200-way zero-shot visual classification. Experiments on THINGS-EEG benchmark show that our method achieves state-of-the-art performance, with 54.8% Top-1 and 85.6% Top-5 accuracy in the within-subject setting and 15.3% Top-1 and 45.4% Top-5 accuracy in the cross-subject setting. We further present the first systematic cross-session EEG-image decoding evaluation, achieving 40.8% Top-1 and 78.0% Top-5 accuracy. These results suggest that explicitly modeling multiview neural structure improves both semantic alignment and generalization in EEG-based visual decoding.",
+      "authors": [
+        "Salini Yadav",
+        "Taveena Lotey",
+        "Pravendra Singh",
+        "Partha Pratim Roy"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-24T11:33:21+00:00",
+      "link": "https://arxiv.org/pdf/2606.25718v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multiview EEG representation models spatial structure, relevant to brain region priors",
+      "llm_evidence_cn": "在视觉解码中建模EEG空间结构，与脑区先验相关",
+      "llm_evidence": "在视觉解码中建模EEG空间结构，与脑区先验相关",
+      "canonical_evidence": "在视觉解码中建模EEG空间结构，与脑区先验相关",
+      "llm_tldr_en": "Proposes a multiview EEG representation learning framework that jointly models temporal, spectral, and spatial structure for zero-shot visual decoding.",
+      "llm_tldr_cn": "该论文针对基于脑电图（EEG）的零样本视觉解码中现有方法忽略EEG时空谱结构的问题，提出了一个统一的多视图EEG表征学习框架。该方法同时建模输入条件的状态空间时间动力学、可学习小波的频谱分解以及空间结构，从而更好地将脑信号与视觉语义对齐。实验表明，多视图表征显著提升了视觉解码性能，为利用EEG空间结构作为先验信息提供了新思路。",
+      "llm_tldr": "该论文针对基于脑电图（EEG）的零样本视觉解码中现有方法忽略EEG时空谱结构的问题，提出了一个统一的多视图EEG表征学习框架。该方法同时建模输入条件的状态空间时间动力学、可学习小波的频谱分解以及空间结构，从而更好地将脑信号与视觉语义对齐。实验表明，多视图表征显著提升了视觉解码性能，为利用EEG空间结构作为先验信息提供了新思路。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-06-22-733411-v1",
+      "source": "biorxiv",
+      "title": "Alpha oscillations support attentional orienting while beta supports perceptual decision-making.",
+      "abstract": "Visuospatial attention enables the selective allocation of cognitive resources to relevant stimuli. A well-established neural signature of attentional shifts is the lateralised modulation of occipito-parietal alpha power, with decreases over the hemisphere contralateral to the attended location and increases over the ipsilateral hemisphere. However, growing evidence suggests that multiple oscillatory mechanisms contribute to attentional deployment, including beta-band activity. A key unresolved question that remains is whether the same neural rhythms support the deployment of attention and the perceptual decisions that follow. Here, we recorded EEG in 26 participants (22 females) during covert visuospatial orienting and investigated how alpha- and beta-band dynamics relate to behavioural measures, namely perceptual sensitivity (d') and decision criterion (c), and whether attended location could be preferentially decoded from alpha- or beta-band activity. We found that pre-target beta phase significantly predicted decision criterion at earlier pre-target intervals, whereas perceptual sensitivity was predicted closer to target onset, suggesting that beta is related to both sensory gain and the perceptual decision. In contrast, decoding analyses revealed that attended location was most strongly discriminable from alpha-band activity, as confirmed by time-frequency analysis of decoding accuracy. Together, these findings suggest a functional dissociation between oscillatory mechanisms supporting attentional orienting and perceptual decision-making. Whereas alpha-band activity primarily reflects the allocation of attention, beta-band dynamics predict trial-by-trial variability in perceptual decisions.",
+      "authors": [
+        "Nannetti, F. M.",
+        "Ison, M. J.",
+        "Torralba, M.",
+        "Veniero, D."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-06-26T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.22.733411v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "identifies region-specific alpha/beta oscillations as neural signatures, relevant to brain region priors",
+      "llm_evidence_cn": "识别特定脑区的α/β振荡作为神经标志，与脑区先验相关",
+      "llm_evidence": "识别特定脑区的α/β振荡作为神经标志，与脑区先验相关",
+      "canonical_evidence": "识别特定脑区的α/β振荡作为神经标志，与脑区先验相关",
+      "llm_tldr_en": "Investigates whether the same neural rhythms support attentional orienting and perceptual decision-making using EEG, revealing separable roles for alpha and beta oscillations in occipito-parietal regions.",
+      "llm_tldr_cn": "该论文通过脑电图（EEG）研究注意定向与感知决策是否由相同的神经节律支持。实验发现，枕顶叶区域的α振荡功率在注意定向中呈现对侧调制，而β振荡则与后续的感知决策相关。结果表明α和β振荡在认知过程中具有分离的功能角色，为EEG脑区先验提供了具体的振荡特征参考。",
+      "llm_tldr": "该论文通过脑电图（EEG）研究注意定向与感知决策是否由相同的神经节律支持。实验发现，枕顶叶区域的α振荡功率在注意定向中呈现对侧调制，而β振荡则与后续的感知决策相关。结果表明α和β振荡在认知过程中具有分离的功能角色，为EEG脑区先验提供了具体的振荡特征参考。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "label": "2026-06-28",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T20:55:52",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202606/28/2606.25718v1-what-does-the-brain-see-multiview-neural-representations-to-demystify-the-brain-visual-alignment",
+      "section": "quick",
+      "title_en": "What Does the Brain See? Multiview Neural Representations to Demystify the Brain-Visual Alignment",
+      "authors": "Salini Yadav, Taveena Lotey, Pravendra Singh, Partha Pratim Roy",
+      "date": "2026-06-24",
+      "pdf": "https://arxiv.org/pdf/2606.25718v1",
+      "score": "6.0",
+      "evidence": "在视觉解码中建模EEG空间结构，与脑区先验相关",
+      "tldr": "EEG视觉解码面临低信噪比与空间分辨率挑战，现有方法使用整体嵌入忽略多维神经结构。本文提出多视图表示学习框架，联合建模时间动态、频谱分解与电极交互，通过对比学习对齐视觉语义。在THINGS-EEG上，被试内Top-1达54.8%，跨被试15.3%，跨会话40.8%，均为最优。实验表明显式建模多视图结构显著提升语义对齐与泛化能力。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Zero-shot visual decoding from electroencephalography (EEG) aims to infer visual semantics from non-invasive neural recordings, but remains challenging due to the low signal-to-noise ratio, non-stationarity, and limited spatial resolution of EEG. Existing EEG-vision alignment methods often rely on holistic EEG embeddings, which can obscure the complementary temporal, spectral, and spatial structure underlying visual perception. We introduce a unified multiview EEG representation learning framework for aligning brain responses with visual semantic embeddings. Our method builds an EEG encoder that jointly models three complementary views: input-conditioned state-space temporal dynamics, learnable wavelet-based spectral decomposition for sample-adaptive frequency modeling, and attention-modulated graph learning for structured electrode interactions. The resulting multiview EEG embeddings are fused and aligned with pretrained visual representations in a shared semantic space using contrastive learning with EEG-specific regularization, enabling 200-way zero-shot visual classification. Experiments on THINGS-EEG benchmark show that our method achieves state-of-the-art performance, with 54.8% Top-1 and 85.6% Top-5 accuracy in the within-subject setting and 15.3% Top-1 and 45.4% Top-5 accuracy in the cross-subject setting. We further present the first systematic cross-session EEG-image decoding evaluation, achieving 40.8% Top-1 and 78.0% Top-5 accuracy. These results suggest that explicitly modeling multiview neural structure improves both semantic alignment and generalization in EEG-based visual decoding.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202606/28/biorxiv-10-64898-2026-06-22-733411-v1-alpha-oscillations-support-attentional-orienting-while-beta-supports-perceptual-decision-making",
+      "section": "quick",
+      "title_en": "Alpha oscillations support attentional orienting while beta supports perceptual decision-making.",
+      "authors": "Nannetti, F. M., Ison, M. J., Torralba, M., Veniero, D.",
+      "date": "2026-06-26",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.06.22.733411v1.full.pdf",
+      "score": "6.0",
+      "evidence": "识别特定脑区的α/β振荡作为神经标志，与脑区先验相关",
+      "tldr": "视觉空间注意中，alpha振荡的侧向调制是注意定向的经典标志，但beta振荡的作用及其与知觉决策的关系尚不明确。本研究记录26名被试的脑电，分析alpha和beta活动与感知敏感性(d')和决策标准(c)的关系。结果发现：beta相位在早期预测决策标准，在晚期预测感知敏感性；而alpha活动更有效地解码注意位置。表明alpha主要支持注意定向，beta则预测知觉决策的试次间变异性，二者存在功能分离。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Visuospatial attention enables the selective allocation of cognitive resources to relevant stimuli. A well-established neural signature of attentional shifts is the lateralised modulation of occipito-parietal alpha power, with decreases over the hemisphere contralateral to the attended location and increases over the ipsilateral hemisphere. However, growing evidence suggests that multiple oscillatory mechanisms contribute to attentional deployment, including beta-band activity. A key unresolved question that remains is whether the same neural rhythms support the deployment of attention and the perceptual decisions that follow. Here, we recorded EEG in 26 participants (22 females) during covert visuospatial orienting and investigated how alpha- and beta-band dynamics relate to behavioural measures, namely perceptual sensitivity (d') and decision criterion (c), and whether attended location could be preferentially decoded from alpha- or beta-band activity. We found that pre-target beta phase significantly predicted decision criterion at earlier pre-target intervals, whereas perceptual sensitivity was predicted closer to target onset, suggesting that beta is related to both sensory gain and the perceptual decision. In contrast, decoding analyses revealed that attended location was most strongly discriminable from alpha-band activity, as confirmed by time-frequency analysis of decoding accuracy. Together, these findings suggest a functional dissociation between oscillatory mechanisms supporting attentional orienting and perceptual decision-making. Whereas alpha-band activity primarily reflects the allocation of attention, beta-band dynamics predict trial-by-trial variability in perceptual decisions.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
