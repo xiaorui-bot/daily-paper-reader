@@ -1,0 +1,24 @@
+{
+  "label": "2026-07-03",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T21:07:06",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202607/03/biorxiv-10-64898-2026-06-22-733862-v1-the-genetic-signature-of-memory-encoding-along-the-human-hippocampal-axis",
+      "section": "deep",
+      "title_en": "The genetic signature of memory encoding along the human hippocampal axis",
+      "authors": "Dehnad, M., To, T., Moore, H., Freelin, A., Kulkarni, A., Loer, S., Lega, B., Konopka, G.",
+      "date": "2026-06-28",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.06.22.733862v1.full.pdf",
+      "score": "9.0",
+      "evidence": "沿海马轴的颅内EEG使用脑区先验",
+      "tldr": "人类海马前后轴在记忆编码中表现出不同的振荡特征，但其分子基础不明。本研究结合颅内脑电图与单核RNA测序，发现兴奋性神经元沿纵向轴的转录梯度，并揭示前部低频SME与突触/染色质调控相关，后部高频SME与代谢/蛋白合成相关。基因调控网络进一步展现轴特异性枢纽。结果建立了细胞类型特异性遗传架构与海马编码动力学的联系。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Episodic memory formation engages hippocampal oscillations that vary along the anterior-posterior axis, but the molecular programs supporting this physiological specialization remain unclear. Here, we leveraged a rare neurosurgical dataset in which patients performed verbal episodic memory tasks during intrahippocampal intracranial EEG recordings prior to en bloc hippocampal resection, enabling integration of encoding-related oscillatory signatures with matched cell-type-resolved transcriptomics from the same individuals. Subsequent memory effects (SMEs) spanned delta/theta, gamma, and hippocampal ripple activity across anterior and posterior hippocampus. Single-nucleus RNA sequencing from anatomically matched anterior and posterior tissue revealed longitudinal transcriptional gradients, most prominent in excitatory neurons. Spatial transcriptomic maps validated axis-enriched transcripts and their localization. Linking subject-specific SMEs to gene expression identified distinct molecular programs: anterior low frequency SMEs associated with synaptic and chromatin-regulatory pathways, and posterior high-frequency SMEs associated with metabolic and protein synthesis processes. Gene regulatory network inference further revealed axis-specific hub architectures. Together, these results define a cell-type-specific genetic architecture linking longitudinal molecular specialization to the human hippocampal encoding dynamics.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

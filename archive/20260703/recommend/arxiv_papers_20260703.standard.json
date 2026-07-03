@@ -1,0 +1,58 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-03T21:06:28.601952+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 0,
+    "quick_skim_target": 11,
+    "quick_selected": 0
+  },
+  "deep_dive": [
+    {
+      "id": "biorxiv-10-64898-2026-06-22-733862-v1",
+      "source": "biorxiv",
+      "title": "The genetic signature of memory encoding along the human hippocampal axis",
+      "abstract": "Episodic memory formation engages hippocampal oscillations that vary along the anterior-posterior axis, but the molecular programs supporting this physiological specialization remain unclear. Here, we leveraged a rare neurosurgical dataset in which patients performed verbal episodic memory tasks during intrahippocampal intracranial EEG recordings prior to en bloc hippocampal resection, enabling integration of encoding-related oscillatory signatures with matched cell-type-resolved transcriptomics from the same individuals. Subsequent memory effects (SMEs) spanned delta/theta, gamma, and hippocampal ripple activity across anterior and posterior hippocampus. Single-nucleus RNA sequencing from anatomically matched anterior and posterior tissue revealed longitudinal transcriptional gradients, most prominent in excitatory neurons. Spatial transcriptomic maps validated axis-enriched transcripts and their localization. Linking subject-specific SMEs to gene expression identified distinct molecular programs: anterior low frequency SMEs associated with synaptic and chromatin-regulatory pathways, and posterior high-frequency SMEs associated with metabolic and protein synthesis processes. Gene regulatory network inference further revealed axis-specific hub architectures. Together, these results define a cell-type-specific genetic architecture linking longitudinal molecular specialization to the human hippocampal encoding dynamics.",
+      "authors": [
+        "Dehnad, M.",
+        "To, T.",
+        "Moore, H.",
+        "Freelin, A.",
+        "Kulkarni, A.",
+        "Loer, S.",
+        "Lega, B.",
+        "Konopka, G."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-06-28T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.22.733862v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "intracranial EEG along hippocampal axis uses brain region priors",
+      "llm_evidence_cn": "沿海马轴的颅内EEG使用脑区先验",
+      "llm_evidence": "沿海马轴的颅内EEG使用脑区先验",
+      "canonical_evidence": "沿海马轴的颅内EEG使用脑区先验",
+      "llm_tldr_en": "This paper integrates intracranial EEG recordings from anterior and posterior hippocampus during memory encoding with matched transcriptomics, revealing region-specific oscillatory signatures and their genetic correlates.",
+      "llm_tldr_cn": "该研究利用罕见的神经外科数据集，在患者完成言语记忆任务时记录沿海马前后轴的颅内EEG，并结合匹配的细胞类型分辨转录组学。结果显示记忆编码相关的振荡特征（delta/theta、gamma和涟漪）在海马前部和后部存在差异，且与特定基因表达程序相关。工作揭示了脑区特异性生理活动的分子基础，为理解记忆的海马亚区功能分化提供了新见解。",
+      "llm_tldr": "该研究利用罕见的神经外科数据集，在患者完成言语记忆任务时记录沿海马前后轴的颅内EEG，并结合匹配的细胞类型分辨转录组学。结果显示记忆编码相关的振荡特征（delta/theta、gamma和涟漪）在海马前部和后部存在差异，且与特定基因表达程序相关。工作揭示了脑区特异性生理活动的分子基础，为理解记忆的海马亚区功能分化提供了新见解。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": []
+}
