@@ -1,0 +1,24 @@
+{
+  "label": "2026-07-05",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T20:17:50",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202607/05/biorxiv-10-64898-2026-07-01-735904-v1-network-and-hierarchical-organization-of-intrinsic-timescales-in-the-human-brain",
+      "section": "quick",
+      "title_en": "Network and hierarchical organization of intrinsic timescales in the human brain",
+      "authors": "Krause, B. M., Bublitz, E. F., Dappen, E. R., Kawasaki, H., Nourski, K. V., Banks, M. I.",
+      "date": "2026-07-02",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.07.01.735904v1.full.pdf",
+      "score": "7.0",
+      "evidence": "利用MNI坐标投影分配层级位置，为iEEG分析提供解剖先验",
+      "tldr": "人脑内在神经时间尺度反映信息维持时长，初级感觉区短而高级联合区长。本研究利用颅内脑电图，通过频谱参数化提取非周期成分估计时间尺度，并基于功能连接扩散图嵌入定义皮层层级位置。结果发现时间尺度随层级单调递增，并在网络枢纽中最大；睡眠状态动态调节层级组织，非快速眼动期时间尺度增大且层级梯度消失。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Intrinsic neural timescales represent the characteristic duration over which information is maintained in neuronal circuits. Evidence suggests that neural timescales vary systematically across the cortical hierarchy, with shorter timescales in primary sensory areas and longer timescales in higher-order association regions. In previous studies, hierarchy has been defined categorically, anatomically, or from the principal gradient of resting-state fMRI functional connectivity derived using diffusion map embedding (DME). Here, we assign hierarchical position to individual human intracranial electroencephalography (iEEG) recording sites by projecting their MNI coordinates onto this embedding space, derived from Human Connectome Project resting-state fMRI data. We estimated neural timescales from resting-state iEEG recordings in adult neurosurgical patients (n=46, 25 female) by extracting the aperiodic component of the local field potential power spectrum using spectral parameterization. Timescales increased monotonically with hierarchical position and associated with two region of interest (ROI)-level measures of network topology derived from DME of participants iEEG functional connectivity: ROIs with stronger mean functional connectivity exhibited longer timescales, as did ROIs functioning as hubs, defined by proximity to the center of embedding space. Finally, timescales varied with sleep stage, with slowest values during NREM and fastest during wake and REM. The hierarchical gradient present during wake and N1 was no longer detected during REM, N2, and N3 sleep, driven by a selective increase in timescales at lower levels of the hierarchy. This work presents a novel metric of hierarchy that can be applied to iEEG data, establishes a direct link between neural timescales, cortical hierarchy, and network topology in human iEEG, and demonstrates that this hierarchical organization is dynamically modulated by brain state.\n\nSignificance StatementThe brain processes information across multiple timescales simultaneously, with different cortical regions specialized for fast sensory processing or slow integration of context. We measured intrinsic neural timescales from human intracranial electrophysiological recordings and applied a novel method to locate each recording site along the cortical hierarchy. Timescales increased systematically from sensory to association areas, and were longest in network hubs, i.e., regions that are uniformly and widely connected to the rest of the brain. During sleep, this hierarchical organization was not detected, with sensory areas showing the largest increases in timescale. These findings advance our understanding of how the brains temporal organization is shaped by network architecture and modulated by brain state.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-07-05 <!--dpr-date:20260705-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/05/biorxiv-10-64898-2026-07-01-735904-v1-network-and-hierarchical-organization-of-intrinsic-timescales-in-the-human-brain" data-sidebar-item="{&quot;title&quot;: &quot;Network and hierarchical organization of intrinsic timescales in the human brain&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-07-01-735904-v1-network-and-hierarchical-organization-of-intrinsic-timescales-in-the-human-brain&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;利用MNI坐标投影分配层级位置，为iEEG分析提供解剖先验&quot;}">Network and hierarchical organization of intrinsic timescales in the human brain</a>
   * 2026-07-03 <!--dpr-date:20260703-->
     * 精读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/03/biorxiv-10-64898-2026-06-22-733862-v1-the-genetic-signature-of-memory-encoding-along-the-human-hippocampal-axis" data-sidebar-item="{&quot;title&quot;: &quot;The genetic signature of memory encoding along the human hippocampal axis&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-06-22-733862-v1-the-genetic-signature-of-memory-encoding-along-the-human-hippocampal-axis&quot;, &quot;score&quot;: &quot;9.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;沿海马轴的颅内EEG使用脑区先验&quot;}">The genetic signature of memory encoding along the human hippocampal axis</a>
