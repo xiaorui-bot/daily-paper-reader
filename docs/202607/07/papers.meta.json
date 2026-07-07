@@ -1,0 +1,39 @@
+{
+  "label": "2026-07-07",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T21:16:20",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202607/07/2606.30329v2-cohort-amortized-personalization-navigating-the-privacy-utility-frontier-for-virtual-brain-twins",
+      "section": "quick",
+      "title_en": "Cohort-amortized personalization: navigating the privacy-utility frontier for virtual brain twins",
+      "authors": "Amirhossein Esmaeili, Marmaduke Woodman, Nina Baldy, Abolfazl Ziaeemehr, Julia Makhalova, Huifang Wang, Daniele Marinazzo, Svenja Caspers, Fabrice Bartolomei, Meysam Hashemi, Viktor Jirsa",
+      "date": "2026-06-29",
+      "pdf": "https://arxiv.org/pdf/2606.30329v2",
+      "score": "6.0",
+      "evidence": "低秩群体先验和跨图谱自编码器提供了可迁移至EEG源定位的解剖先验",
+      "tldr": "个性化脑模型需神经影像数据，但隐私风险限制共享，且逐个体拟合耗时。本文提出群体摊销个性化（CAP），用群体先验训练神经密度估计器，仅分发模型实现本地秒级个性化，并通过跨图谱自编码器处理图谱异构。在癫痫和老龄化队列中，CAP匹配或超越逐个体推断，加速数千倍。该方法以合成访问机制在无原始数据下支持虚拟实验，推动个性化建模的广泛应用。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Personalized generative brain models require individual neuroimaging data that privacy constraints and re-identification risk make difficult to share, while per-subject fitting procedures cost hours of compute -- limiting clinical translation and multi-site collaboration. We introduce cohort-amortized personalization (CAP), which replaces data sharing with model sharing: a neural density estimator is trained on simulations from a mechanistic whole-brain model under a low-rank cohort prior, and only the compact estimator is distributed, so new subjects are personalized in seconds on their own data alone. To make this prior both compact and atlas-independent, a cross-atlas autoencoder (CrossCoder) maps connectomes from 20 anatomical atlases into a shared latent space, enabling deployment across sites with heterogeneous atlases. We validate CAP on two cohorts: 21 patients with drug-resistant epilepsy (epileptogenic-zone localization F1=0.56) and 832 subjects from the 1000BRAINS aging cohort (predicted age r=0.44); in both, CAP matches or exceeds per-subject inference with hours-to-seconds speed-up. Because the shared artifact couples a cohort prior to a mechanistic simulator, it can serve as a mechanistic surrogate supporting in-silico experimentation and synthetic-cohort generation without raw-data access -- a governance-audited alternative we term synthetic access, allowing for wider adoption of personalized modeling in more diverse settings.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202607/07/2607.04851v1-sleepband-single-source-domain-generalization-for-sleep-staging-via-physiologically-structured-spectral-modeling",
+      "section": "quick",
+      "title_en": "SleepBand: Single-Source Domain Generalization for Sleep Staging via Physiologically Structured Spectral Modeling",
+      "authors": "Zhi Lu, Yang Hu, Yan Chen",
+      "date": "2026-07-06",
+      "pdf": "https://arxiv.org/pdf/2607.04851v1",
+      "score": "6.0",
+      "evidence": "使用振荡先验进行EEG睡眠分期",
+      "tldr": "睡眠分期模型泛化到新数据集困难，现有域泛化方法常需多源域或域标签。SleepBand通过可学习Morlet滤波器组嵌入振荡先验，将表征锚定到域不变的睡眠节律（如慢波、纺锤波），减少对数据集伪影依赖。在五个公开数据集上达到单源域泛化最优，与多源域方法竞争力相当。分析表明学习滤波器符合神经生理学，鲁棒性源于关注窄带生理信号。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Generalizing sleep staging models to unseen datasets is challenging, and typical domain generalization (DG) methods often rely on multiple source domains or domain labels that are rarely available in practice. We tackle the stricter and more practical setting of single-source domain generalization: training on a single labeled source dataset, without domain labels or access to target data. We present SleepBand, a physiology-guided framework that embeds oscillatory priors via a learnable Morlet filter bank and a structured integration-and-recalibration pipeline. This anchors representations to domain-invariant sleep rhythms (e.g., slow waves, spindles), reducing reliance on dataset-specific artefacts. On five public datasets, SleepBand achieves state-of-the-art SDG performance and remains competitive under leave-one-domain-out (multi-source) DG. Analyses show that the learned filters align with canonical neurophysiology and that robustness stems from focusing on narrowband, physiologically meaningful cues. Our results suggest that principled, physiology-aware inductive biases are a promising path for robust single-domain sleep staging. Code is available at https://github.com/lzcn/sleep-band",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
