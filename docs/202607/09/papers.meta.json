@@ -1,0 +1,24 @@
+{
+  "label": "2026-07-09",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T20:23:09",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202607/09/biorxiv-10-64898-2026-06-29-734769-v1-temporal-fingerprints-of-tms-evoked-potentials-across-thalamocortical-circuits",
+      "section": "quick",
+      "title_en": "Temporal fingerprints of TMS-evoked potentials across thalamocortical circuits",
+      "authors": "Hassan, G., Gaglioti, G., Furregoni, G., Focacci, E., Porro, M., Bernardelli, L., Calcagno, A., Massimini, M., Sarasso, S., Rosanova, M., Casarotto, S.",
+      "date": "2026-07-02",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.06.29.734769v1.full.pdf",
+      "score": "6.0",
+      "evidence": "研究了额叶、顶叶、枕叶皮层的区域特异性TMS诱发电位，提供了脑区先验",
+      "tldr": "经颅磁刺激诱发电位（TEP）是研究皮层动态的重要手段，但缺乏对不同脑区TEP形态的系统分析。本文对40名受试者分别刺激枕叶、顶叶和额叶皮层，自动计算TEP的峰峰值幅度、潜伏期和峰间间隔。结果发现枕叶TEP幅度最大、潜伏期最长；沿后-前轴潜伏期和峰间间隔递减，体现不同网络的重入动力学差异。该工作揭示了TEP形态特征反映刺激网络特性，并提供了Python工具用于表征皮层反应性。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "BackgroundElectroencephalographic (EEG) potentials evoked by transcranial magnetic stimulation (TMS) offer a direct window into cortical dynamics. Yet, a systematic exploration of their morphological features, analogous to sensory-evoked potentials, is lacking, especially for stimulation outside the motor cortex.\n\nAimTo obtain region-specific properties of frontal, parietal and occipital networks from the time course of TMS-evoked potentials (TEPs).\n\nMaterials and MethodsWe implemented and applied an automatic procedure to compute peak-to-peak amplitude, peak latency, and inter-peak interval of TEPs recorded from 40 neurotypical subjects stimulated over left occipital (n=25), parietal (n=25), and frontal (n=25) cortices.\n\nResultsOccipital TEPs showed the largest peak-to-peak amplitude and longest latency of the first waveform component, independently of stimulation intensity and consistent with the recruitment of a large patch of densely interconnected neurons. Concerning later components, both latency and inter-peak interval systematically decreased along the posterior-to-anterior axis, reflecting progressively faster recurrent dynamics from the alpha-dominated occipital circuitry to the tightly coupled loops between frontal cortex and subcortical structures. Parietal TEPs showed intermediate amplitude and latency measures, consistent with the heterogeneous cytoarchitectonic and connectional organization of the superior parietal cortex.\n\nConclusionsOur findings suggest that TEP morphology is shaped by the distinct properties of the stimulated networks, with early amplitude reflecting the extent of local recruitment and later temporal features tracking the rhythm of recurrent activity. This work offers a mechanistically grounded and practically accessible approach, also released as a Python-based tool, that allows to characterize cortical reactivity across different brain-states and populations.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

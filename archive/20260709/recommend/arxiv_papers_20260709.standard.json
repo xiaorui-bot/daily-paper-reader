@@ -1,0 +1,62 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-09T20:21:56.949479+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-06-29-734769-v1",
+      "source": "biorxiv",
+      "title": "Temporal fingerprints of TMS-evoked potentials across thalamocortical circuits",
+      "abstract": "BackgroundElectroencephalographic (EEG) potentials evoked by transcranial magnetic stimulation (TMS) offer a direct window into cortical dynamics. Yet, a systematic exploration of their morphological features, analogous to sensory-evoked potentials, is lacking, especially for stimulation outside the motor cortex.\n\nAimTo obtain region-specific properties of frontal, parietal and occipital networks from the time course of TMS-evoked potentials (TEPs).\n\nMaterials and MethodsWe implemented and applied an automatic procedure to compute peak-to-peak amplitude, peak latency, and inter-peak interval of TEPs recorded from 40 neurotypical subjects stimulated over left occipital (n=25), parietal (n=25), and frontal (n=25) cortices.\n\nResultsOccipital TEPs showed the largest peak-to-peak amplitude and longest latency of the first waveform component, independently of stimulation intensity and consistent with the recruitment of a large patch of densely interconnected neurons. Concerning later components, both latency and inter-peak interval systematically decreased along the posterior-to-anterior axis, reflecting progressively faster recurrent dynamics from the alpha-dominated occipital circuitry to the tightly coupled loops between frontal cortex and subcortical structures. Parietal TEPs showed intermediate amplitude and latency measures, consistent with the heterogeneous cytoarchitectonic and connectional organization of the superior parietal cortex.\n\nConclusionsOur findings suggest that TEP morphology is shaped by the distinct properties of the stimulated networks, with early amplitude reflecting the extent of local recruitment and later temporal features tracking the rhythm of recurrent activity. This work offers a mechanistically grounded and practically accessible approach, also released as a Python-based tool, that allows to characterize cortical reactivity across different brain-states and populations.",
+      "authors": [
+        "Hassan, G.",
+        "Gaglioti, G.",
+        "Furregoni, G.",
+        "Focacci, E.",
+        "Porro, M.",
+        "Bernardelli, L.",
+        "Calcagno, A.",
+        "Massimini, M.",
+        "Sarasso, S.",
+        "Rosanova, M.",
+        "Casarotto, S."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-02T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.29.734769v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "examines region-specific TMS-evoked EEG potentials across frontal, parietal, occipital cortices, providing brain region priors",
+      "llm_evidence_cn": "研究了额叶、顶叶、枕叶皮层的区域特异性TMS诱发电位，提供了脑区先验",
+      "llm_evidence": "研究了额叶、顶叶、枕叶皮层的区域特异性TMS诱发电位，提供了脑区先验",
+      "canonical_evidence": "研究了额叶、顶叶、枕叶皮层的区域特异性TMS诱发电位，提供了脑区先验",
+      "llm_tldr_en": "This paper systematically characterizes region-specific morphological features of TMS-evoked potentials (TEPs) in frontal, parietal, and occipital cortices, providing empirical brain region priors for EEG source localization. It directly addresses the need for anatomical priors by documenting distinct TEP waveforms across brain regions.",
+      "llm_tldr_cn": "该论文系统描述了经颅磁刺激诱发电位（TEPs）在额叶、顶叶和枕叶皮层的区域特异性形态特征，为EEG源定位提供了经验性脑区先验。通过记录不同脑区独特的TEP波形，直接回应了对解剖先验的需求，有助于改进源定位中的先验约束。",
+      "llm_tldr": "该论文系统描述了经颅磁刺激诱发电位（TEPs）在额叶、顶叶和枕叶皮层的区域特异性形态特征，为EEG源定位提供了经验性脑区先验。通过记录不同脑区独特的TEP波形，直接回应了对解剖先验的需求，有助于改进源定位中的先验约束。",
+      "llm_tags": [
+        "query:eeg-priors:composite"
+      ],
+      "matched_query_tag": "query:eeg-priors:composite",
+      "matched_query_text": "Papers central to 请帮我查找EEG脑区先验的相关论文, especially work that connects or combines: electroencephalography brain region priors; anatomical prior information in EEG analysis; What priors are commonly used in EEG source localization?.",
+      "matched_requirement_id": "req-composite-eeg-priors",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
