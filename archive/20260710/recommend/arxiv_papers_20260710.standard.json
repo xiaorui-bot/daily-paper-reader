@@ -1,0 +1,58 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-10T20:07:25.494099+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2607.07720v1",
+      "source": "arxiv",
+      "title": "Omni-Sleep: A Sleep Foundation Model via Hierarchical Contrastive Learning of CNS--ANS Dynamic",
+      "abstract": "Sleep physiology arises from the coordinated dynamics of the central nervous system (CNS) and autonomic nervous system (ANS), as reflected by multimodal polysomnography signals including EEG, EOG, EMG, ECG, and respiration. However, existing sleep foundation models often fuse heterogeneous biosignals in a topology-agnostic manner, overlooking their physiological organization. We introduce Omni-Sleep, a sleep foundation model that uses the CNS/ANS partition as a physiological prior for topology-constrained representation learning. Omni-Sleep learns structured representations through three objectives: intra-system consistency, which captures shared subsystem-level factors within neural and cardio-respiratory signals; inter-system synchronization, which aligns subsystem trajectories to model brain--body dynamics; and latent-space masked temporal modeling, which captures long-horizon sleep dynamics. Pre-trained on over 100,000 hours of multi-center multimodal PSG data, Omni-Sleep is evaluated on sleep staging and multi-disease classification. Across datasets and modality-ablation settings, Omni-Sleep outperforms strong foundation-model baselines, showing improved label efficiency, cross-dataset generalization, and robustness to missing modalities. These results highlight the value of physiological hierarchy for generalizable sleep representation learning. Code is available at https://github.com/AutoBrain-sleep/OmniSleep.",
+      "authors": [
+        "Zhoujie Hou",
+        "Song Wang",
+        "Kexin Lou",
+        "Mo Wang",
+        "Chen Wei",
+        "Quanying Liu"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-07-04T13:45:39+00:00",
+      "link": "https://arxiv.org/pdf/2607.07720v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "uses CNS/ANS partition as a physiological prior in EEG analysis",
+      "llm_evidence_cn": "在EEG分析中使用中枢/自主神经分区作为生理先验",
+      "llm_evidence": "在EEG分析中使用中枢/自主神经分区作为生理先验",
+      "canonical_evidence": "在EEG分析中使用中枢/自主神经分区作为生理先验",
+      "llm_tldr_en": "Omni-Sleep leverages a physiological prior (CNS/ANS partition) for topology-constrained representation learning in sleep EEG, demonstrating improved sleep staging.",
+      "llm_tldr_cn": "现有睡眠基础模型常忽略生理信号的层次组织。Omni-Sleep模型将中枢/自主神经系统分区作为拓扑约束的先验知识，通过系统内和系统间对比学习结构化表示。在睡眠分期任务上优于忽略拓扑结构的基线方法。该工作展示了生理先验在EEG分析中的价值，与解剖先验需求高度相关。",
+      "llm_tldr": "现有睡眠基础模型常忽略生理信号的层次组织。Omni-Sleep模型将中枢/自主神经系统分区作为拓扑约束的先验知识，通过系统内和系统间对比学习结构化表示。在睡眠分期任务上优于忽略拓扑结构的基线方法。该工作展示了生理先验在EEG分析中的价值，与解剖先验需求高度相关。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-07-10 <!--dpr-date:20260710-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/10/2607.07720v1-omni-sleep-a-sleep-foundation-model-via-hierarchical-contrastive-learning-of-cns--ans-dynamic" data-sidebar-item="{&quot;title&quot;: &quot;Omni-Sleep: A Sleep Foundation Model via Hierarchical Contrastive Learning of CNS--ANS Dynamic&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2607.07720v1-omni-sleep-a-sleep-foundation-model-via-hierarchical-contrastive-learning-of-cns--ans-dynamic&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;在EEG分析中使用中枢/自主神经分区作为生理先验&quot;}">Omni-Sleep: A Sleep Foundation Model via Hierarchical Contrastive Learning of CNS--ANS Dynamic</a>
   * 2026-07-09 <!--dpr-date:20260709-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/09/biorxiv-10-64898-2026-06-29-734769-v1-temporal-fingerprints-of-tms-evoked-potentials-across-thalamocortical-circuits" data-sidebar-item="{&quot;title&quot;: &quot;Temporal fingerprints of TMS-evoked potentials across thalamocortical circuits&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-06-29-734769-v1-temporal-fingerprints-of-tms-evoked-potentials-across-thalamocortical-circuits&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;研究了额叶、顶叶、枕叶皮层的区域特异性TMS诱发电位，提供了脑区先验&quot;}">Temporal fingerprints of TMS-evoked potentials across thalamocortical circuits</a>

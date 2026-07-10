@@ -1,0 +1,24 @@
+{
+  "label": "2026-07-10",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T20:08:13",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202607/10/2607.07720v1-omni-sleep-a-sleep-foundation-model-via-hierarchical-contrastive-learning-of-cns--ans-dynamic",
+      "section": "quick",
+      "title_en": "Omni-Sleep: A Sleep Foundation Model via Hierarchical Contrastive Learning of CNS--ANS Dynamic",
+      "authors": "Zhoujie Hou, Song Wang, Kexin Lou, Mo Wang, Chen Wei, Quanying Liu",
+      "date": "2026-07-04",
+      "pdf": "https://arxiv.org/pdf/2607.07720v1",
+      "score": "7.0",
+      "evidence": "在EEG分析中使用中枢/自主神经分区作为生理先验",
+      "tldr": "睡眠生理源于中枢与自主神经系统的动态协调，现有基础模型忽视其生理组织结构。为此提出Omni-Sleep，以CNS/ANS划分为生理先验，通过子系统内一致性、子系统间同步和潜空间掩码时序建模进行拓扑约束表征学习。在超10万小时多中心PSG数据上预训练，在睡眠分期和多疾病分类中大幅超越强基线，展现出更好的标签效率、跨数据集泛化和缺失模态鲁棒性。该工作证明了生理层次结构对通用睡眠表征学习的重要价值。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Sleep physiology arises from the coordinated dynamics of the central nervous system (CNS) and autonomic nervous system (ANS), as reflected by multimodal polysomnography signals including EEG, EOG, EMG, ECG, and respiration. However, existing sleep foundation models often fuse heterogeneous biosignals in a topology-agnostic manner, overlooking their physiological organization. We introduce Omni-Sleep, a sleep foundation model that uses the CNS/ANS partition as a physiological prior for topology-constrained representation learning. Omni-Sleep learns structured representations through three objectives: intra-system consistency, which captures shared subsystem-level factors within neural and cardio-respiratory signals; inter-system synchronization, which aligns subsystem trajectories to model brain--body dynamics; and latent-space masked temporal modeling, which captures long-horizon sleep dynamics. Pre-trained on over 100,000 hours of multi-center multimodal PSG data, Omni-Sleep is evaluated on sleep staging and multi-disease classification. Across datasets and modality-ablation settings, Omni-Sleep outperforms strong foundation-model baselines, showing improved label efficiency, cross-dataset generalization, and robustness to missing modalities. These results highlight the value of physiological hierarchy for generalizable sleep representation learning. Code is available at https://github.com/AutoBrain-sleep/OmniSleep.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
