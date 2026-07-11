@@ -6,24 +6,26 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-07-10
-- 运行时间：2026-07-10 20:08:05 UTC
+- 最新运行日期：2026-07-11
+- 运行时间：2026-07-11 20:37:04 UTC
 - 运行状态：成功
 - 本次总论文数：1
 - 精读区：0
 - 速读区：1
 
 ### 今日简报（AI）
-今日推荐1篇睡眠AI前沿论文，利用层次对比学习构建中枢-自主神经动态基础模型。核心亮点：模型能更精准刻画睡眠中脑-体交互规律，7分值得一读。建议关注该预训练方法，未来或可用于个性化睡眠监测与疾病预警。
-- 详情：[/202607/10/README](/202607/10/README)
+今日速读一篇跨数据集脑电情绪识别新方法。
+亮点：结合掩码生成与对比学习，提升跨数据集泛化能力。
+感兴趣可关注脑电情绪识别中的生成式预训练与对比学习融合方向。
+- 详情：[/202607/11/README](/202607/11/README)
 
 ### 精读区论文标签
 - 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Omni-Sleep: A Sleep Foundation Model via Hierarchical Contrastive Learning of CNS--ANS Dynamic](/202607/10/2607.07720v1-omni-sleep-a-sleep-foundation-model-via-hierarchical-contrastive-learning-of-cns--ans-dynamic)  
+1. [Masked Generative-Contrastive Representation Learning for Cross-Dataset EEG-Based Emotion Recognition](/202607/11/2607.04139v1-masked-generative-contrastive-representation-learning-for-cross-dataset-eeg-based-emotion-recognition)  
    标签：评分：7.0/10、query:eeg-priors
-   evidence：在EEG分析中使用中枢/自主神经分区作为生理先验
+   evidence：区域感知时空编码器使用了脑区先验
 
 
 <div class="dpr-home-promo-card">

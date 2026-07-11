@@ -1,0 +1,57 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-11T20:36:24.833651+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2607.04139v1",
+      "source": "arxiv",
+      "title": "Masked Generative-Contrastive Representation Learning for Cross-Dataset EEG-Based Emotion Recognition",
+      "abstract": "Self-supervised learning (SSL) shows strong potential for cross-dataset transfer by improving feature representation and generalization. However, its application to EEG-based emotion recognition remains largely unexplored. Existing SSL methods struggle to capture the intricate spatiotemporal dependencies of EEG signals under varying channel configurations, extract fine-grained representations resilient to noise, and derive global features that generalize well across subjects. To address these challenges, we propose Masked Generative-Contrastive Representation Learning (MGCRL), a novel SSL framework specifically designed for EEG-based emotion recognition. Built upon a region-aware spatiotemporal encoder, MGCRL integrates generative and contrastive learning to achieve both fine-grained and global discriminative representations for cross-dataset generalization. MGCRL introduces three key designs: 1) a spatiotemporal encoder that incorporates region-based graph convolution to capture localized spatial and functional relationships, enhancing region-specific feature learning and mitigating the impact of varying EEG channel configurations across datasets; 2) a generative learning mechanism based on the joint embedding predictive architecture (JEPA) that utilizes masked features to capture noise robustness fine-grained representations, improving the model's capability to characterize subtle emotional states; and 3) a contrastive learning strategy that leverages masked and original features to learn temporally stable and cross-subject-invariant representations across the same stimuli, boosting emotion discrimination and cross-subject generalization. Under these designs, MGCRL exhibits remarkable ability to learn universal representation. Extensive experiments involving pretraining on the large FACED dataset and fine-tuning on multiple SEED-series datasets demonstrate the effectiveness of MGCRL.",
+      "authors": [
+        "Huqin Weng",
+        "Jiayang Huang",
+        "Yimin Wen",
+        "Jie Du",
+        "Chi-Man Vong",
+        "Chuangquan Chen"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-07-05T06:44:17+00:00",
+      "link": "https://arxiv.org/pdf/2607.04139v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "region-aware spatiotemporal encoder uses brain region priors",
+      "llm_evidence_cn": "区域感知时空编码器使用了脑区先验",
+      "llm_evidence": "区域感知时空编码器使用了脑区先验",
+      "canonical_evidence": "区域感知时空编码器使用了脑区先验",
+      "llm_tldr_en": "Proposes MGCRL, a self-supervised framework with region-aware spatiotemporal encoder that implicitly uses brain region priors to improve cross-dataset EEG emotion recognition.",
+      "llm_tldr_cn": "针对跨数据集EEG情感识别中特征表示泛化差的问题，提出掩码生成-对比表示学习（MGCRL）框架。该方法采用区域感知时空编码器，隐式引入脑区先验信息以捕获EEG信号的时空依赖。实验表明，该框架在跨数据集场景下显著提升了情感识别性能，验证了脑区先验在自监督学习中的有效性。",
+      "llm_tldr": "针对跨数据集EEG情感识别中特征表示泛化差的问题，提出掩码生成-对比表示学习（MGCRL）框架。该方法采用区域感知时空编码器，隐式引入脑区先验信息以捕获EEG信号的时空依赖。实验表明，该框架在跨数据集场景下显著提升了情感识别性能，验证了脑区先验在自监督学习中的有效性。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
