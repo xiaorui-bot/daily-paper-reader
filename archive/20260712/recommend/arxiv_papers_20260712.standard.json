@@ -1,0 +1,56 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-12T20:04:56.599526+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-07-03-736278-v1",
+      "source": "biorxiv",
+      "title": "The impact of behavioural activity on the EEG power spectrum, its source localisation, and global functional connectivity in rats",
+      "abstract": "The behavioural activity of freely moving animals is a confounding factor that affects the recording, analysis, and final results of animal EEG experiments. Along with the lack of standardisation in animal in vivo electrophysiology experiments, this could lead to huge inconsistencies, especially in the analysis of centrally acting drugs. Therefore, the main aim of this paper is to investigate the effects of behavioural activity versus inactivity on the multichannel EEG in freely moving rats. In a large sample (n = 116) of waking recordings from 12 cortical electrodes (ECoG) in Wistar rats, we evaluated behavioural activity-related changes in the power spectrum, current source density, and power-based global functional connectivity (GFC) in a 3D rat brain model, according to the TOHOKU Rat Brain Atlas. The main findings were that behavioural activity induced 1) a robust power increase in 6-8 Hz, peaking at 7 Hz with maximum changes over the parietal and temporal cortex, 2) an increase in gamma power (30-80 Hz) across the whole brain, 3) a decrease in delta (1-4 Hz) and beta (12-30 Hz) power across the whole cortex. Changes were also localised in subcortical regions, particularly in the diencephalon/thalamus. The GFC analysis showed a similar pattern of power changes across the 6-8 Hz, delta, and beta bands; however, GFC in the gamma band decreased. Again, the GFC analysis revealed changes in connectivity within subcortical structures, primarily in the thalamus. None of the measures was affected in the alpha band (8-12 Hz). These findings emphasise behavioural state as a critical factor influencing EEG outcomes, with important implications for the standardisation and translational validity of preclinical neurophysiological studies.",
+      "authors": [
+        "Vejmola, C.",
+        "Jiricek, S.",
+        "Bochin, M.",
+        "Koudelka, V.",
+        "Palenicek, T."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-08T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.03.736278v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "directly studies EEG source localisation in rats, relevant to priors in source localization",
+      "llm_evidence_cn": "直接研究大鼠EEG源定位，与源定位先验相关",
+      "llm_evidence": "直接研究大鼠EEG源定位，与源定位先验相关",
+      "canonical_evidence": "直接研究大鼠EEG源定位，与源定位先验相关",
+      "llm_tldr_en": "Investigates how behavioural activity affects EEG power spectrum, source localisation, and functional connectivity in rats, highlighting the need to account for behavioural state as a prior in source localization.",
+      "llm_tldr_cn": "该研究在116只大鼠的大样本中评估了行为活动与静止对多通道ECoG功率谱、电流源密度和功能连接的影响，发现行为状态显著影响源定位结果，提示在EEG源定位中需要考虑行为状态作为先验因素，对理解先验在源定位中的作用具有重要参考价值。",
+      "llm_tldr": "该研究在116只大鼠的大样本中评估了行为活动与静止对多通道ECoG功率谱、电流源密度和功能连接的影响，发现行为状态显著影响源定位结果，提示在EEG源定位中需要考虑行为状态作为先验因素，对理解先验在源定位中的作用具有重要参考价值。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
