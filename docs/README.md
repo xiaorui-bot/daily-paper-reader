@@ -6,24 +6,26 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-07-12
-- 运行时间：2026-07-12 20:05:53 UTC
+- 最新运行日期：2026-07-13
+- 运行时间：2026-07-13 20:40:21 UTC
 - 运行状态：成功
 - 本次总论文数：1
 - 精读区：0
 - 速读区：1
 
 ### 今日简报（AI）
-今日速读一篇关于行为活动影响大鼠脑电功率谱、源定位及全局功能连接的研究。研究发现行为活动可显著改变脑电频段功率分布及相关脑区连接模式。建议关注行为神经科学方向，未来可探索该模型在认知障碍中的应用。
-- 详情：[/202607/12/README](/202607/12/README)
+今日速读一篇睡眠分期领域的新模型论文，评分6.0/10。  
+最值得看的方向：单源域泛化方法SleepBand结合生理结构化频谱建模，旨在提升跨场景睡眠分期鲁棒性。  
+建议关注该模型在实际数据中的泛化效果，后续可对比传统多源域方法的优劣。
+- 详情：[/202607/13/README](/202607/13/README)
 
 ### 精读区论文标签
 - 本次无精读推荐。
 
 ### 速读区论文标签
-1. [The impact of behavioural activity on the EEG power spectrum, its source localisation, and global functional connectivity in rats](/202607/12/biorxiv-10-64898-2026-07-03-736278-v1-the-impact-of-behavioural-activity-on-the-eeg-power-spectrum-its-source-localisation-and-global-functional-connectivity-in-rats)  
-   标签：评分：7.0/10、query:eeg-priors
-   evidence：直接研究大鼠EEG源定位，与源定位先验相关
+1. [SleepBand: Single-Source Domain Generalization for Sleep Staging via Physiologically Structured Spectral Modeling](/202607/13/2607.04851v1-sleepband-single-source-domain-generalization-for-sleep-staging-via-physiologically-structured-spectral-modeling)  
+   标签：评分：6.0/10、query:eeg-priors
+   evidence：通过可学习的Morlet滤波器组嵌入振荡先验用于睡眠EEG
 
 
 <div class="dpr-home-promo-card">

@@ -1,0 +1,24 @@
+{
+  "label": "2026-07-13",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T20:40:28",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202607/13/2607.04851v1-sleepband-single-source-domain-generalization-for-sleep-staging-via-physiologically-structured-spectral-modeling",
+      "section": "quick",
+      "title_en": "SleepBand: Single-Source Domain Generalization for Sleep Staging via Physiologically Structured Spectral Modeling",
+      "authors": "Zhi Lu, Yang Hu, Yan Chen",
+      "date": "2026-07-06",
+      "pdf": "https://arxiv.org/pdf/2607.04851v1",
+      "score": "6.0",
+      "evidence": "通过可学习的Morlet滤波器组嵌入振荡先验用于睡眠EEG",
+      "tldr": "睡眠阶段分类模型在不同数据集间泛化困难，传统域泛化方法需要多源域或域标签。SleepBand提出基于生理学引导的框架，通过可学习Morlet滤波器组和结构化的整合-重校准流水线嵌入振荡先验，将表征锚定于域不变睡眠节律。在五个公开数据集上，单源域泛化达到最优，并具备多源域竞争力。分析表明学习滤波器与神经生理学对齐，鲁棒性源于关注窄带生理线索。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Generalizing sleep staging models to unseen datasets is challenging, and typical domain generalization (DG) methods often rely on multiple source domains or domain labels that are rarely available in practice. We tackle the stricter and more practical setting of single-source domain generalization: training on a single labeled source dataset, without domain labels or access to target data. We present SleepBand, a physiology-guided framework that embeds oscillatory priors via a learnable Morlet filter bank and a structured integration-and-recalibration pipeline. This anchors representations to domain-invariant sleep rhythms (e.g., slow waves, spindles), reducing reliance on dataset-specific artefacts. On five public datasets, SleepBand achieves state-of-the-art SDG performance and remains competitive under leave-one-domain-out (multi-source) DG. Analyses show that the learned filters align with canonical neurophysiology and that robustness stems from focusing on narrowband, physiologically meaningful cues. Our results suggest that principled, physiology-aware inductive biases are a promising path for robust single-domain sleep staging. Code is available at https://github.com/lzcn/sleep-band",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

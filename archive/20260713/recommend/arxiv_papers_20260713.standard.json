@@ -1,0 +1,55 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-13T20:40:11.475567+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2607.04851v1",
+      "source": "arxiv",
+      "title": "SleepBand: Single-Source Domain Generalization for Sleep Staging via Physiologically Structured Spectral Modeling",
+      "abstract": "Generalizing sleep staging models to unseen datasets is challenging, and typical domain generalization (DG) methods often rely on multiple source domains or domain labels that are rarely available in practice. We tackle the stricter and more practical setting of single-source domain generalization: training on a single labeled source dataset, without domain labels or access to target data. We present SleepBand, a physiology-guided framework that embeds oscillatory priors via a learnable Morlet filter bank and a structured integration-and-recalibration pipeline. This anchors representations to domain-invariant sleep rhythms (e.g., slow waves, spindles), reducing reliance on dataset-specific artefacts. On five public datasets, SleepBand achieves state-of-the-art SDG performance and remains competitive under leave-one-domain-out (multi-source) DG. Analyses show that the learned filters align with canonical neurophysiology and that robustness stems from focusing on narrowband, physiologically meaningful cues. Our results suggest that principled, physiology-aware inductive biases are a promising path for robust single-domain sleep staging. Code is available at https://github.com/lzcn/sleep-band",
+      "authors": [
+        "Zhi Lu",
+        "Yang Hu",
+        "Yan Chen"
+      ],
+      "primary_category": "cs.MM",
+      "categories": [
+        "cs.MM",
+        "cs.LG"
+      ],
+      "published": "2026-07-06T09:21:54+00:00",
+      "link": "https://arxiv.org/pdf/2607.04851v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "embeds oscillatory priors via learnable Morlet filter bank for sleep EEG",
+      "llm_evidence_cn": "通过可学习的Morlet滤波器组嵌入振荡先验用于睡眠EEG",
+      "llm_evidence": "通过可学习的Morlet滤波器组嵌入振荡先验用于睡眠EEG",
+      "canonical_evidence": "通过可学习的Morlet滤波器组嵌入振荡先验用于睡眠EEG",
+      "llm_tldr_en": "SleepBand embeds physiological oscillatory priors into sleep staging models, achieving domain generalization via structured spectral modeling, which is a method transferable to EEG brain region priors.",
+      "llm_tldr_cn": "睡眠分期任务面临数据域泛化难题，现有方法依赖多源域或域标签。该论文提出SleepBand，通过可学习的Morlet滤波器组嵌入振荡先验，将表示锚定到域不变的睡眠节律上，从而在仅有一个源域且无域标签的情况下实现泛化。实验在五个数据集上验证了有效性。这种方法可以迁移到其他需要先验引导的EEG分析任务中。",
+      "llm_tldr": "睡眠分期任务面临数据域泛化难题，现有方法依赖多源域或域标签。该论文提出SleepBand，通过可学习的Morlet滤波器组嵌入振荡先验，将表示锚定到域不变的睡眠节律上，从而在仅有一个源域且无域标签的情况下实现泛化。实验在五个数据集上验证了有效性。这种方法可以迁移到其他需要先验引导的EEG分析任务中。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
