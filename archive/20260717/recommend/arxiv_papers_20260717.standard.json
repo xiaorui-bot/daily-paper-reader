@@ -1,0 +1,213 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-17T20:19:31.285996+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 5,
+    "quick_skim_target": 11,
+    "quick_selected": 5
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-07-08-737156-v1",
+      "source": "biorxiv",
+      "title": "BraiNN: A Modern Simulator for Clinically Feasible Personalized Whole-Brain Network Modeling",
+      "abstract": "Personalized whole-brain modeling aims to transform treatment planning for neurological disorders by enabling patient-specific simulations of brain network dynamics. Neural mass models (NMMs) offer a tractable compromise between biophysical detail and computational cost and can be directly linked to macroscopic observables such as EEG. However, scaling NMMs to whole-brain networks with realistic connectivity, conduction delays, and cortical surface resolution--and fitting them to individual patient data--imposes computational demands that existing frameworks cannot meet at clinically relevant timescales. Here we introduce BraiNN, a JAX-based Python framework for large-scale neural mass modeling that achieves speedups of up to two to three orders of magnitude over existing tools by leveraging GPU/TPU-accelerated, XLA-compiled array computation. BraiNN combines a region-level Jansen-Rit network with a subject-specific cortical surface mesh of coupled neural mass models and biophysically grounded EEG forward modeling via reciprocity-based lead fields. Its fully differentiable computational graph enables a hybrid personalization pipeline that pairs Bayesian optimization for global parameter exploration with gradient-based refinement, completing EEG-driven spectral fitting of an eight-dimensional parameter space in approximately 2-3 hours on a single consumer GPU--compared to multiple days with conventional neural mass modeling software. Numerical verification against established benchmarks confirms that BraiNN faithfully reproduces canonical synchronization and bifurcation dynamics of Jansen-Rit networks.\n\nBy reducing the time requirements for personalizing a high-detail whole-brain surface model from days to a few hours on consumer-grade hardware, BraiNN brings personalized brain network modeling closer to practical use in clinical contexts. We anticipate that BraiNN will serve as a foundation for patient-specific digital twins and EEG-guided neuromodulation planning.",
+      "authors": [
+        "Fasse, A.",
+        "Billi, C.",
+        "Garvalov, V.",
+        "Morvan, M.",
+        "Newton, T.",
+        "Kuster, N.",
+        "Neufeld, E."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-13T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.08.737156v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "whole-brain network modeling linked to EEG, can incorporate anatomical priors",
+      "llm_evidence_cn": "全脑网络建模与EEG关联，可整合解剖先验",
+      "llm_evidence": "全脑网络建模与EEG关联，可整合解剖先验",
+      "canonical_evidence": "全脑网络建模与EEG关联，可整合解剖先验",
+      "llm_tldr_en": "BraiNN is a JAX-based framework for large-scale neural mass modeling that achieves speedups and can be used for personalized whole-brain simulations linked to EEG, enabling incorporation of anatomical priors.",
+      "llm_tldr_cn": "现有框架无法在临床时间尺度上实现具有真实连接、传导延迟和皮层表面分辨率的全脑神经质量模型。本文提出BraiNN，一个基于JAX的Python框架，用于大规模神经质量建模，速度提升高达两个数量级。该模拟器可直接与EEG等宏观观测相连，支持个性化全脑网络建模，从而为整合解剖先验信息提供了计算平台。实验表明BraiNN能在合理时间内完成模型拟合，有望推动基于EEG的个性化治疗规划。",
+      "llm_tldr": "现有框架无法在临床时间尺度上实现具有真实连接、传导延迟和皮层表面分辨率的全脑神经质量模型。本文提出BraiNN，一个基于JAX的Python框架，用于大规模神经质量建模，速度提升高达两个数量级。该模拟器可直接与EEG等宏观观测相连，支持个性化全脑网络建模，从而为整合解剖先验信息提供了计算平台。实验表明BraiNN能在合理时间内完成模型拟合，有望推动基于EEG的个性化治疗规划。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2607.10931v1",
+      "source": "arxiv",
+      "title": "Fast Whole-Brain, Geometry-Aware Functional Alignment for Cross-Subject Decoding",
+      "abstract": "Decoding brain activity is useful for characterizing brain processes and understanding the functional architecture underlying cognition. However, the inter-individual variability in brain response patterns limits the development of decoders that generalize across individuals. A solution to this challenge is functional alignment: aligning functional data across individuals before training population-level decoders. The core issue is to strike the balance between aligning functional features and preserving the anatomical structure, while maintaining computational efficiency. We introduce a new functional alignment method for fMRI, SpectralOT, that embeds cortical geometry into Laplace-Beltrami eigenmodes along functional data to regularize the alignment.",
+      "authors": [
+        "Pierre-Louis Barbarant",
+        "Florent Meyniel",
+        "Bertrand Thirion"
+      ],
+      "primary_category": "q-bio.NC",
+      "categories": [
+        "q-bio.NC",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "published": "2026-07-12T21:37:33+00:00",
+      "link": "https://arxiv.org/pdf/2607.10931v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "geometry-aware functional alignment preserving cortical anatomy",
+      "llm_evidence_cn": "保留皮层几何的功能对齐方法",
+      "llm_evidence": "保留皮层几何的功能对齐方法",
+      "canonical_evidence": "保留皮层几何的功能对齐方法",
+      "llm_tldr_en": "Introduces SpectralOT for functional alignment that preserves cortical geometry using Laplace-Beltrami eigenmodes, balancing functional and anatomical features. While validated on fMRI, the geometry-aware approach is transferable to EEG source localization as an anatomical prior.",
+      "llm_tldr_cn": "本文针对跨被试脑解码中个体间功能差异问题，提出一种几何感知的功能对齐方法SpectralOT，通过将皮层几何嵌入拉普拉斯-贝尔特拉米本征模态来正则化功能对齐，在计算效率和保留解剖结构之间取得平衡。实验表明该方法在fMRI数据上有效，其保留解剖几何的思路可作为EEG源定位中的一种解剖先验，有助于提升跨被试泛化能力。",
+      "llm_tldr": "本文针对跨被试脑解码中个体间功能差异问题，提出一种几何感知的功能对齐方法SpectralOT，通过将皮层几何嵌入拉普拉斯-贝尔特拉米本征模态来正则化功能对齐，在计算效率和保留解剖结构之间取得平衡。实验表明该方法在fMRI数据上有效，其保留解剖几何的思路可作为EEG源定位中的一种解剖先验，有助于提升跨被试泛化能力。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-07-10-737657-v2",
+      "source": "biorxiv",
+      "title": "MEG-informed navigated TMS for individualized speech cortical mapping",
+      "abstract": "Speech cortical mapping by means of navigated repetitive transcranial magnetic stimulation (SCM nrTMS) provides neurosurgeons with noninvasive prior information about individual's cortical speech network. Individualized mapping is required, since the exact locations and activation patterns of speech production show high variability between individuals. We hypothesized that magnetoencephalography (MEG) data of an individual's speech production could guide the SCM TMS process temporally and spatially, leading to higher error rates at MEG-defined locations with TMS pulse timings coinciding with MEG activity. 13 healthy subjects participated in MEG and TMS measurements, where the timing of the TMS pulse (PTI; picture-to-TMS interval) was adjusted based on the individual's MEG activation in a picture naming task. At the group level, significant correlations were observed between the latency of the peak MEG activation and the PTI that produced the highest speech error rate. The MEG peak preceded the best PTI by 132 ms (R=0.713, p=0.006) across the entire stimulation area in the lateral left hemisphere, and by 103 ms (R=0.673, p=0.012) in the left frontal regions. We found 17 combinations of PTI and stimulation area in which the subject's speech error rate increased significantly compared to their average error rate. Our findings suggest that optimal PTIs are highly individual, and that individualizing the PTI according to MEG activation provides a straightforward method for accounting individual variability in speech function and may increase the sensitivity and utility of SCM TMS.",
+      "authors": [
+        "Autti, S.",
+        "Korkealaakso, S.",
+        "Gogulski, J.",
+        "Engelhardt, M.",
+        "Vaalto, S.",
+        "Renvall, H.",
+        "Liljeström, M.",
+        "Lioumis, P."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-17T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.10.737657v2.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "MEG as prior for cortical mapping",
+      "llm_evidence_cn": "MEG作为解剖先验用于皮层定位",
+      "llm_evidence": "MEG作为解剖先验用于皮层定位",
+      "canonical_evidence": "MEG作为解剖先验用于皮层定位",
+      "llm_tldr_en": "Uses MEG data as prior information to guide TMS timing and location for individualized speech cortical mapping, achieving higher error rates at MEG-defined sites.",
+      "llm_tldr_cn": "该论文针对言语皮层定位中个体差异大的问题，提出利用个体MEG数据作为先验信息，在时间和空间上指导导航重复经颅磁刺激。实验表明，在MEG定义的部位和与MEG活动一致的刺激时间下，TMS诱发言语错误率更高，验证了MEG先验信息的有效性。该方法为非侵入性脑刺激提供了一种基于神经影像先验的个性化方案，可推广至其他脑功能定位任务。",
+      "llm_tldr": "该论文针对言语皮层定位中个体差异大的问题，提出利用个体MEG数据作为先验信息，在时间和空间上指导导航重复经颅磁刺激。实验表明，在MEG定义的部位和与MEG活动一致的刺激时间下，TMS诱发言语错误率更高，验证了MEG先验信息的有效性。该方法为非侵入性脑刺激提供了一种基于神经影像先验的个性化方案，可推广至其他脑功能定位任务。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2607.14314v1",
+      "source": "arxiv",
+      "title": "NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis",
+      "abstract": "Seizure diagnosis from EEG signals is a critical yet persistently challenging task, due to the complicated neural dynamics and the spurious connections in inter-channel modeling. While spatial-temporal graph neural networks (STGNNs) have advanced EEG brain network representation learning, the resulting graph structures suffer from low clinical plausibility and limited interpretability due to their purely data-driven nature. To this end, we introduce NeuroGRIP, a retrieval-augmented graph refinement framework that incorporates external medical knowledge to calibrate noisy EEG graphs. We first construct a large-scale, domain-specific knowledge base derived from authoritative clinical guidelines. Leveraging large language models, we extract structured biomedical entities and relations to form a textual knowledge graph (KG), which serves as external knowledge source of clinical priors. Our framework performs alignment-aware query construction by projecting STGNN-generated EEG node embeddings into the semantic space of KG. Semantic queries are then executed via FAISS-based similarity search over knowledge triplets to retrieve relation evidence. Each predicted edge is assigned a confidence score based on retrieved similarity, relation type, and source reliability, enabling us to prune medically implausible edges from the originally predicted graph. Extensive experiments on TUSZ and CHB-MIT demonstrate that NeuroGRIP not only improves seizure detection accuracy but also enhances interpretability by grounding each prediction in clinically validated knowledge. This work provides the first unified framework that tightly couples brain dynamics with external medical expertise via retrieval-augmented reasoning, paving the way for knowledge-enhanced, explainable clinical diagnosis. The code is available at: https://github.com/LincanLi-X/NeuroGRIP.",
+      "authors": [
+        "Lincan Li",
+        "Zheng Chen",
+        "Yushun Dong"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-07-15T19:20:29+00:00",
+      "link": "https://arxiv.org/pdf/2607.14314v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "external medical knowledge as prior for EEG graph calibration",
+      "llm_evidence_cn": "外部医学知识作为EEG图校准的先验",
+      "llm_evidence": "外部医学知识作为EEG图校准的先验",
+      "canonical_evidence": "外部医学知识作为EEG图校准的先验",
+      "llm_tldr_en": "NeuroGRIP introduces a retrieval-augmented framework that incorporates external clinical knowledge to refine EEG graph structures for seizure diagnosis, improving accuracy and interpretability over purely data-driven methods.",
+      "llm_tldr_cn": "针对纯数据驱动EEG图神经网络结构不可靠的问题，提出NeuroGRIP框架，从临床指南构建知识库，通过大语言模型检索外部知识，引导图结构精炼。在癫痫诊断实验中，该方法不仅提升了分类准确率，还使得学习到的脑网络图更符合临床认知，为EEG分析中融入领域先验知识提供了新范式。",
+      "llm_tldr": "针对纯数据驱动EEG图神经网络结构不可靠的问题，提出NeuroGRIP框架，从临床指南构建知识库，通过大语言模型检索外部知识，引导图结构精炼。在癫痫诊断实验中，该方法不仅提升了分类准确率，还使得学习到的脑网络图更符合临床认知，为EEG分析中融入领域先验知识提供了新范式。",
+      "llm_tags": [
+        "query:eeg-priors:composite"
+      ],
+      "matched_query_tag": "query:eeg-priors:composite",
+      "matched_query_text": "Papers central to 请帮我查找EEG脑区先验的相关论文, especially work that connects or combines: electroencephalography brain region priors; anatomical prior information in EEG analysis; What priors are commonly used in EEG source localization?.",
+      "matched_requirement_id": "req-composite-eeg-priors",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-07-13-738145-v1",
+      "source": "biorxiv",
+      "title": "Laterality of subcortical structures predicts spontaneous brain dynamics",
+      "abstract": "Subcortical structures play a key role in shaping cortical computation through distributed cortico-subcortical networks, yet it remains unclear whether individual differences in subcortical anatomy are reflected in resting-state cortical oscillations. We analysed resting-state magnetoencephalography (MEG) and structural MRI from 533 healthy adults in the Cambridge Centre for Ageing and Neuroscience (CamCAN) cohort to test whether hemispheric asymmetries in subcortical volume predict asymmetries in cortical oscillatory power. Lateralisation indices were calculated for subcortical volumes and for oscillatory power across homologous MEG sensor pairs. Cluster-based permutation testing revealed frequency-specific associations between subcortical anatomy and cortical activity. Globus pallidus asymmetry was positively associated with posterior alpha-band power lateralisation, putamen and caudate asymmetries were associated with beta-band lateralisation, and hippocampal asymmetry was negatively associated with delta-band lateralisation. These findings extend previous task-based observations linking pallidal anatomy with alpha oscillations to the resting state and demonstrate that distinct subcortical structures are associated with specific cortical frequency bands. Our results suggest that resting-state MEG captures functional signatures of cortico-subcortical organisation and provides a non-invasive framework for studying healthy ageing and disorders involving subcortical degeneration.",
+      "authors": [
+        "Ghafari, T.",
+        "Quinn, A. J.",
+        "Jensen, O."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-15T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.13.738145v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "subcortical anatomy as prior for EEG oscillations",
+      "llm_evidence_cn": "皮层下结构作为EEG振荡的先验",
+      "llm_evidence": "皮层下结构作为EEG振荡的先验",
+      "canonical_evidence": "皮层下结构作为EEG振荡的先验",
+      "llm_tldr_en": "This study demonstrates that individual differences in subcortical anatomy predict asymmetries in resting-state cortical oscillations measured with MEG/EEG, suggesting anatomical priors can inform brain dynamics models.",
+      "llm_tldr_cn": "该研究基于533名成人的静息态MEG和结构MRI数据，发现皮层下结构体积偏侧性可预测皮层振荡功率的偏侧性，通过计算偏侧指数并采用聚类置换检验，揭示了频率特异性的结构-功能关联。结果表明个体间的解剖差异能够反映在脑电活动中，为使用解剖先验约束脑动力学模型提供了实证支持。",
+      "llm_tldr": "该研究基于533名成人的静息态MEG和结构MRI数据，发现皮层下结构体积偏侧性可预测皮层振荡功率的偏侧性，通过计算偏侧指数并采用聚类置换检验，揭示了频率特异性的结构-功能关联。结果表明个体间的解剖差异能够反映在脑电活动中，为使用解剖先验约束脑动力学模型提供了实证支持。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

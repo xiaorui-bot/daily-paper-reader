@@ -1,0 +1,25 @@
+---
+title: MEG-informed navigated TMS for individualized speech cortical mapping
+title_zh: 基于MEG信息的导航TMS用于个体化语言皮质映射
+authors: "Autti, S., Korkealaakso, S., Gogulski, J., Engelhardt, M., Vaalto, S., Renvall, H., Liljeström, M., Lioumis, P."
+date: 2026-07-17
+pdf: "https://www.biorxiv.org/content/10.64898/2026.07.10.737657v2.full.pdf"
+tags: ["query:eeg-priors"]
+score: 7.0
+evidence: MEG作为解剖先验用于皮层定位
+tldr: 语言皮层映射需要个体化，因为语言功能的位置和激活模式存在高度个体差异。本研究利用MEG数据确定个体语言产生时的激活时序，并据此调整TMS脉冲间隔。结果发现MEG激活峰值与最佳脉冲间隔显著相关，个体化时序能够提高语言错误率。该方法为个体差异性提供了一种直接解决方案，有望提升SCM TMS的敏感性和临床应用价值。
+source: biorxiv
+selection_source: fresh_fetch
+figures_json: "[{\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/fig-001.webp\", \"caption\": \"\", \"page\": 0, \"index\": 1, \"width\": 1938, \"height\": 1030, \"label\": \"Figure\"}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/fig-002.webp\", \"caption\": \"\", \"page\": 0, \"index\": 2, \"width\": 1420, \"height\": 618, \"label\": \"Figure\"}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/fig-003.webp\", \"caption\": \"\", \"page\": 0, \"index\": 3, \"width\": 671, \"height\": 665, \"label\": \"Figure\"}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/fig-004.webp\", \"caption\": \"\", \"page\": 0, \"index\": 4, \"width\": 2024, \"height\": 1892, \"label\": \"Figure\"}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/fig-005.webp\", \"caption\": \"\", \"page\": 0, \"index\": 5, \"width\": 294, \"height\": 343, \"label\": \"Figure\"}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/fig-006.webp\", \"caption\": \"\", \"page\": 0, \"index\": 6, \"width\": 2142, \"height\": 2102, \"label\": \"Figure\"}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/fig-007.webp\", \"caption\": \"\", \"page\": 0, \"index\": 7, \"width\": 2145, \"height\": 2039, \"label\": \"Figure\"}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/fig-008.webp\", \"caption\": \"\", \"page\": 0, \"index\": 8, \"width\": 3120, \"height\": 975, \"label\": \"Figure\"}]"
+tables_json: "[{\"url\": \"assets/tables/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/table-001.webp\", \"caption\": \"\", \"page\": 0, \"index\": 1, \"width\": 916, \"height\": 321, \"label\": \"Table\"}, {\"url\": \"assets/tables/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/table-002.webp\", \"caption\": \"\", \"page\": 0, \"index\": 2, \"width\": 1758, \"height\": 374, \"label\": \"Table\"}, {\"url\": \"assets/tables/biorxiv/biorxiv-10-64898-2026-07-10-737657-v2/table-003.webp\", \"caption\": \"\", \"page\": 0, \"index\": 3, \"width\": 1057, \"height\": 1010, \"label\": \"Table\"}]"
+motivation: 个体语言功能存在高度变异，现有TMS映射缺乏时序个体化，限制了其灵敏度和实用性。
+method: 基于MEG图片命名任务获取个体激活峰值，设定对应的TMS脉冲间隔，对左半球皮层进行nTMS语言干扰测试。
+result: MEG峰值与最佳PTI显著相关（滞后约132 ms），17个刺激位点的错误率显著高于平均水平。
+conclusion: 个体化PTI根据MEG激活调整可有效捕捉语言功能的个体差异，提高TMS语言映射的精确性和灵敏度。
+---
+
+## 摘要
+通过导航重复经颅磁刺激（SCM nrTMS）进行语言皮质映射，可为神经外科医生提供个体语言皮质网络的非侵入性先验信息。由于语言产生的确切位置和激活模式在个体间存在高度变异性，因此需要个体化映射。我们假设，个体语言产生的脑磁图（MEG）数据可以在时间和空间上指导SCM TMS过程，从而在MEG定义的位置上，当TMS脉冲时序与MEG活动一致时，产生更高的错误率。13名健康受试者参与了MEG和TMS测量，其中TMS脉冲的时间（PTI；图片到TMS的间隔）根据个体在图片命名任务中的MEG激活进行调整。在组水平上，观察到峰值MEG激活的潜伏期与产生最高语言错误率的PTI之间存在显著相关性。在整个左侧外侧半球的刺激区域，MEG峰值比最佳PTI早132毫秒（R=0.713，p=0.006），在左侧额叶区域则早103毫秒（R=0.673，p=0.012）。我们发现了17种PTI和刺激区域的组合，其中受试者的语言错误率相比其平均错误率显著增加。我们的研究结果表明，最佳PTI具有高度个体性，根据MEG激活个体化PTI为解释语言功能的个体变异性提供了一种直接的方法，并可能提高SCM TMS的敏感性和实用性。
+
+## Abstract
+Speech cortical mapping by means of navigated repetitive transcranial magnetic stimulation (SCM nrTMS) provides neurosurgeons with noninvasive prior information about individual's cortical speech network. Individualized mapping is required, since the exact locations and activation patterns of speech production show high variability between individuals. We hypothesized that magnetoencephalography (MEG) data of an individual's speech production could guide the SCM TMS process temporally and spatially, leading to higher error rates at MEG-defined locations with TMS pulse timings coinciding with MEG activity. 13 healthy subjects participated in MEG and TMS measurements, where the timing of the TMS pulse (PTI; picture-to-TMS interval) was adjusted based on the individual's MEG activation in a picture naming task. At the group level, significant correlations were observed between the latency of the peak MEG activation and the PTI that produced the highest speech error rate. The MEG peak preceded the best PTI by 132 ms (R=0.713, p=0.006) across the entire stimulation area in the lateral left hemisphere, and by 103 ms (R=0.673, p=0.012) in the left frontal regions. We found 17 combinations of PTI and stimulation area in which the subject's speech error rate increased significantly compared to their average error rate. Our findings suggest that optimal PTIs are highly individual, and that individualizing the PTI according to MEG activation provides a straightforward method for accounting individual variability in speech function and may increase the sensitivity and utility of SCM TMS.
