@@ -1,0 +1,115 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-18T20:50:51.978805+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "biorxiv-10-64898-2026-07-11-737958-v1",
+      "source": "biorxiv",
+      "title": "Can the heartbeat-evoked potential (HEP) be separated from Cardiac Artefact (CA) using beamforming?",
+      "abstract": "The heartbeat-evoked potential (HEP), a cortical response to heartbeats and a neural marker of interoception, is increasingly considered clinically relevant, but is heavily contaminated by cardiac artefact (CA) on the scalp, making reliable distinction of HEP from CA challenging. Because the HEP and cardiac potentials are anatomically distinct, they may be separable via beamforming, a source localisation method that isolates brain activity at specific locations while suppressing external noise and interference. Here, the first known ground-truth validation of EEG beamforming for HEP source reconstruction was attempted, aiming to quantify source waveform recovery and spatial localisation accuracy using simulated EEG data. Using linearly constrained minimal variance (LCMV) beamforming, the following was investigated. (A) To test whether beamforming can recover a known signal, 128-channel EEG datasets were simulated for 3 models with a known HEP waveform: a single right insula (R-Ins) HEP (1), two temporally distinct HEPs in the R-Ins and right anterior cingulate cortex (R-ACC) (2), and two temporally overlapping HEPs in the same regions (3). Recovery was investigated by correlating the virtual electrode waveforms at the true location with the known true input waveform. (B) To test CA suppression, CA extracted from isoelectric EEG of brain-dead individuals providing CA with limited cortical activity, was integrated into the simulated EEG data. Source (-10 to -50dB) and sensor (0 to -30dB) signal-to-noise ratios (SNR) were systematically varied for each model with and without CA. (C) LCMV beamforming was then applied to retrospective empirical EEG data from hypertensive and anxiety individuals (n=106). Across simulations and empirical data, T-tests compared power in a HEP-dominated window to an earlier CA-dominated window. Null-space projection, using subject-specific QRS waveform and its temporal derivative, was applied to remove residual CA in reconstructed source waveforms. In model 1, beamforming achieved near-perfect recovery without CA (r>0.99, 0mm error) at source SNR of -30dB, remaining robust in the presence of CA (r=0.72-0.94, 0-5.7mm error). Recovery degraded at low SNR (<-20 dB; r<0.3, up to 27mm error). Models 2 and 3 showed similar patterns but introduced R-ACC to R-Ins leakage. Applied to empirical data, beamforming revealed significant HEP activity in the R-Ins and R-ACC across all pooled data in source space (p < 0.001). LCMV beamforming also revealed a significant HEP difference in the late R-ACC window (250-500 ms post R-peak) in hypertension versus controls (p = 0.040, d = 0.92) when poor SNR subjects were excluded. This effect strengthened after QRS cleaning (p = 0.035, d = 0.96). LCMV beamforming can reliably recover the simulated HEP while suppressing CA, provided source SNR is sufficiently high. Applied to empirical data, LCMV beamforming recovered HEP activity from interoceptive regions (R-Ins and R-ACC) and was sufficiently sensitive to detect clinically meaningful group differences. This study offers a source level approach to separate HEP activity from CA, a distinction that sensor-level analysis can struggle to make. Together, LCMV beamforming and scalp-based methods can provide converging evidence for genuine HEP activity.",
+      "authors": [
+        "Virjee, R.-I.",
+        "Kandasamy, R.",
+        "Garfinkel, S. N.",
+        "Yogarajah, M.",
+        "Litvak, V.",
+        "Carmichael, D."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-17T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.11.737958v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "beamforming leverages anatomical prior for HEP source separation",
+      "llm_evidence_cn": "波束成形利用解剖先验分离心跳诱发电位源",
+      "llm_evidence": "波束成形利用解剖先验分离心跳诱发电位源",
+      "canonical_evidence": "波束成形利用解剖先验分离心跳诱发电位源",
+      "llm_tldr_en": "This study validates EEG beamforming for separating heartbeat-evoked potential from cardiac artefact by exploiting anatomical distinctness as prior, achieving accurate source reconstruction in simulations.",
+      "llm_tldr_cn": "心跳诱发电位（HEP）受心脏伪影严重污染，传统方法难以区分。本文首次在模拟数据上验证了使用波束成形进行HEP源重建的可行性，利用HEP与心脏伪影在解剖位置上的差异作为先验信息，实现了源波形的准确恢复和空间定位。结果表明，基于解剖先验的波束成形能有效分离HEP与伪影，为临床HEP研究提供了可靠方法。",
+      "llm_tldr": "心跳诱发电位（HEP）受心脏伪影严重污染，传统方法难以区分。本文首次在模拟数据上验证了使用波束成形进行HEP源重建的可行性，利用HEP与心脏伪影在解剖位置上的差异作为先验信息，实现了源波形的准确恢复和空间定位。结果表明，基于解剖先验的波束成形能有效分离HEP与伪影，为临床HEP研究提供了可靠方法。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-07-11-737939-v1",
+      "source": "biorxiv",
+      "title": "Electrophysiological features of signals recorded from white matter",
+      "abstract": "Intracranial neurophysiology studies have typically ignored signals from electrodes located in white matter (WM), assuming that their information content is artifactual or related to nearby gray matter (GM). Here, we tested the electrophysiological and functional features of signals recorded from different WM locations. Signals were recorded from 19 patients undergoing intracranial monitoring for drug-resistant epilepsy by means of stereo-electroencephalography (sEEG). Each sEEG electrode was classified into WM or GM based on the surrounding tissue. We obtained recordings from a total of 1,717 sEEG electrode contacts, 36% in WM, while the patients were in awake resting state (5 minutes). For each sEEG electrode, we employed a model-based spectral decomposition to separate periodic and aperiodic components, and we computed signal complexity metrics. For a subset of participants, we computed WM structural information from diffusion-weighted magnetic resonance imaging and we evaluated functional signals during a cognitive control task. Our results show that signals recorded from WM have different spectral features and higher complexity than GM. Complexity correlates positively with fractional anisotropy, and modulations related to behavior during the task were detected in WM. Overall, this indicates that WM signals carry information that may reflect signal propagation across WM fiber tracts.",
+      "authors": [
+        "Jafri, R.",
+        "Ortega, F. A.",
+        "Manivannan, P.",
+        "Jourahmad, Z.",
+        "Devara, D.",
+        "Mattar, L.",
+        "Krishna, S.",
+        "Liu, G.",
+        "Chamarthi, S.",
+        "Goldman, A. M.",
+        "Lin, L.",
+        "Krishnan, V.",
+        "Maheshwari, A.",
+        "Banks, G. P.",
+        "Hasen, M.",
+        "Paulo, D.",
+        "Watrous, A. J.",
+        "Hayden, B. Y.",
+        "Yau, J.",
+        "Sheth, S. A.",
+        "Provenza, N. R.",
+        "Murphy, N.",
+        "Heilbronner, S. R.",
+        "Bartoli, E."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-15T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.11.737939v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "characterizes white matter EEG signals, providing priors for source localization",
+      "llm_evidence_cn": "刻画白质EEG信号特征，为源定位提供先验",
+      "llm_evidence": "刻画白质EEG信号特征，为源定位提供先验",
+      "canonical_evidence": "刻画白质EEG信号特征，为源定位提供先验",
+      "llm_tldr_en": "Analyzes intracranial EEG from white matter, revealing distinct electrophysiological features that can inform anatomical priors for source localization.",
+      "llm_tldr_cn": "该论文基于立体脑电图(sEEG)数据，系统分析了白质电生理信号特征，发现白质信号并非仅含噪声或来自邻近灰质，而是具有独特频谱特征。这些发现为EEG源定位中的白质先验提供了实证基础，提示传统忽略白质信号的做法可能丢失有价值信息。",
+      "llm_tldr": "该论文基于立体脑电图(sEEG)数据，系统分析了白质电生理信号特征，发现白质信号并非仅含噪声或来自邻近灰质，而是具有独特频谱特征。这些发现为EEG源定位中的白质先验提供了实证基础，提示传统忽略白质信号的做法可能丢失有价值信息。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

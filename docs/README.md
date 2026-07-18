@@ -6,36 +6,26 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-07-17
-- 运行时间：2026-07-17 20:22:37 UTC
+- 最新运行日期：2026-07-18
+- 运行时间：2026-07-18 20:53:40 UTC
 - 运行状态：成功
-- 本次总论文数：5
-- 精读区：0
-- 速读区：5
+- 本次总论文数：2
+- 精读区：1
+- 速读区：1
 
 ### 今日简报（AI）
-今日速读3篇高分论文，聚焦脑网络模拟、语言区定位及皮层下结构偏侧化对脑动态的预测。建议关注全脑网络建模的临床可行性，及TMS结合MEG的个性化应用。可进一步阅读相关文献以理解具体实验设计。
-- 详情：[/202607/17/README](/202607/17/README)
+今日精读一项脑电信号分离研究，速读一项白质电生理特征分析。最值得关注：beamforming技术能否有效分离心跳诱发电位与心脏伪影，以及白质记录到的电生理信号有何独特性质。建议优先理解这两种信号处理方法的原理和局限，有助于后续相关实验设计。
+- 详情：[/202607/18/README](/202607/18/README)
 
 ### 精读区论文标签
-- 本次无精读推荐。
+1. [Can the heartbeat-evoked potential (HEP) be separated from Cardiac Artefact (CA) using beamforming?](/202607/18/biorxiv-10-64898-2026-07-11-737958-v1-can-the-heartbeat-evoked-potential-hep-be-separated-from-cardiac-artefact-ca-using-beamforming)  
+   标签：评分：8.0/10、query:eeg-priors
+   evidence：波束成形利用解剖先验分离心跳诱发电位源
 
 ### 速读区论文标签
-1. [BraiNN: A Modern Simulator for Clinically Feasible Personalized Whole-Brain Network Modeling](/202607/17/biorxiv-10-64898-2026-07-08-737156-v1-brainn-a-modern-simulator-for-clinically-feasible-personalized-whole-brain-network-modeling)  
-   标签：评分：7.0/10、query:eeg-priors
-   evidence：全脑网络建模与EEG关联，可整合解剖先验
-2. [MEG-informed navigated TMS for individualized speech cortical mapping](/202607/17/biorxiv-10-64898-2026-07-10-737657-v2-meg-informed-navigated-tms-for-individualized-speech-cortical-mapping)  
-   标签：评分：7.0/10、query:eeg-priors
-   evidence：MEG作为解剖先验用于皮层定位
-3. [Laterality of subcortical structures predicts spontaneous brain dynamics](/202607/17/biorxiv-10-64898-2026-07-13-738145-v1-laterality-of-subcortical-structures-predicts-spontaneous-brain-dynamics)  
-   标签：评分：7.0/10、query:eeg-priors
-   evidence：皮层下结构作为EEG振荡的先验
-4. [Fast Whole-Brain, Geometry-Aware Functional Alignment for Cross-Subject Decoding](/202607/17/2607.10931v1-fast-whole-brain-geometry-aware-functional-alignment-for-cross-subject-decoding)  
+1. [Electrophysiological features of signals recorded from white matter](/202607/18/biorxiv-10-64898-2026-07-11-737939-v1-electrophysiological-features-of-signals-recorded-from-white-matter)  
    标签：评分：6.0/10、query:eeg-priors
-   evidence：保留皮层几何的功能对齐方法
-5. [NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis](/202607/17/2607.14314v1-neurogrip-retrieval-augmented-graph-refinement-for-knowledge-grounded-eeg-seizure-diagnosis)  
-   标签：评分：6.0/10、query:eeg-priors
-   evidence：外部医学知识作为EEG图校准的先验
+   evidence：刻画白质EEG信号特征，为源定位提供先验
 
 
 <div class="dpr-home-promo-card">
