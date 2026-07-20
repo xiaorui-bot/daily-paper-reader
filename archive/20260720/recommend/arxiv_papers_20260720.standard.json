@@ -1,0 +1,93 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-20T21:04:06.223539+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "2607.14314v1",
+      "source": "arxiv",
+      "title": "NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis",
+      "abstract": "Seizure diagnosis from EEG signals is a critical yet persistently challenging task, due to the complicated neural dynamics and the spurious connections in inter-channel modeling. While spatial-temporal graph neural networks (STGNNs) have advanced EEG brain network representation learning, the resulting graph structures suffer from low clinical plausibility and limited interpretability due to their purely data-driven nature. To this end, we introduce NeuroGRIP, a retrieval-augmented graph refinement framework that incorporates external medical knowledge to calibrate noisy EEG graphs. We first construct a large-scale, domain-specific knowledge base derived from authoritative clinical guidelines. Leveraging large language models, we extract structured biomedical entities and relations to form a textual knowledge graph (KG), which serves as external knowledge source of clinical priors. Our framework performs alignment-aware query construction by projecting STGNN-generated EEG node embeddings into the semantic space of KG. Semantic queries are then executed via FAISS-based similarity search over knowledge triplets to retrieve relation evidence. Each predicted edge is assigned a confidence score based on retrieved similarity, relation type, and source reliability, enabling us to prune medically implausible edges from the originally predicted graph. Extensive experiments on TUSZ and CHB-MIT demonstrate that NeuroGRIP not only improves seizure detection accuracy but also enhances interpretability by grounding each prediction in clinically validated knowledge. This work provides the first unified framework that tightly couples brain dynamics with external medical expertise via retrieval-augmented reasoning, paving the way for knowledge-enhanced, explainable clinical diagnosis. The code is available at: https://github.com/LincanLi-X/NeuroGRIP.",
+      "authors": [
+        "Lincan Li",
+        "Zheng Chen",
+        "Yushun Dong"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-07-15T19:20:29+00:00",
+      "link": "https://arxiv.org/pdf/2607.14314v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "incorporates medical knowledge as prior to refine EEG graphs",
+      "llm_evidence_cn": "将医学知识作为先验融入EEG图优化",
+      "llm_evidence": "将医学知识作为先验融入EEG图优化",
+      "canonical_evidence": "将医学知识作为先验融入EEG图优化",
+      "llm_tldr_en": "NeuroGRIP uses retrieval-augmented graph refinement with knowledge priors for EEG seizure diagnosis, improving clinical plausibility.",
+      "llm_tldr_cn": "该研究提出NeuroGRIP框架，通过检索增强的图优化将临床指南知识作为先验引入EEG癫痫诊断，解决了纯数据驱动图结构临床合理性低的问题，显著提高了可解释性和诊断准确性。",
+      "llm_tldr": "该研究提出NeuroGRIP框架，通过检索增强的图优化将临床指南知识作为先验引入EEG癫痫诊断，解决了纯数据驱动图结构临床合理性低的问题，显著提高了可解释性和诊断准确性。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2607.15566v1",
+      "source": "arxiv",
+      "title": "Physiological Prior-Driven Label Enhancement for Cross-Subject EEG Emotion Recognition",
+      "abstract": "Electroencephalography (EEG)-based emotion recognition captures affective neural signals with high temporal precision, but cross-subject variability and label noise remain critical challenges to its practical healthcare deployment. Existing label-denoising methods lack physiological grounding, while physiology-informed approaches rely on hand-crafted hyperparameters. To bridge these two paradigms, we propose PhyDA, a plug-and-play, tuning-free framework that unifies neurophysiological priors with data-driven label refinement. PhyDA comprises two modules. Since cross-subject variability renders global thresholds suboptimal, the Physiological Noise Quantifier (PhyNQ) exploits a spectral slope} to produce a subject-specific noise score, providing a neurophysiologically interpretable quality assessment {that naturally adapts to each individual. The Data-Adaptive Label Refiner (DALR) directly adopts this noise score as the contamination ratio to drive a label refinement pipeline that requires no additional neural network training, thereby directly mitigating the impact of inter-subject label noise. Extensive experiments on three public datasets (DEAP, SEED, SEED-IV) across seven backbone architectures under strict leave-one-subject-out cross-validation demonstrate that PhyDA consistently and significantly outperforms both general and EEG-tailored label-denoising baselines, achieving average accuracy gains of 2.76%, 2.66%, and 3.32%, respectively. Visualization further confirms its neurophysiological interpretability and practical robustness. The source code is available at: https://github.com/HongyuZhu-s/PhyDA.",
+      "authors": [
+        "Hongyu Zhu",
+        "Lin Chen",
+        "Yuming Fu",
+        "Mounim A. El-Yacoubi",
+        "Mingsheng Shang"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "published": "2026-07-17T02:17:23+00:00",
+      "link": "https://arxiv.org/pdf/2607.15566v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "applies physiological prior to EEG emotion recognition, related to EEG brain region priors",
+      "llm_evidence_cn": "在EEG情感识别中应用生理先验，与EEG脑区先验相关",
+      "llm_evidence": "在EEG情感识别中应用生理先验，与EEG脑区先验相关",
+      "canonical_evidence": "在EEG情感识别中应用生理先验，与EEG脑区先验相关",
+      "llm_tldr_en": "Proposes PhyDA, a plug-and-play framework that unifies neurophysiological priors with data-driven label refinement for cross-subject EEG emotion recognition, addressing label noise and variability.",
+      "llm_tldr_cn": "针对跨被试EEG情感识别中的标签噪声和个体差异问题，提出PhyDA框架，将神经生理先验与数据驱动标签细化统一。通过生理噪声量化器（PhyNQ）利用频谱斜率生成被试特有噪声分数，实现无手工调参的标签增强。实验表明该方法有效提升识别性能，为EEG分析中利用生理先验提供了新范式。",
+      "llm_tldr": "针对跨被试EEG情感识别中的标签噪声和个体差异问题，提出PhyDA框架，将神经生理先验与数据驱动标签细化统一。通过生理噪声量化器（PhyNQ）利用频谱斜率生成被试特有噪声分数，实现无手工调参的标签增强。实验表明该方法有效提升识别性能，为EEG分析中利用生理先验提供了新范式。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
