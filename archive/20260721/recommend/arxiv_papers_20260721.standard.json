@@ -1,0 +1,53 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-21T21:15:12.040320+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 0,
+    "quick_skim_target": 11,
+    "quick_selected": 0
+  },
+  "deep_dive": [
+    {
+      "id": "2607.17602v1",
+      "source": "arxiv",
+      "title": "Exploring Brain Networks Using Noninvasive Electrophysiological Measurements: Methods and Applications",
+      "abstract": "Electroencephalography (EEG) and magnetoencephalography (MEG) provide noninvasive measurements of brain activity with millisecond temporal resolution, enabling the investigation of functional and effective interactions within large-scale brain networks. This chapter presents a comprehensive overview of the methodological foundations and practical workflows for EEG/MEG-based brain network analysis. We first review the physical principles underlying EEG and MEG, emphasizing their complementary strengths and limitations. We then describe the forward and inverse problems, including subject-specific head modeling, source reconstruction techniques, and the importance of accurate anatomical modeling for reliable source localization. Strategies for mitigating volume conduction and signal leakage are discussed, together with best practices for source-space connectivity analysis. The chapter reviews widely used functional and effective connectivity measures, including coherence, phase synchronization metrics, amplitude envelope correlation, Granger causality, dynamic causal modeling, and transfer entropy, highlighting their assumptions, advantages, and limitations. Modern end-to-end analysis pipelines are presented, with particular emphasis on Brainstorm and complementary open-source software for reproducible EEG/MEG research. Finally, we discuss emerging approaches, including time-varying connectivity, cross-frequency interactions, and network-based analyses, illustrating how noninvasive electrophysiology contributes to understanding brain organization in health and disease. The chapter provides both conceptual foundations and practical guidance for researchers and advanced students seeking to map and interpret human brain networks using EEG and MEG.",
+      "authors": [
+        "Richard Leahy",
+        "Takfarinas Medani"
+      ],
+      "primary_category": "q-bio.NC",
+      "categories": [
+        "q-bio.NC",
+        "math-ph"
+      ],
+      "published": "2026-07-20T06:42:51+00:00",
+      "link": "https://arxiv.org/pdf/2607.17602v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "review of EEG/MEG source reconstruction emphasizing anatomical modeling",
+      "llm_evidence_cn": "综述，强调EEG/MEG源重建中解剖建模的重要性",
+      "llm_evidence": "综述，强调EEG/MEG源重建中解剖建模的重要性",
+      "canonical_evidence": "综述，强调EEG/MEG源重建中解剖建模的重要性",
+      "llm_tldr_en": "Reviews EEG/MEG brain network analysis including forward and inverse problems, highlighting the importance of subject-specific head models and accurate anatomical priors for reliable source localization.",
+      "llm_tldr_cn": "本文综述了基于EEG/MEG的脑网络分析方法，涵盖了前向和逆向问题的物理原理、源重建技术以及头部建模。重点强调了准确的个体化解剖模型对于可靠源定位的关键作用，为EEG源定位中解剖先验的使用提供了方法论基础。",
+      "llm_tldr": "本文综述了基于EEG/MEG的脑网络分析方法，涵盖了前向和逆向问题的物理原理、源重建技术以及头部建模。重点强调了准确的个体化解剖模型对于可靠源定位的关键作用，为EEG源定位中解剖先验的使用提供了方法论基础。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": []
+}

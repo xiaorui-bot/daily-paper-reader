@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-07-21 <!--dpr-date:20260721-->
+    * 精读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/21/2607.17602v1-exploring-brain-networks-using-noninvasive-electrophysiological-measurements-methods-and-applications" data-sidebar-item="{&quot;title&quot;: &quot;Exploring Brain Networks Using Noninvasive Electrophysiological Measurements: Methods and Applications&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2607.17602v1-exploring-brain-networks-using-noninvasive-electrophysiological-measurements-methods-and-applications&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;综述，强调EEG/MEG源重建中解剖建模的重要性&quot;}">Exploring Brain Networks Using Noninvasive Electrophysiological Measurements: Methods and Applications</a>
   * 2026-07-20 <!--dpr-date:20260720-->
     * 精读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/20/2607.14314v1-neurogrip-retrieval-augmented-graph-refinement-for-knowledge-grounded-eeg-seizure-diagnosis" data-sidebar-item="{&quot;title&quot;: &quot;NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2607.14314v1-neurogrip-retrieval-augmented-graph-refinement-for-knowledge-grounded-eeg-seizure-diagnosis&quot;, &quot;score&quot;: &quot;9.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;将医学知识作为先验融入EEG图优化&quot;}">NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis</a>
