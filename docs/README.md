@@ -6,23 +6,19 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-07-21
-- 运行时间：2026-07-21 21:16:20 UTC
+- 最新运行日期：2026-07-22
+- 运行时间：2026-07-22 20:03:18 UTC
 - 运行状态：成功
-- 本次总论文数：1
-- 精读区：1
+- 本次总论文数：0
+- 精读区：0
 - 速读区：0
 
 ### 今日简报（AI）
-今日精读1篇高分论文：聚焦非侵入电生理技术解析大脑网络。
-核心亮点：系统综述了EEG/MEG等无创手段如何揭示脑网络动态与临床应用。
-建议：若对脑科学或神经工程感兴趣，可优先精读此综述，把握前沿方法框架。
-- 详情：[/202607/21/README](/202607/21/README)
+> 今日无新推荐，系统未产出可展示论文。
+- 详情：[/202607/22/README](/202607/22/README)
 
 ### 精读区论文标签
-1. [Exploring Brain Networks Using Noninvasive Electrophysiological Measurements: Methods and Applications](/202607/21/2607.17602v1-exploring-brain-networks-using-noninvasive-electrophysiological-measurements-methods-and-applications)  
-   标签：评分：8.0/10、query:eeg-priors
-   evidence：综述，强调EEG/MEG源重建中解剖建模的重要性
+- 本次无精读推荐。
 
 ### 速读区论文标签
 - 本次无速读推荐。
