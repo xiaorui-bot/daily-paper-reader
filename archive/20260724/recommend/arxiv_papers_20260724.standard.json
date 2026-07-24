@@ -1,0 +1,97 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-24T20:39:17.063084+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 2,
+    "quick_skim_target": 11,
+    "quick_selected": 2
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2607.20142v1",
+      "source": "arxiv",
+      "title": "Real-Time EEG Cap Electrode Detection for Guided Point-of-Care Placement",
+      "abstract": "We present a two-stage vision system that detects EEG cap electrodes in a live webcam stream and validates their anatomical placement in real time. A single-class YOLO detector localises electrodes; a geometric stage assigns each detection to a named 10-20 role from facial landmarks. Evaluating under subject-disjoint leave-one-subject-out (LOSO) cross-validation across five subjects wearing the clinically-validated Small/Medium/Large caps, the detector attains mAP@.5 = 0.94 +/- 0.07 across five held-out folds (0.96 pooled). A dedicated leave-one-cap-out axis, holding out every frame of a cap regardless of subject, leaves Medium and Large mAP@.5 within 0.01 of LOSO (0.97, 0.97) while Small drops to 0.72 +/- 0.28, a gap confounded with subject familiarity rather than cap style. Geometric augmentation (rotation, perspective, mixup) improves in-plane-roll robustness and temporal-electrode recall at no inference cost, and a landmark-driven head crop extends the usable distance range, lifting mAP@.5 from 0.23 to 0.45 at 0.6 x apparent scale. A compact mobile-candidate backbone (YOLOv10n) keeps the detector at real-time throughput (19 FPS) on a commodity CPU at 640 px.",
+      "authors": [
+        "William Lehn-Schiøler",
+        "Mads Sverker Nilsson",
+        "Nicki Skafte Detlefsen"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "published": "2026-07-22T13:44:22+00:00",
+      "link": "https://arxiv.org/pdf/2607.20142v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "uses anatomical priors (10-20 system) for electrode placement validation",
+      "llm_evidence_cn": "使用解剖先验（10-20系统）验证电极位置",
+      "llm_evidence": "使用解剖先验（10-20系统）验证电极位置",
+      "canonical_evidence": "使用解剖先验（10-20系统）验证电极位置",
+      "llm_tldr_en": "Real-time detection and anatomical validation of EEG cap electrodes using YOLO and geometric assignment, leveraging 10-20 system priors for point-of-care placement.",
+      "llm_tldr_cn": "该论文针对临床场景中EEG电极放置准确性难以实时验证的问题，提出了一套两阶段视觉系统：首先用YOLO检测电极，再通过几何模型将电极分配到标准10-20系统位置。该方法利用解剖先验信息（面部标志点对应的10-20坐标）进行实时解剖验证。在多个头帽尺寸上达到高检测精度，为EEG数据采集中的电极定位提供了可靠先验指导。",
+      "llm_tldr": "该论文针对临床场景中EEG电极放置准确性难以实时验证的问题，提出了一套两阶段视觉系统：首先用YOLO检测电极，再通过几何模型将电极分配到标准10-20系统位置。该方法利用解剖先验信息（面部标志点对应的10-20坐标）进行实时解剖验证。在多个头帽尺寸上达到高检测精度，为EEG数据采集中的电极定位提供了可靠先验指导。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-06-01-728862-v2",
+      "source": "biorxiv",
+      "title": "Measurement Equivalence of On-Scalp OPM-MEG and Cryogenic MEG for Auditory and Somatosensory Cortical Mapping Across Development",
+      "abstract": "Wearable optically pumped magnetometer magnetoencephalography (OPM-MEG) reduces sensor-to-cortex distance compared with conventional cryogenic SQUID-MEG, but whether the two technologies yield equivalent neurophysiological conclusions remains unclear. We recorded auditory and somatosensory evoked fields in 18 participants (10-45 years) using a 128-sensor FieldLine HEDscan OPM-MEG system and a 275-channel CTF SQUID-MEG system within the same individuals. Equivalent current dipole source models were estimated using identical preprocessing and modeling procedures and compared using paired permutation testing.\n\nBoth systems localized canonical auditory and somatosensory cortical generators with matched peak latencies and modest cross-system spatial differences. Auditory sources showed a consistent medial bias in SQUID-MEG localization, whereas somatosensory sources exhibited a small systematic offset ([~]4 mm), indicating stable coordinate differences rather than localization error. Dipole moments were larger for SQUID-MEG and goodness-of-fit higher for OPM-MEG; however, the increased moment was explained by a medial localization bias, demonstrating inverse-model effects rather than physiological disagreement. Auditory dipole moment increased with age in both systems, whereas somatosensory responses showed no age-related change. Together, these observations indicate preserved developmental physiology across platforms.\n\nThese findings demonstrate that OPM-MEG and SQUID-MEG recover the same cortical generators and support equivalent biological interpretations despite predictable geometry-dependent coordinate differences. OPM-MEG therefore represents a measurement-equivalent implementation of MEG suitable for sensory functional mapping.",
+      "authors": [
+        "Gaetz, W.",
+        "O'Neill, G. C.",
+        "Birnbaum, C.",
+        "Cheung, T.",
+        "Robets, T. P. L.",
+        "Hughes, K. J.",
+        "Knappe, S.",
+        "Alem, O."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-20T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.01.728862v2.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "compares equivalent current dipole source models for auditory and somatosensory cortical mapping",
+      "llm_evidence_cn": "比较了等效电流偶极子源模型在听觉和体感皮层定位中的应用",
+      "llm_evidence": "比较了等效电流偶极子源模型在听觉和体感皮层定位中的应用",
+      "canonical_evidence": "比较了等效电流偶极子源模型在听觉和体感皮层定位中的应用",
+      "llm_tldr_en": "This study compares OPM-MEG and cryogenic MEG for cortical mapping using equivalent current dipole source models, which rely on anatomical priors for accurate localization.",
+      "llm_tldr_cn": "两种MEG技术（OPM-MEG和低温MEG）在听觉和体感皮层的源定位结果是否等效尚不明确。本研究采用相同的等效电流偶极子模型和预处理流程，对同一批被试进行记录和比较。结果显示两种系统定位的经典皮层源位置匹配，验证了源模型在解剖先验下的可靠性，为跨模态源定位精度提供了基准。",
+      "llm_tldr": "两种MEG技术（OPM-MEG和低温MEG）在听觉和体感皮层的源定位结果是否等效尚不明确。本研究采用相同的等效电流偶极子模型和预处理流程，对同一批被试进行记录和比较。结果显示两种系统定位的经典皮层源位置匹配，验证了源模型在解剖先验下的可靠性，为跨模态源定位精度提供了基准。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

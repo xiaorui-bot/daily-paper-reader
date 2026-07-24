@@ -1,0 +1,39 @@
+{
+  "label": "2026-07-24",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T20:40:52",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202607/24/2607.20142v1-real-time-eeg-cap-electrode-detection-for-guided-point-of-care-placement",
+      "section": "quick",
+      "title_en": "Real-Time EEG Cap Electrode Detection for Guided Point-of-Care Placement",
+      "authors": "William Lehn-Schiøler, Mads Sverker Nilsson, Nicki Skafte Detlefsen",
+      "date": "2026-07-22",
+      "pdf": "https://arxiv.org/pdf/2607.20142v1",
+      "score": "7.0",
+      "evidence": "使用解剖先验（10-20系统）验证电极位置",
+      "tldr": "针对实时脑电图帽电极检测指导放置问题，提出两阶段视觉系统：先由单类YOLO定位电极，再基于面部标志几何分配10-20系统角色。在5名受试者交叉验证中，检测器mAP@.5达0.94±0.07；几何增强提升平面旋转鲁棒性和电极召回率，头部裁剪扩展可用距离。紧凑型YOLOv10n骨干在CPU上实现19FPS实时吞吐。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "We present a two-stage vision system that detects EEG cap electrodes in a live webcam stream and validates their anatomical placement in real time. A single-class YOLO detector localises electrodes; a geometric stage assigns each detection to a named 10-20 role from facial landmarks. Evaluating under subject-disjoint leave-one-subject-out (LOSO) cross-validation across five subjects wearing the clinically-validated Small/Medium/Large caps, the detector attains mAP@.5 = 0.94 +/- 0.07 across five held-out folds (0.96 pooled). A dedicated leave-one-cap-out axis, holding out every frame of a cap regardless of subject, leaves Medium and Large mAP@.5 within 0.01 of LOSO (0.97, 0.97) while Small drops to 0.72 +/- 0.28, a gap confounded with subject familiarity rather than cap style. Geometric augmentation (rotation, perspective, mixup) improves in-plane-roll robustness and temporal-electrode recall at no inference cost, and a landmark-driven head crop extends the usable distance range, lifting mAP@.5 from 0.23 to 0.45 at 0.6 x apparent scale. A compact mobile-candidate backbone (YOLOv10n) keeps the detector at real-time throughput (19 FPS) on a commodity CPU at 640 px.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202607/24/biorxiv-10-64898-2026-06-01-728862-v2-measurement-equivalence-of-on-scalp-opm-meg-and-cryogenic-meg-for-auditory-and-somatosensory-cortical-mapping-across-development",
+      "section": "quick",
+      "title_en": "Measurement Equivalence of On-Scalp OPM-MEG and Cryogenic MEG for Auditory and Somatosensory Cortical Mapping Across Development",
+      "authors": "Gaetz, W., O'Neill, G. C., Birnbaum, C., Cheung, T., Robets, T. P. L., Hughes, K. J., Knappe, S., Alem, O.",
+      "date": "2026-07-20",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.06.01.728862v2.full.pdf",
+      "score": "6.0",
+      "evidence": "比较了等效电流偶极子源模型在听觉和体感皮层定位中的应用",
+      "tldr": "可穿戴OPM-MEG较传统SQUID-MEG更贴近头皮，但两者测量等价性未知。本研究在18名参与者（10-45岁）中同时记录听觉和体感诱发场，采用相同建模流程对比。结果表明两种系统定位的皮层发生器潜伏期一致，空间存在可预测的系统偏移（SQUID偏内侧约4mm），偶极矩差异由偏移解释，年龄效应在两种系统一致。这证明了OPM-MEG与SQUID-MEG的测量等价性，支持OPM-MEG用于感觉功能映射。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Wearable optically pumped magnetometer magnetoencephalography (OPM-MEG) reduces sensor-to-cortex distance compared with conventional cryogenic SQUID-MEG, but whether the two technologies yield equivalent neurophysiological conclusions remains unclear. We recorded auditory and somatosensory evoked fields in 18 participants (10-45 years) using a 128-sensor FieldLine HEDscan OPM-MEG system and a 275-channel CTF SQUID-MEG system within the same individuals. Equivalent current dipole source models were estimated using identical preprocessing and modeling procedures and compared using paired permutation testing.\n\nBoth systems localized canonical auditory and somatosensory cortical generators with matched peak latencies and modest cross-system spatial differences. Auditory sources showed a consistent medial bias in SQUID-MEG localization, whereas somatosensory sources exhibited a small systematic offset ([~]4 mm), indicating stable coordinate differences rather than localization error. Dipole moments were larger for SQUID-MEG and goodness-of-fit higher for OPM-MEG; however, the increased moment was explained by a medial localization bias, demonstrating inverse-model effects rather than physiological disagreement. Auditory dipole moment increased with age in both systems, whereas somatosensory responses showed no age-related change. Together, these observations indicate preserved developmental physiology across platforms.\n\nThese findings demonstrate that OPM-MEG and SQUID-MEG recover the same cortical generators and support equivalent biological interpretations despite predictable geometry-dependent coordinate differences. OPM-MEG therefore represents a measurement-equivalent implementation of MEG suitable for sensory functional mapping.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
