@@ -6,22 +6,24 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-07-26
-- 运行时间：2026-07-26 20:02:16 UTC
+- 最新运行日期：2026-07-27
+- 运行时间：2026-07-27 21:19:06 UTC
 - 运行状态：成功
-- 本次总论文数：0
+- 本次总论文数：1
 - 精读区：0
-- 速读区：0
+- 速读区：1
 
 ### 今日简报（AI）
-> 今日无新推荐，系统未产出可展示论文。
-- 详情：[/202607/26/README](/202607/26/README)
+今日成功读文1篇，均为速读，重点聚焦于语言皮层定位的个体化技术。最值得关注的方向是MEG-informed导航TMS在个体化语言皮层映射中的应用，结论提示该方法可提升术前语言功能区定位的精度与可靠性。建议普通读者关注该项技术的临床转化潜力，特别是对脑肿瘤或癫痫术前评估的参考价值。
+- 详情：[/202607/27/README](/202607/27/README)
 
 ### 精读区论文标签
 - 本次无精读推荐。
 
 ### 速读区论文标签
-- 本次无速读推荐。
+1. [MEG-informed navigated TMS for individualized speech cortical mapping](/202607/27/biorxiv-10-64898-2026-07-10-737657-v3-meg-informed-navigated-tms-for-individualized-speech-cortical-mapping)  
+   标签：评分：7.0/10、query:eeg-priors
+   evidence：使用MEG先验指导TMS，类似于解剖先验
 
 
 <div class="dpr-home-promo-card">

@@ -1,0 +1,59 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-27T21:17:35.768965+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-07-10-737657-v3",
+      "source": "biorxiv",
+      "title": "MEG-informed navigated TMS for individualized speech cortical mapping",
+      "abstract": "Speech cortical mapping by means of navigated repetitive transcranial magnetic stimulation (SCM nrTMS) provides neurosurgeons with noninvasive prior information about individual's cortical speech network. Individualized mapping is required, since the exact locations and activation patterns of speech production show high variability between individuals. We hypothesized that magnetoencephalography (MEG) data of an individual's speech production could guide the SCM TMS process temporally and spatially, leading to higher error rates at MEG-defined locations with TMS pulse timings coinciding with MEG activity. 13 healthy subjects participated in MEG and TMS measurements, where the timing of the TMS pulse (PTI; picture-to-TMS interval) was adjusted based on the individual's MEG activation in a picture naming task. At the group level, significant correlations were observed between the latency of the peak MEG activation and the PTI that produced the highest speech error rate. The MEG peak preceded the best PTI by 132 ms (R=0.713, p=0.006) across the entire stimulation area in the lateral left hemisphere, and by 103 ms (R=0.673, p=0.012) in the left frontal regions. We found 17 combinations of PTI and stimulation area in which the subject's speech error rate increased significantly compared to their average error rate. Our findings suggest that optimal PTIs are highly individual, and that individualizing the PTI according to MEG activation provides a straightforward method for accounting individual variability in speech function and may increase the sensitivity and utility of SCM TMS.",
+      "authors": [
+        "Autti, S.",
+        "Korkealaakso, S.",
+        "Gogulski, J.",
+        "Engelhardt, M.",
+        "Vaalto, S.",
+        "Renvall, H.",
+        "Liljeström, M.",
+        "Lioumis, P."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-07-21T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.07.10.737657v3.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "uses MEG priors to guide TMS, analogous to anatomical priors",
+      "llm_evidence_cn": "使用MEG先验指导TMS，类似于解剖先验",
+      "llm_evidence": "使用MEG先验指导TMS，类似于解剖先验",
+      "canonical_evidence": "使用MEG先验指导TMS，类似于解剖先验",
+      "llm_tldr_en": "This study uses MEG data as prior information to guide TMS for speech mapping, demonstrating the value of individualized anatomical priors.",
+      "llm_tldr_cn": "该研究针对言语皮层映射的个体化需求，利用MEG数据提供时空先验信息，指导导航TMS刺激。13名健康被试参与实验，结果显示基于MEG定义的时空位置能显著提高TMS诱发的错误率，验证了个体化先验的有效性。该方法为EEG源定位中使用解剖先验提供了借鉴。",
+      "llm_tldr": "该研究针对言语皮层映射的个体化需求，利用MEG数据提供时空先验信息，指导导航TMS刺激。13名健康被试参与实验，结果显示基于MEG定义的时空位置能显著提高TMS诱发的错误率，验证了个体化先验的有效性。该方法为EEG源定位中使用解剖先验提供了借鉴。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

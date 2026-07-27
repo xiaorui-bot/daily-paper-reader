@@ -1,0 +1,24 @@
+{
+  "label": "2026-07-27",
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T21:19:12",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202607/27/biorxiv-10-64898-2026-07-10-737657-v3-meg-informed-navigated-tms-for-individualized-speech-cortical-mapping",
+      "section": "quick",
+      "title_en": "MEG-informed navigated TMS for individualized speech cortical mapping",
+      "authors": "Autti, S., Korkealaakso, S., Gogulski, J., Engelhardt, M., Vaalto, S., Renvall, H., Liljeström, M., Lioumis, P.",
+      "date": "2026-07-21",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.07.10.737657v3.full.pdf",
+      "score": "7.0",
+      "evidence": "使用MEG先验指导TMS，类似于解剖先验",
+      "tldr": "言语皮层映射需要个体化，因为言语功能区位置和激活模式个体差异大。本研究提出基于脑磁图（MEG）的导航重复经颅磁刺激（TMS）方法，根据个体在图片命名任务中的MEG激活峰值时间调整TMS脉冲时机。在13名健康受试者中，MEG峰值潜伏期与产生最高言语错误率的最佳脉冲时机显著相关，峰值超前约100-130毫秒。个体化脉冲时机显著提高了特定刺激区域中的言语错误率，表明该方法能有效解释个体差异，提升言语皮层映射的敏感性和实用性。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Speech cortical mapping by means of navigated repetitive transcranial magnetic stimulation (SCM nrTMS) provides neurosurgeons with noninvasive prior information about individual's cortical speech network. Individualized mapping is required, since the exact locations and activation patterns of speech production show high variability between individuals. We hypothesized that magnetoencephalography (MEG) data of an individual's speech production could guide the SCM TMS process temporally and spatially, leading to higher error rates at MEG-defined locations with TMS pulse timings coinciding with MEG activity. 13 healthy subjects participated in MEG and TMS measurements, where the timing of the TMS pulse (PTI; picture-to-TMS interval) was adjusted based on the individual's MEG activation in a picture naming task. At the group level, significant correlations were observed between the latency of the peak MEG activation and the PTI that produced the highest speech error rate. The MEG peak preceded the best PTI by 132 ms (R=0.713, p=0.006) across the entire stimulation area in the lateral left hemisphere, and by 103 ms (R=0.673, p=0.012) in the left frontal regions. We found 17 combinations of PTI and stimulation area in which the subject's speech error rate increased significantly compared to their average error rate. Our findings suggest that optimal PTIs are highly individual, and that individualizing the PTI according to MEG activation provides a straightforward method for accounting individual variability in speech function and may increase the sensitivity and utility of SCM TMS.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

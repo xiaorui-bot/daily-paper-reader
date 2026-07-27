@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-07-27 <!--dpr-date:20260727-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/27/biorxiv-10-64898-2026-07-10-737657-v3-meg-informed-navigated-tms-for-individualized-speech-cortical-mapping" data-sidebar-item="{&quot;title&quot;: &quot;MEG-informed navigated TMS for individualized speech cortical mapping&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-07-10-737657-v3-meg-informed-navigated-tms-for-individualized-speech-cortical-mapping&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;使用MEG先验指导TMS，类似于解剖先验&quot;}">MEG-informed navigated TMS for individualized speech cortical mapping</a>
   * 2026-07-24 <!--dpr-date:20260724-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/24/2607.20142v1-real-time-eeg-cap-electrode-detection-for-guided-point-of-care-placement" data-sidebar-item="{&quot;title&quot;: &quot;Real-Time EEG Cap Electrode Detection for Guided Point-of-Care Placement&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2607.20142v1-real-time-eeg-cap-electrode-detection-for-guided-point-of-care-placement&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;使用解剖先验（10-20系统）验证电极位置&quot;}">Real-Time EEG Cap Electrode Detection for Guided Point-of-Care Placement</a>
