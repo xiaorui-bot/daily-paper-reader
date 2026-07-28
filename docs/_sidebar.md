@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-07-28 <!--dpr-date:20260728-->
+    * 精读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/28/2607.24378v1-bayesian-feature-extraction-using-gaussian-and-diffused-gamma-priors-for-high-dimensional-spatio-temporal-data" data-sidebar-item="{&quot;title&quot;: &quot;Bayesian Feature Extraction using Gaussian and Diffused-gamma Priors for High Dimensional Spatio-Temporal Data&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2607.24378v1-bayesian-feature-extraction-using-gaussian-and-diffused-gamma-priors-for-high-dimensional-spatio-temporal-data&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;利用高斯和扩散伽马先验进行EEG时空特征提取&quot;}">Bayesian Feature Extraction using Gaussian and Diffused-gamma Priors for High Dimensional Spatio-Temporal Data</a>
   * 2026-07-27 <!--dpr-date:20260727-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/27/biorxiv-10-64898-2026-07-10-737657-v3-meg-informed-navigated-tms-for-individualized-speech-cortical-mapping" data-sidebar-item="{&quot;title&quot;: &quot;MEG-informed navigated TMS for individualized speech cortical mapping&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-07-10-737657-v3-meg-informed-navigated-tms-for-individualized-speech-cortical-mapping&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;使用MEG先验指导TMS，类似于解剖先验&quot;}">MEG-informed navigated TMS for individualized speech cortical mapping</a>
