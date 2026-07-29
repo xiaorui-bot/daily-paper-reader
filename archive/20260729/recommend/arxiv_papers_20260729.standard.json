@@ -1,0 +1,57 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-29T21:10:13.368252+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2607.22262v1",
+      "source": "arxiv",
+      "title": "Variational Low-rank Tensor Decomposition for Multisubject Spatiotemporal Data Analysis",
+      "abstract": "Modeling shared and subject-specific structure in multisubject spatiotemporal data remains challenging, particularly in neuroimaging, where both spatial and temporal patterns exhibit rich variability across subjects. Existing matrix and tensor decompositions provide interpretable factorizations, but rely on fixed multilinear structures or coupling schemes that may limit their flexibility in capturing complex variability. In this work, we introduce a spatiotemporal variational tensor decomposition (ST-VTD) framework that combines a tensor factorization generative model with structured priors to jointly represent spatial maps and temporal dynamics. Spatial factors are regularized to promote a low-rank structure inspired by the LL1 decomposition, while temporal factors are modeled using a learned Long short-term memory (LSTM)-based prior, enabling flexible and adaptive dynamics. Posterior inference is performed using an amortized variational formulation by unrolling iterations of an optimization algorithm, leading to an interpretable and parameter-efficient architecture. The proposed inference framework employs a warm-start strategy based on group independent component analysis, which we found to improve optimization performance. Experiments on a realistic synthetic functional MRI (fMRI) dataset demonstrate that the proposed approach significantly improves latent factor recovery compared with representative classical and probabilistic decomposition benchmarks.",
+      "authors": [
+        "Laura M. Montaldo",
+        "Ricardo A. Borsoi",
+        "Sebastian Miron",
+        "Tulay Adali"
+      ],
+      "primary_category": "stat.ML",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "eess.SP"
+      ],
+      "published": "2026-07-24T12:55:09+00:00",
+      "link": "https://arxiv.org/pdf/2607.22262v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "structured priors for spatial maps in tensor decomposition",
+      "llm_evidence_cn": "张量分解中空间映射的结构化先验",
+      "llm_evidence": "张量分解中空间映射的结构化先验",
+      "canonical_evidence": "张量分解中空间映射的结构化先验",
+      "llm_tldr_en": "Proposes a variational low-rank tensor decomposition with structured priors to jointly model spatial maps and temporal dynamics in multisubject neuroimaging data, enabling flexible and interpretable factorization.",
+      "llm_tldr_cn": "针对多主体时空神经影像数据分析中的共享与个体结构建模难题，提出了一种变分低秩张量分解框架（ST-VTD），通过结构化先验正则化空间因子，实现空间映射和时序动力学的联合表示。该框架在合成数据和真实脑成像数据上验证了其优于传统分解方法的灵活性和可解释性，为脑电图源定位等应用中的先验模型提供了方法论支撑。",
+      "llm_tldr": "针对多主体时空神经影像数据分析中的共享与个体结构建模难题，提出了一种变分低秩张量分解框架（ST-VTD），通过结构化先验正则化空间因子，实现空间映射和时序动力学的联合表示。该框架在合成数据和真实脑成像数据上验证了其优于传统分解方法的灵活性和可解释性，为脑电图源定位等应用中的先验模型提供了方法论支撑。",
+      "llm_tags": [
+        "query:eeg-priors:composite"
+      ],
+      "matched_query_tag": "query:eeg-priors:composite",
+      "matched_query_text": "Papers central to 请帮我查找EEG脑区先验的相关论文, especially work that connects or combines: electroencephalography brain region priors; anatomical prior information in EEG analysis; What priors are commonly used in EEG source localization?.",
+      "matched_requirement_id": "req-composite-eeg-priors",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

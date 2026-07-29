@@ -1,0 +1,24 @@
+{
+  "label": "2026-07-29",
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T21:10:50",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202607/29/2607.22262v1-variational-low-rank-tensor-decomposition-for-multisubject-spatiotemporal-data-analysis",
+      "section": "quick",
+      "title_en": "Variational Low-rank Tensor Decomposition for Multisubject Spatiotemporal Data Analysis",
+      "authors": "Laura M. Montaldo, Ricardo A. Borsoi, Sebastian Miron, Tulay Adali",
+      "date": "2026-07-24",
+      "pdf": "https://arxiv.org/pdf/2607.22262v1",
+      "score": "7.0",
+      "evidence": "张量分解中空间映射的结构化先验",
+      "tldr": "多被试时空数据分析中，现有矩阵张量分解灵活性不足，难以准确建模共享和个体结构。本文提出时空变分张量分解（ST-VTD）框架，结合LL1低秩空间先验和LSTM时序先验，通过摊销变分推断实现高效后验估计。在合成fMRI数据上，该方法显著提升了隐因子恢复精度。其贡献在于提供了可解释且参数高效的结构化分解方案，适用于神经影像等复杂时空数据分析。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Modeling shared and subject-specific structure in multisubject spatiotemporal data remains challenging, particularly in neuroimaging, where both spatial and temporal patterns exhibit rich variability across subjects. Existing matrix and tensor decompositions provide interpretable factorizations, but rely on fixed multilinear structures or coupling schemes that may limit their flexibility in capturing complex variability. In this work, we introduce a spatiotemporal variational tensor decomposition (ST-VTD) framework that combines a tensor factorization generative model with structured priors to jointly represent spatial maps and temporal dynamics. Spatial factors are regularized to promote a low-rank structure inspired by the LL1 decomposition, while temporal factors are modeled using a learned Long short-term memory (LSTM)-based prior, enabling flexible and adaptive dynamics. Posterior inference is performed using an amortized variational formulation by unrolling iterations of an optimization algorithm, leading to an interpretable and parameter-efficient architecture. The proposed inference framework employs a warm-start strategy based on group independent component analysis, which we found to improve optimization performance. Experiments on a realistic synthetic functional MRI (fMRI) dataset demonstrate that the proposed approach significantly improves latent factor recovery compared with representative classical and probabilistic decomposition benchmarks.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
