@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-07-30 <!--dpr-date:20260730-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/30/2607.26556v1-advanced-eeg-source-models-from-the-perspective-of-fem-and-inverse-solutions" data-sidebar-item="{&quot;title&quot;: &quot;Advanced EEG Source Models from the Perspective of FEM and Inverse Solutions&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2607.26556v1-advanced-eeg-source-models-from-the-perspective-of-fem-and-inverse-solutions&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;比较EEG逆解中的FEM源模型，涉及解剖先验&quot;}">Advanced EEG Source Models from the Perspective of FEM and Inverse Solutions</a>
   * 2026-07-29 <!--dpr-date:20260729-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/29/2607.22262v1-variational-low-rank-tensor-decomposition-for-multisubject-spatiotemporal-data-analysis" data-sidebar-item="{&quot;title&quot;: &quot;Variational Low-rank Tensor Decomposition for Multisubject Spatiotemporal Data Analysis&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2607.22262v1-variational-low-rank-tensor-decomposition-for-multisubject-spatiotemporal-data-analysis&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;张量分解中空间映射的结构化先验&quot;}">Variational Low-rank Tensor Decomposition for Multisubject Spatiotemporal Data Analysis</a>

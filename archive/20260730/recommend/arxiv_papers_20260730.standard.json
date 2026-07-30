@@ -1,0 +1,53 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-30T21:16:14.379238+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2607.26556v1",
+      "source": "arxiv",
+      "title": "Advanced EEG Source Models from the Perspective of FEM and Inverse Solutions",
+      "abstract": "In this study, we compare forward solutions computed with finite element methods in Zeffiro Interface and DUNEuro, using the different source models they provided. We compared two of the source models from DUNEuro, called Whitney basis and Local subtraction, and the divergence-conforming model of Zeffiro Interface. For source estimation, we applied sparsity-promoting standardized hierarchical adaptive L1 regression (SHAL1R), standardized Kalman filtering (SKF), classical sLORETA, and dipole scanning. Analyses include Earth Mover's Distance, depth bias scatter plots, and qualitative assessments of amplitude distribution and focality. Preliminary experiments with source interpolation for each method revealed that Local subtraction closely matches expectations for the local behavior of the lead field at various depths. The main results reveal that the success of an inverse method depends strongly on the compatibility between its assumptions about the focality of the source and the chosen source model, with point-source models performing best when paired with methods designed for such sources, i.e., sparsity-promoting methods and methods that scan for a single source. Moreover, source models that admit patch sources with a wide distribution are more sensitive to additional noise.",
+      "authors": [
+        "Santtu Söderholm",
+        "Joonas Lahtinen",
+        "Sampsa Pursiainen"
+      ],
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-07-29T07:28:03+00:00",
+      "link": "https://arxiv.org/pdf/2607.26556v1",
+      "tags": [
+        "keyword:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Compares FEM source models used in EEG inverse solutions, relevant to anatomical priors",
+      "llm_evidence_cn": "比较EEG逆解中的FEM源模型，涉及解剖先验",
+      "llm_evidence": "比较EEG逆解中的FEM源模型，涉及解剖先验",
+      "canonical_evidence": "比较EEG逆解中的FEM源模型，涉及解剖先验",
+      "llm_tldr_en": "This study compares forward and inverse source models for EEG using FEM, highlighting differences between Whitney basis, Local subtraction, and divergence-conforming models, with implications for anatomical prior incorporation.",
+      "llm_tldr_cn": "本文系统比较了Zeffiro Interface和DUNEuro中不同FEM源模型（如Whitney基、局部减法、散度相容模型）在EEG正问题和逆问题中的表现。使用多种逆解算法（sLORETA、SHAL1R等）进行源估计，评估了深度偏差、聚焦性等指标。结果表明源模型选择显著影响源定位精度，为解剖先验的融入提供了重要参考。",
+      "llm_tldr": "本文系统比较了Zeffiro Interface和DUNEuro中不同FEM源模型（如Whitney基、局部减法、散度相容模型）在EEG正问题和逆问题中的表现。使用多种逆解算法（sLORETA、SHAL1R等）进行源估计，评估了深度偏差、聚焦性等指标。结果表明源模型选择显著影响源定位精度，为解剖先验的融入提供了重要参考。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
