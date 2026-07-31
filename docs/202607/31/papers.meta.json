@@ -1,0 +1,24 @@
+{
+  "label": "2026-07-31",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T20:20:01",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202607/31/2607.26556v2-advanced-eeg-source-models-from-the-perspective-of-fem-and-inverse-solutions",
+      "section": "deep",
+      "title_en": "Advanced EEG Source Models from the Perspective of FEM and Inverse Solutions",
+      "authors": "Santtu Söderholm, Joonas Lahtinen, Sampsa Pursiainen",
+      "date": "2026-07-29",
+      "pdf": "https://arxiv.org/pdf/2607.26556v2",
+      "score": "8.0",
+      "evidence": "比较EEG正演源模型与逆问题求解方法（sLORETA、偶极子、稀疏先验），直接关联EEG源定位中的先验使用",
+      "tldr": "脑电正问题中，有限元源模型的选择影响逆问题求解。本研究对比Zeffiro Interface与DUNEuro的三种源模型，结合多种逆算法评估。结果表明，点源模型与稀疏促进或单源扫描方法配合最佳，而宽分布补丁源模型对噪声更敏感。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "In this study, we compare forward solutions computed with finite element methods in Zeffiro Interface and DUNEuro, using the different source models they provided. We compared two of the source models from DUNEuro, called Whitney basis and Local subtraction, and the divergence-conforming model of Zeffiro Interface. For source estimation, we applied sparsity-promoting standardized hierarchical adaptive L1 regression (SHAL1R), standardized Kalman filtering (SKF), classical sLORETA, and dipole scanning. Analyses include Earth Mover's Distance, depth bias scatter plots, and qualitative assessments of amplitude distribution and focality. Preliminary experiments with source interpolation for each method revealed that Local subtraction closely matches expectations for the local behavior of the lead field at various depths. The main results reveal that the success of an inverse method depends strongly on the compatibility between its assumptions about the focality of the source and the chosen source model, with point-source models performing best when paired with methods designed for such sources, i.e., sparsity-promoting methods and methods that scan for a single source. Moreover, source models that admit patch sources with a wide distribution are more sensitive to additional noise.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

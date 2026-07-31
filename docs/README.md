@@ -6,24 +6,28 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-07-30
-- 运行时间：2026-07-30 21:17:12 UTC
+- 最新运行日期：2026-07-31
+- 运行时间：2026-07-31 20:19:57 UTC
 - 运行状态：成功
 - 本次总论文数：1
-- 精读区：0
-- 速读区：1
+- 精读区：1
+- 速读区：0
 
 ### 今日简报（AI）
-今日聚焦1篇关于先进脑电溯源模型的研究，通过有限元方法与逆问题求解探讨更精准的源定位。核心方向是结合FEM与逆问题优化脑电图分析精度。建议关注该模型中数值建模与实验验证的结合点。
-- 详情：[/202607/30/README](/202607/30/README)
+今日精读1篇，聚焦EEG源模型中有限元与逆问题求解的结合。
+
+最高分（8/10）文章指出FEM可提升脑电源定位的精度，但对逆问题计算效率仍有挑战。
+
+建议先理解FEM建模与逆问题基础，再结合开源工具实操验证。
+- 详情：[/202607/31/README](/202607/31/README)
 
 ### 精读区论文标签
-- 本次无精读推荐。
+1. [Advanced EEG Source Models from the Perspective of FEM and Inverse Solutions](/202607/31/2607.26556v2-advanced-eeg-source-models-from-the-perspective-of-fem-and-inverse-solutions)  
+   标签：评分：8.0/10、query:eeg-priors
+   evidence：比较EEG正演源模型与逆问题求解方法（sLORETA、偶极子、稀疏先验），直接关联EEG源定位中的先验使用
 
 ### 速读区论文标签
-1. [Advanced EEG Source Models from the Perspective of FEM and Inverse Solutions](/202607/30/2607.26556v1-advanced-eeg-source-models-from-the-perspective-of-fem-and-inverse-solutions)  
-   标签：评分：6.0/10、query:eeg-priors
-   evidence：比较EEG逆解中的FEM源模型，涉及解剖先验
+- 本次无速读推荐。
 
 
 <div class="dpr-home-promo-card">
