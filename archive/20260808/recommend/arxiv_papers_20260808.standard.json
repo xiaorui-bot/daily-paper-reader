@@ -1,0 +1,56 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-08T19:58:44.167250+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 0,
+    "quick_skim_target": 11,
+    "quick_selected": 0
+  },
+  "deep_dive": [
+    {
+      "id": "2608.01076v1",
+      "source": "arxiv",
+      "title": "EpiLENS: Patient-Relative Epileptogenic Zone Localization from Multi-Center Intracranial EEG",
+      "abstract": "Drug-resistant epilepsy remains a major clinical challenge, as successful neurosurgery depends critically on accurate epileptogenic zone (EZ) localization accounting for substantial variability across patients, seizures, implantation layouts, recording systems and clinical centers. Existing intracranial electroencephalogram (iEEG) methods typically rely on channel-wise classifiers trained globally, which often obscure patient-specific electrophysiological abnormalities and exhibit instability under severe class imbalance and noisy clinical annotations. To address these limitations, we present EpiLENS, a primary-guided asymmetric dual-branch framework for patient-relative epileptogenic localization. Its localization strategy, Conservative Dual-Evidence Localization (CDEL), asymmetrically combines independently trained but complementary branches at inference: the Patient-Relative Quantile Network (PRQ-Net), which captures seizure-consistent deviations from each patient's internal electrophysiological baseline, and the Boundary-Coverage Ranking Network (BCR-Net), which emphasizes ambiguous epileptogenic zone or non-epileptogenic zone boundaries and recovery of the patient-specific epileptogenic set. CDEL retains PRQ-Net as the primary branch while incorporating complementary patient-wise ranking evidence from BCR-Net. Experiments on a heterogeneous four-center cohort demonstrate improved balanced localization over classical feature-based and raw-iEEG neural baselines, while component ablations and within-patient permutation analyses support the contributions of patient-relative normalization, lower-tail seizure aggregation, and boundary-coverage ranking. Cross-seizure and leave-one-center-out generalization experiments further confirm that the proposed patient-relative evidence remains robust across repeated recordings and transfers effectively to unseen clinical centers.",
+      "authors": [
+        "Yuanchu Gong",
+        "Zibo Yan",
+        "Yibo Lyu",
+        "Chen Chen",
+        "Sixian Chan",
+        "Yalin Wang"
+      ],
+      "primary_category": "cs.CE",
+      "categories": [
+        "cs.CE"
+      ],
+      "published": "2026-08-02T08:19:56+00:00",
+      "link": "https://arxiv.org/pdf/2608.01076v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Patient-relative localization framework using intracranial EEG; highly relevant to priors in EEG source localization.",
+      "llm_evidence_cn": "基于颅内EEG的患者相对定位框架，与EEG源定位中的先验信息高度相关。",
+      "llm_evidence": "基于颅内EEG的患者相对定位框架，与EEG源定位中的先验信息高度相关。",
+      "canonical_evidence": "基于颅内EEG的患者相对定位框架，与EEG源定位中的先验信息高度相关。",
+      "llm_tldr_en": "EpiLENS proposes a patient-relative dual-branch framework for epileptogenic zone localization from multi-center iEEG, addressing patient and center variability and noisy clinical annotations.",
+      "llm_tldr_cn": "针对药物难治性癫痫手术中致痫区定位困难的问题，EpiLENS提出一种患者相对的双分支框架，利用多中心颅内EEG数据，通过主导通道引导和非对称架构整合患者特异性电生理异常，以应对患者间差异、植入布局差异和标注噪声。实验表明其定位性能优于全局通道级分类器，为个体化癫痫灶定位提供了稳健方案。",
+      "llm_tldr": "针对药物难治性癫痫手术中致痫区定位困难的问题，EpiLENS提出一种患者相对的双分支框架，利用多中心颅内EEG数据，通过主导通道引导和非对称架构整合患者特异性电生理异常，以应对患者间差异、植入布局差异和标注噪声。实验表明其定位性能优于全局通道级分类器，为个体化癫痫灶定位提供了稳健方案。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": []
+}

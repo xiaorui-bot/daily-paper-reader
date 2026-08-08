@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-08-08 <!--dpr-date:20260808-->
+    * 精读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/08/2608.01076v1-epilens-patient-relative-epileptogenic-zone-localization-from-multi-center-intracranial-eeg" data-sidebar-item="{&quot;title&quot;: &quot;EpiLENS: Patient-Relative Epileptogenic Zone Localization from Multi-Center Intracranial EEG&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.01076v1-epilens-patient-relative-epileptogenic-zone-localization-from-multi-center-intracranial-eeg&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;基于颅内EEG的患者相对定位框架，与EEG源定位中的先验信息高度相关。&quot;}">EpiLENS: Patient-Relative Epileptogenic Zone Localization from Multi-Center Intracranial EEG</a>
   * 2026-07-31 <!--dpr-date:20260731-->
     * 精读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202607/31/2607.26556v2-advanced-eeg-source-models-from-the-perspective-of-fem-and-inverse-solutions" data-sidebar-item="{&quot;title&quot;: &quot;Advanced EEG Source Models from the Perspective of FEM and Inverse Solutions&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2607.26556v2-advanced-eeg-source-models-from-the-perspective-of-fem-and-inverse-solutions&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;比较EEG正演源模型与逆问题求解方法（sLORETA、偶极子、稀疏先验），直接关联EEG源定位中的先验使用&quot;}">Advanced EEG Source Models from the Perspective of FEM and Inverse Solutions</a>

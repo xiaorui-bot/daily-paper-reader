@@ -1,0 +1,24 @@
+{
+  "label": "2026-08-08",
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T20:01:08",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202608/08/2608.01076v1-epilens-patient-relative-epileptogenic-zone-localization-from-multi-center-intracranial-eeg",
+      "section": "deep",
+      "title_en": "EpiLENS: Patient-Relative Epileptogenic Zone Localization from Multi-Center Intracranial EEG",
+      "authors": "Yuanchu Gong, Zibo Yan, Yibo Lyu, Chen Chen, Sixian Chan, Yalin Wang",
+      "date": "2026-08-02",
+      "pdf": "https://arxiv.org/pdf/2608.01076v1",
+      "score": "8.0",
+      "evidence": "基于颅内EEG的患者相对定位框架，与EEG源定位中的先验信息高度相关。",
+      "tldr": "药物难治性癫痫手术依赖准确致病区定位，但现有多中心iEEG方法忽略患者特异性且受类别不平衡干扰。EpiLENS提出患者相对化双分支框架，主分支PRQ-Net捕获发作一致性偏移，辅助BCR-Net强化边界覆盖，推理时保守融合。四中心实验显示均衡定位优于基线，跨中心泛化验证了患者相对证据的稳健性。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Drug-resistant epilepsy remains a major clinical challenge, as successful neurosurgery depends critically on accurate epileptogenic zone (EZ) localization accounting for substantial variability across patients, seizures, implantation layouts, recording systems and clinical centers. Existing intracranial electroencephalogram (iEEG) methods typically rely on channel-wise classifiers trained globally, which often obscure patient-specific electrophysiological abnormalities and exhibit instability under severe class imbalance and noisy clinical annotations. To address these limitations, we present EpiLENS, a primary-guided asymmetric dual-branch framework for patient-relative epileptogenic localization. Its localization strategy, Conservative Dual-Evidence Localization (CDEL), asymmetrically combines independently trained but complementary branches at inference: the Patient-Relative Quantile Network (PRQ-Net), which captures seizure-consistent deviations from each patient's internal electrophysiological baseline, and the Boundary-Coverage Ranking Network (BCR-Net), which emphasizes ambiguous epileptogenic zone or non-epileptogenic zone boundaries and recovery of the patient-specific epileptogenic set. CDEL retains PRQ-Net as the primary branch while incorporating complementary patient-wise ranking evidence from BCR-Net. Experiments on a heterogeneous four-center cohort demonstrate improved balanced localization over classical feature-based and raw-iEEG neural baselines, while component ablations and within-patient permutation analyses support the contributions of patient-relative normalization, lower-tail seizure aggregation, and boundary-coverage ranking. Cross-seizure and leave-one-center-out generalization experiments further confirm that the proposed patient-relative evidence remains robust across repeated recordings and transfers effectively to unseen clinical centers.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
