@@ -6,23 +6,19 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-08-08
-- 运行时间：2026-08-08 20:01:02 UTC
+- 最新运行日期：2026-08-09
+- 运行时间：2026-08-09 19:14:22 UTC
 - 运行状态：成功
-- 本次总论文数：1
-- 精读区：1
+- 本次总论文数：0
+- 精读区：0
 - 速读区：0
 
 ### 今日简报（AI）
-今日精读1篇高分论文，聚焦多中心颅内EEG的癫痫灶定位。  
-最值得关注：EpiLENS提出患者相对定位方法，获8.0/10分，对术前评估有参考价值。  
-下一步可延伸阅读癫痫灶定位的临床验证或与其他影像方法结合的研究。
-- 详情：[/202608/08/README](/202608/08/README)
+> 今日无新推荐，系统未产出可展示论文。
+- 详情：[/202608/09/README](/202608/09/README)
 
 ### 精读区论文标签
-1. [EpiLENS: Patient-Relative Epileptogenic Zone Localization from Multi-Center Intracranial EEG](/202608/08/2608.01076v1-epilens-patient-relative-epileptogenic-zone-localization-from-multi-center-intracranial-eeg)  
-   标签：评分：8.0/10、query:eeg-priors
-   evidence：基于颅内EEG的患者相对定位框架，与EEG源定位中的先验信息高度相关。
+- 本次无精读推荐。
 
 ### 速读区论文标签
 - 本次无速读推荐。
