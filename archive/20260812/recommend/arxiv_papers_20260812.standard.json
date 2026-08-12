@@ -1,0 +1,60 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-12T20:28:56.288706+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2608.07092v1",
+      "source": "arxiv",
+      "title": "International Transfer of Stochastic Cortical Self-Reconstruction",
+      "abstract": "Stochastic cortical self-reconstruction (SCSR) enables personalized mapping of gray matter atrophy, a hallmark of neurodegenerative disorders such as Alzheimer's disease (AD), onto high-resolution cortical surfaces. Unlike conventional normative modeling approaches, which typically operate at a coarse regional level and remain inherently constrained by the covariates included during training, SCSR estimates an individualized healthy reference directly from the observed cortical thickness at the vertex level. This allows the detection of subtle, subject-specific deviations from healthy cortical shape. In this work, we investigate the generalization and transferability of SCSR, originally trained on UK Biobank (UKB) data, to an independent Chinese population dataset. Specifically, we evaluate the ability of SCSR-derived Z-scores to discriminate between healthy scans, individuals with mild cognitive impairment (MCI), and patients with AD, while also assessing model robustness across the lifespan. We compare four training strategies: direct application of the UKB-trained model, fine-tuning on Chinese data, training from scratch, and joint training on UKB and Chinese cohorts. As reconstruction backbones, we consider both a multilayer perceptron (MLP) and a Spherical UNet (SUNet). Our results demonstrate that SCSR provides robust detection of cortical atrophy in the Chinese population across all evaluated models. The highest discriminative performance was achieved by the fine-tuned SUNet model (average pairwise AUC = 0.848), followed closely by the UKB-trained SUNet. Moreover, reconstruction errors remained low across the lifespan, even when the training population exhibited a substantially narrower age distribution, indicating strong cross-population transferability.",
+      "authors": [
+        "Fabian Bongratz",
+        "Zhizheng Zhuo",
+        "Chao Zhang",
+        "Yaou Liu",
+        "Dennis M. Hedderich",
+        "Christian Wachinger"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "published": "2026-08-07T10:41:52+00:00",
+      "link": "https://arxiv.org/pdf/2608.07092v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Cortical surface reconstruction for personalized anatomical mapping, relevant to anatomical priors in EEG analysis",
+      "llm_evidence_cn": "皮层表面重建用于个体化解剖映射，与EEG分析中的解剖先验相关",
+      "llm_evidence": "皮层表面重建用于个体化解剖映射，与EEG分析中的解剖先验相关",
+      "canonical_evidence": "皮层表面重建用于个体化解剖映射，与EEG分析中的解剖先验相关",
+      "llm_tldr_en": "This paper studies the transferability of Stochastic Cortical Self-Reconstruction (SCSR), which estimates individualized healthy cortical thickness references at vertex-level, to a new population. It generalizes across cohorts and captures subtle atrophy deviations, demonstrating a tool for generating anatomical priors that could inform EEG source localization.",
+      "llm_tldr_cn": "针对传统规范建模只能在区域层面、受限于训练协变量的问题，随机皮层自重建（SCSR）可从顶点层直接估计个体化的健康皮层厚度参考。本文研究了SCSR从UK Biobank迁移到中国人群的泛化能力，验证了跨队列的稳定性。此类皮层解剖建模可为EEG源定位提供个体化解剖先验信息。",
+      "llm_tldr": "针对传统规范建模只能在区域层面、受限于训练协变量的问题，随机皮层自重建（SCSR）可从顶点层直接估计个体化的健康皮层厚度参考。本文研究了SCSR从UK Biobank迁移到中国人群的泛化能力，验证了跨队列的稳定性。此类皮层解剖建模可为EEG源定位提供个体化解剖先验信息。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

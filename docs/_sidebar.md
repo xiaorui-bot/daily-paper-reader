@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-08-12 <!--dpr-date:20260812-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/12/2608.07092v1-international-transfer-of-stochastic-cortical-self-reconstruction" data-sidebar-item="{&quot;title&quot;: &quot;International Transfer of Stochastic Cortical Self-Reconstruction&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.07092v1-international-transfer-of-stochastic-cortical-self-reconstruction&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;皮层表面重建用于个体化解剖映射，与EEG分析中的解剖先验相关&quot;}">International Transfer of Stochastic Cortical Self-Reconstruction</a>
   * 2026-08-08 <!--dpr-date:20260808-->
     * 精读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/08/2608.01076v1-epilens-patient-relative-epileptogenic-zone-localization-from-multi-center-intracranial-eeg" data-sidebar-item="{&quot;title&quot;: &quot;EpiLENS: Patient-Relative Epileptogenic Zone Localization from Multi-Center Intracranial EEG&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.01076v1-epilens-patient-relative-epileptogenic-zone-localization-from-multi-center-intracranial-eeg&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;基于颅内EEG的患者相对定位框架，与EEG源定位中的先验信息高度相关。&quot;}">EpiLENS: Patient-Relative Epileptogenic Zone Localization from Multi-Center Intracranial EEG</a>
