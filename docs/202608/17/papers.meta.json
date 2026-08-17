@@ -1,0 +1,24 @@
+{
+  "label": "2026-08-17",
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T20:14:52",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202608/17/2608.13676v1-eeg-prism-physiologically-grounded-interpretability-of-predictions-by-eeg-foundation-models",
+      "section": "deep",
+      "title_en": "EEG-PRISM: Physiologically-Grounded Interpretability of Predictions by EEG Foundation Models",
+      "authors": "Deeksha M Shama, Punnisa Amornsirikul, Archana Venkataraman",
+      "date": "2026-08-13",
+      "pdf": "https://arxiv.org/pdf/2608.13676v1",
+      "score": "8.0",
+      "evidence": "通过EEG正演模型将归因映射到源域，涉及源定位中的解剖先验",
+      "tldr": "EEG基础模型的可解释性通常局限于时间-通道空间，与临床直觉不符。EEG-PRISM通过可逆DFT和近似可逆生成模型，将任意基础模型的归因分数映射到频域和源域，无需修改或重训模型。在模拟和癫痫、自闭症数据上验证了频谱恢复和空间定位能力，支持事件定位和生物标志物发现。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Objective: Foundation models represent the next advancement in AI for EEG analysis; however current explainable AI techniques provide attribution scores in the time-channel input space, which is mismatched to clinical intuition about EEG. Thus, there is a critical need for a universal method that can extend the interpretability of any foundation model to alternative and physiologically relevant domains without modifying or retraining the underlying model. Methods: EEG-PRISM leverages linear transformations and established backpropagation rules to map time-channel attribution scores into alternative domains. We derive mappings to the frequency domain via an invertible DFT and to the source domain via an approximately invertible EEG generative model. We evaluate EEG-PRISM in simulated and real data, assessing recovery of ground-truth phenomena across domains with five foundation models and four AI explainers. Results: In simulation, EEG-PRISM achieves near-perfect spectral recovery and 69.2% spatial accuracy. In epilepsy, EEG-PRISM correctly determines that delta-theta activity is most salient and correctly localizes the seizure onset region with 50% accuracy. In autism, EEG-PRISM localizes the predictive delta-alpha biomarkers to frontal and temporal regions, consistent with prior work. Conclusion: EEG-PRISM is a theoretically-grounded post-hoc attribution method with accurate mapping into the spectral and spatial domains. It supports window-level analysis of transient events (e.g., seizures) and group-level identification of clinically relevant biomarkers (e.g., autism), thus advancing interpretable EEG foundation models. Significance: This work enables physiologically-grounded interpretation of EEG foundation models and supports clinically relevant insights such as event localization and biomarker identification.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-08-17 <!--dpr-date:20260817-->
+    * 精读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/17/2608.13676v1-eeg-prism-physiologically-grounded-interpretability-of-predictions-by-eeg-foundation-models" data-sidebar-item="{&quot;title&quot;: &quot;EEG-PRISM: Physiologically-Grounded Interpretability of Predictions by EEG Foundation Models&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.13676v1-eeg-prism-physiologically-grounded-interpretability-of-predictions-by-eeg-foundation-models&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;通过EEG正演模型将归因映射到源域，涉及源定位中的解剖先验&quot;}">EEG-PRISM: Physiologically-Grounded Interpretability of Predictions by EEG Foundation Models</a>
   * 2026-08-12 <!--dpr-date:20260812-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/12/2608.07092v1-international-transfer-of-stochastic-cortical-self-reconstruction" data-sidebar-item="{&quot;title&quot;: &quot;International Transfer of Stochastic Cortical Self-Reconstruction&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.07092v1-international-transfer-of-stochastic-cortical-self-reconstruction&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;皮层表面重建用于个体化解剖映射，与EEG分析中的解剖先验相关&quot;}">International Transfer of Stochastic Cortical Self-Reconstruction</a>
