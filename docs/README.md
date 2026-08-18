@@ -6,26 +6,28 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-08-17
-- 运行时间：2026-08-17 20:14:46 UTC
+- 最新运行日期：2026-08-18
+- 运行时间：2026-08-18 19:56:39 UTC
 - 运行状态：成功
-- 本次总论文数：1
+- 本次总论文数：2
 - 精读区：1
-- 速读区：0
+- 速读区：1
 
 ### 今日简报（AI）
-今日精读1篇论文，聚焦EEG基础模型的可解释性研究。  
-最值得关注的是《EEG-PRISM》提出的生理学 grounded 预测解释方法，评分8.0/10。  
-下一步可深入探索该框架在其他生理信号模型上的泛化性，或对比现有可解释工具的实际效果。
-- 详情：[/202608/17/README](/202608/17/README)
+今日共读2篇脑成像源定位论文，1篇精读、1篇速读。  
+最值得关注的是精读论文将生物物理先验融入深度算子学习，可提升电生理源重建的逆问题求解精度。  
+若想入门，建议先理解脑磁/脑电逆问题中的稀疏约束与算子学习两种技术路线。
+- 详情：[/202608/18/README](/202608/18/README)
 
 ### 精读区论文标签
-1. [EEG-PRISM: Physiologically-Grounded Interpretability of Predictions by EEG Foundation Models](/202608/17/2608.13676v1-eeg-prism-physiologically-grounded-interpretability-of-predictions-by-eeg-foundation-models)  
-   标签：评分：8.0/10、query:eeg-priors
-   evidence：通过EEG正演模型将归因映射到源域，涉及源定位中的解剖先验
+1. [Biophysics-informed deep operator learning for inverse problems with application to electrophysiological source reconstruction](/202608/18/2608.16871v1-biophysics-informed-deep-operator-learning-for-inverse-problems-with-application-to-electrophysiological-source-reconstruction)  
+   标签：评分：9.0/10、query:eeg-priors
+   evidence：面向电生理源重建的生物物理先验
 
 ### 速读区论文标签
-- 本次无速读推荐。
+1. [Quadratic Unconstrained Binary Optimization for Sparse Magnetoencephalography Source Localization](/202608/18/2608.14738v1-quadratic-unconstrained-binary-optimization-for-sparse-magnetoencephalography-source-localization)  
+   标签：评分：7.0/10、query:eeg-priors
+   evidence：稀疏脑磁图源定位与脑电同源，QUBO框架支持脑区先验建模
 
 
 <div class="dpr-home-promo-card">

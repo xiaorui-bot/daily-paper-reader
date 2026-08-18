@@ -1,0 +1,93 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-18T19:53:58.668557+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "2608.16871v1",
+      "source": "arxiv",
+      "title": "Biophysics-informed deep operator learning for inverse problems with application to electrophysiological source reconstruction",
+      "abstract": "Electrophysiological brain signals are typically acquired through indirect and noisy measurements, providing transformed representations of the underlying neural activity. Source reconstruction---the inverse problem of resolving underlying neural signals from these measurements---is essential for mapping brain function but remains challenging because it is ill-posed and sensitive to noise. Deep learning methods have shown promise across a range of inverse problems, yet many do not explicitly incorporate the biophysical principles governing data generation, limiting data efficiency and adaptation across subjects. Here, we introduce DeepOp-Informed, a biophysics-informed geometric deep operator learning framework that embeds the biophysics of the sensing process into the model through a custom differentiable layer, enabling more efficient learning and improved reconstruction performance. This layer enables the neural network to adapt to subject-specific variations in the physics of signal generation, resulting from differences in brain anatomy and sensor positioning. In realistic magnetoencephalography simulations, DeepOp-Informed generalizes to forward models from held-out subjects, reducing reconstruction error relative to several neural-network and classical baselines. Applied to adolescent auditory-evoked recordings, it produces anatomically plausible reconstructions localized to the auditory cortex. While our application focuses on magnetoencephalography, the framework is general and may be adaptable to other imaging modalities.",
+      "authors": [
+        "Eardi Lila",
+        "Erica R. Peterson",
+        "Alexis N. Bosseler",
+        "J. Nathan Kutz",
+        "Samu Taulu"
+      ],
+      "primary_category": "stat.ME",
+      "categories": [
+        "stat.ME",
+        "stat.AP"
+      ],
+      "published": "2026-08-17T17:52:44+00:00",
+      "link": "https://arxiv.org/pdf/2608.16871v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "biophysics-informed priors for electrophysiological source reconstruction",
+      "llm_evidence_cn": "面向电生理源重建的生物物理先验",
+      "llm_evidence": "面向电生理源重建的生物物理先验",
+      "canonical_evidence": "面向电生理源重建的生物物理先验",
+      "llm_tldr_en": "DeepOp-Informed embeds biophysical forward models into deep operator learning for EEG/MEG source reconstruction, improving data efficiency and cross-subject generalization versus priors-free deep learning.",
+      "llm_tldr_cn": "电生理源重建因问题病态且噪声敏感而困难，现有深度学习模型很少显式利用支配信号生成的生物物理原理。本文提出DeepOp-Informed，将生物物理正向模型嵌入几何深度算子学习，使网络在重建脑内神经信号时先验地符合电生理传播机制。在源重建实验上相比未结合生物物理先验的深度方法提升了数据效率与跨被试泛化能力，为脑功能映射提供了更稳健的工具。",
+      "llm_tldr": "电生理源重建因问题病态且噪声敏感而困难，现有深度学习模型很少显式利用支配信号生成的生物物理原理。本文提出DeepOp-Informed，将生物物理正向模型嵌入几何深度算子学习，使网络在重建脑内神经信号时先验地符合电生理传播机制。在源重建实验上相比未结合生物物理先验的深度方法提升了数据效率与跨被试泛化能力，为脑功能映射提供了更稳健的工具。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2608.14738v1",
+      "source": "arxiv",
+      "title": "Quadratic Unconstrained Binary Optimization for Sparse Magnetoencephalography Source Localization",
+      "abstract": "Magnetoencephalography (MEG) source localization is an ill-posed inverse problem because distinct cortical source configurations can produce similar sensor-level fields. We formulate sparse multi-source localization as a quadratic unconstrained binary optimization (QUBO) problem combined with residual-aware candidate screening. Candidate source-location groups are generated from the sensor-space residual, fixed sensor-space templates are estimated for the resulting candidates, and active templates are jointly selected using data-fit, pairwise template interactions, and soft-cardinality terms. We evaluate the method using classical simulated annealing in controlled synthetic MEG simulations, primarily under a two-source condition, and compare it with MNE, dSPM, MxNE, LCMV, and RAP-MUSIC. Across 100 main-benchmark trials, QUBO achieved a mean cardinality-aware localization error of 8.45 mm, compared with 22.35 mm for MxNE, the best-performing baseline according to this metric, corresponding to a 62.2% reduction. The composite metric adds a 50 mm penalty per unit of source-count mismatch before normalization by the true source count. Because MxNE returned only one source in 35 trials, the reported reduction reflects both spatial localization and source-count performance. In separate sensitivity experiments, QUBO remained competitive across the tested sensor-noise and source-count conditions, although RAP-MUSIC performed comparably to or better than QUBO in some low-noise and three-source settings. The present experiments use classical simulated annealing and do not evaluate quantum hardware or claim quantum advantage. The resulting binary quadratic objective admits a direct Ising representation, enabling future evaluation on quantum-annealing and hybrid backends.",
+      "authors": [
+        "Arim Ryou",
+        "Kiwoong Kim"
+      ],
+      "primary_category": "eess.SP",
+      "categories": [
+        "eess.SP"
+      ],
+      "published": "2026-08-13T10:04:37+00:00",
+      "link": "https://arxiv.org/pdf/2608.14738v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Sparse MEG source localization, closely related to EEG, via QUBO optimization",
+      "llm_evidence_cn": "稀疏脑磁图源定位与脑电同源，QUBO框架支持脑区先验建模",
+      "llm_evidence": "稀疏脑磁图源定位与脑电同源，QUBO框架支持脑区先验建模",
+      "canonical_evidence": "稀疏脑磁图源定位与脑电同源，QUBO框架支持脑区先验建模",
+      "llm_tldr_en": "MEG source localization is an ill-posed inverse problem; this work formulates sparse multi-source localization as QUBO with residual-aware candidate screening, evaluated in synthetic two-source simulations.",
+      "llm_tldr_cn": "脑磁图源定位是不适定逆问题，因为不同皮层源配置可能产生相似的传感器级场，给多源定位带来困难。本文提出将稀疏多源定位建模为二次无约束二元优化，并通过残差感知候选筛选生成候选源组，再联合选择激活模板。在受控合成MEG模拟中，主要在双源条件下用模拟退火验证，显示出良好的稀疏定位性能。该工作为MEG源定位提供了新的稀疏优化视角，对脑电解源定位中先验的利用和设计具有参考意义。",
+      "llm_tldr": "脑磁图源定位是不适定逆问题，因为不同皮层源配置可能产生相似的传感器级场，给多源定位带来困难。本文提出将稀疏多源定位建模为二次无约束二元优化，并通过残差感知候选筛选生成候选源组，再联合选择激活模板。在受控合成MEG模拟中，主要在双源条件下用模拟退火验证，显示出良好的稀疏定位性能。该工作为MEG源定位提供了新的稀疏优化视角，对脑电解源定位中先验的利用和设计具有参考意义。",
+      "llm_tags": [
+        "query:eeg-priors:composite"
+      ],
+      "matched_query_tag": "query:eeg-priors:composite",
+      "matched_query_text": "Papers central to 请帮我查找EEG脑区先验的相关论文, especially work that connects or combines: electroencephalography brain region priors; anatomical prior information in EEG analysis; What priors are commonly used in EEG source localization?.",
+      "matched_requirement_id": "req-composite-eeg-priors",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
