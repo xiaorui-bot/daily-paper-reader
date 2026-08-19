@@ -1,0 +1,90 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-19T19:59:26.643621+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 2,
+    "quick_skim_target": 11,
+    "quick_selected": 2
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2608.14738v1",
+      "source": "arxiv",
+      "title": "Quadratic Unconstrained Binary Optimization for Sparse Magnetoencephalography Source Localization",
+      "abstract": "Magnetoencephalography (MEG) source localization is an ill-posed inverse problem because distinct cortical source configurations can produce similar sensor-level fields. We formulate sparse multi-source localization as a quadratic unconstrained binary optimization (QUBO) problem combined with residual-aware candidate screening. Candidate source-location groups are generated from the sensor-space residual, fixed sensor-space templates are estimated for the resulting candidates, and active templates are jointly selected using data-fit, pairwise template interactions, and soft-cardinality terms. We evaluate the method using classical simulated annealing in controlled synthetic MEG simulations, primarily under a two-source condition, and compare it with MNE, dSPM, MxNE, LCMV, and RAP-MUSIC. Across 100 main-benchmark trials, QUBO achieved a mean cardinality-aware localization error of 8.45 mm, compared with 22.35 mm for MxNE, the best-performing baseline according to this metric, corresponding to a 62.2% reduction. The composite metric adds a 50 mm penalty per unit of source-count mismatch before normalization by the true source count. Because MxNE returned only one source in 35 trials, the reported reduction reflects both spatial localization and source-count performance. In separate sensitivity experiments, QUBO remained competitive across the tested sensor-noise and source-count conditions, although RAP-MUSIC performed comparably to or better than QUBO in some low-noise and three-source settings. The present experiments use classical simulated annealing and do not evaluate quantum hardware or claim quantum advantage. The resulting binary quadratic objective admits a direct Ising representation, enabling future evaluation on quantum-annealing and hybrid backends.",
+      "authors": [
+        "Arim Ryou",
+        "Kiwoong Kim"
+      ],
+      "primary_category": "eess.SP",
+      "categories": [
+        "eess.SP"
+      ],
+      "published": "2026-08-13T10:04:37+00:00",
+      "link": "https://arxiv.org/pdf/2608.14738v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "MEG source localization with sparse priors and candidate screening",
+      "llm_evidence_cn": "脑磁图源定位使用稀疏先验与候选筛选",
+      "llm_evidence": "脑磁图源定位使用稀疏先验与候选筛选",
+      "canonical_evidence": "脑磁图源定位使用稀疏先验与候选筛选",
+      "llm_tldr_en": "Casts sparse MEG source localization as a QUBO problem with residual-aware candidate screening, jointly selecting active templates via data-fit, pairwise interactions, and soft-cardinality priors.",
+      "llm_tldr_cn": "脑磁图源定位是病态逆问题，不同皮层源配置可能产生相似传感器场。本文将稀疏多源定位建模为二次无约束二元优化问题，并结合残差感知的候选筛选：从传感器空间残差生成候选源位置组，估计固定模板，再利用数据拟合、成对模板交互与软基数项联合选择活动模板。在合成MEG数据的两源条件下用模拟退火评估，展示了利用稀疏先验进行源定位的可行方案，对EEG源定位中的先验设计也有借鉴意义。",
+      "llm_tldr": "脑磁图源定位是病态逆问题，不同皮层源配置可能产生相似传感器场。本文将稀疏多源定位建模为二次无约束二元优化问题，并结合残差感知的候选筛选：从传感器空间残差生成候选源位置组，估计固定模板，再利用数据拟合、成对模板交互与软基数项联合选择活动模板。在合成MEG数据的两源条件下用模拟退火评估，展示了利用稀疏先验进行源定位的可行方案，对EEG源定位中的先验设计也有借鉴意义。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2608.14847v1",
+      "source": "arxiv",
+      "title": "M-LINKX: Multiview Graph Learning for Brain Cognitive Disease Detection",
+      "abstract": "Electroencephalogram (EEG) is a non-invasive and relatively low-cost procedure that measures brain electricity for the detection of cognitive diseases. EEG-based classification of dementia-related conditions, including Alzheimer's disease (AD), mild cognitive impairment (MCI), and frontotemporal dementia (FTD), remains challenging because EEG signals are noisy, non-stationary, and vary across subjects. Segment-based learning provides a practical way to model long EEG recordings by converting them into fixed-length inputs. For each segment, discriminative information may be explored by using signals within each channel (i.e. electrode), as well as interactions between EEG channels. In this paper, we propose M-LINKX, a multi-view graph learning framework for EEG-based dementia classification. For each segment, we extract channel-level node features and construct multiple functional-connectivity (FC) graph views, where each view is defined by a specific combination of connectivity metric, frequency band, and topology filter, respectively. Instead of relying on message passing over the constructed graphs, M-LINKX follows a simple design in modeling node features and adjacency-based connectivity representations. The graph-view representations are fused using global trainable view weights, and subject-level prediction is obtained by averaging segment-level probabilities. Experiments on two three-class EEG datasets with different diagnostic groups, CAUEEG (HC/MCI/Dementia) and AHEAP (HC/AD/FTD), show that M-LINKX achieves the best subject-level performance under the main experimental settings. Our study suggests that multi-view functional connectivity can improve EEG-based dementia classification when integrated with an appropriate graph-learning architecture. Code and data are available at https://github.com/anphantt/MLINKX.",
+      "authors": [
+        "An Phan",
+        "Yufei Jin",
+        "Xingquan Zhu"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-08-14T19:39:57+00:00",
+      "link": "https://arxiv.org/pdf/2608.14847v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "EEG-based disease detection using multi-view graph learning over electrode channels, implicitly encoding brain region relationships",
+      "llm_evidence_cn": "基于EEG的疾病检测，通过多视图图学习建模电极通道关系，隐含编码脑区结构",
+      "llm_evidence": "基于EEG的疾病检测，通过多视图图学习建模电极通道关系，隐含编码脑区结构",
+      "canonical_evidence": "基于EEG的疾病检测，通过多视图图学习建模电极通道关系，隐含编码脑区结构",
+      "llm_tldr_en": "M-LINKX is a multi-view graph learning framework that models within-channel and cross-channel EEG interactions for dementia classification, leveraging electrode spatial relationships as structural priors.",
+      "llm_tldr_cn": "针对EEG信号噪声大、非平稳且跨受试差异明显导致痴呆类疾病分类困难的问题，本文提出M-LINKX多视图图学习框架。它采用基于片段的建模，将长时EEG转成固定长度输入，并在每个片段内同时建模通道内信号和通道间交互关系，借助电极图结构捕捉空间脑区信息。在AD、MCI和FTD检测任务上验证了该方法的有效性，说明多视图通道交互可为EEG认知疾病检测提供判别性特征。该方法表明电极空间关系可作为一种结构先验融入深度学习模型。",
+      "llm_tldr": "针对EEG信号噪声大、非平稳且跨受试差异明显导致痴呆类疾病分类困难的问题，本文提出M-LINKX多视图图学习框架。它采用基于片段的建模，将长时EEG转成固定长度输入，并在每个片段内同时建模通道内信号和通道间交互关系，借助电极图结构捕捉空间脑区信息。在AD、MCI和FTD检测任务上验证了该方法的有效性，说明多视图通道交互可为EEG认知疾病检测提供判别性特征。该方法表明电极空间关系可作为一种结构先验融入深度学习模型。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

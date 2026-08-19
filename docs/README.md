@@ -6,28 +6,29 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-08-18
-- 运行时间：2026-08-18 19:56:39 UTC
+- 最新运行日期：2026-08-19
+- 运行时间：2026-08-19 20:00:21 UTC
 - 运行状态：成功
 - 本次总论文数：2
-- 精读区：1
-- 速读区：1
+- 精读区：0
+- 速读区：2
 
 ### 今日简报（AI）
-今日共读2篇脑成像源定位论文，1篇精读、1篇速读。  
-最值得关注的是精读论文将生物物理先验融入深度算子学习，可提升电生理源重建的逆问题求解精度。  
-若想入门，建议先理解脑磁/脑电逆问题中的稀疏约束与算子学习两种技术路线。
-- 详情：[/202608/18/README](/202608/18/README)
+今日速读2篇论文，聚焦脑成像与脑疾病检测，暂无精读。  
+最值得关注：一是用二次无约束二进制优化求解稀疏MEG源定位（7.0分），二是用多视图图学习检测脑认知疾病（6.0分）。  
+建议优先精读高分论文，并关注其与传统稀疏源重建方法的对比。
+- 详情：[/202608/19/README](/202608/19/README)
 
 ### 精读区论文标签
-1. [Biophysics-informed deep operator learning for inverse problems with application to electrophysiological source reconstruction](/202608/18/2608.16871v1-biophysics-informed-deep-operator-learning-for-inverse-problems-with-application-to-electrophysiological-source-reconstruction)  
-   标签：评分：9.0/10、query:eeg-priors
-   evidence：面向电生理源重建的生物物理先验
+- 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Quadratic Unconstrained Binary Optimization for Sparse Magnetoencephalography Source Localization](/202608/18/2608.14738v1-quadratic-unconstrained-binary-optimization-for-sparse-magnetoencephalography-source-localization)  
+1. [Quadratic Unconstrained Binary Optimization for Sparse Magnetoencephalography Source Localization](/202608/19/2608.14738v1-quadratic-unconstrained-binary-optimization-for-sparse-magnetoencephalography-source-localization)  
    标签：评分：7.0/10、query:eeg-priors
-   evidence：稀疏脑磁图源定位与脑电同源，QUBO框架支持脑区先验建模
+   evidence：脑磁图源定位使用稀疏先验与候选筛选
+2. [M-LINKX: Multiview Graph Learning for Brain Cognitive Disease Detection](/202608/19/2608.14847v1-m-linkx-multiview-graph-learning-for-brain-cognitive-disease-detection)  
+   标签：评分：6.0/10、query:eeg-priors
+   evidence：基于EEG的疾病检测，通过多视图图学习建模电极通道关系，隐含编码脑区结构
 
 
 <div class="dpr-home-promo-card">
