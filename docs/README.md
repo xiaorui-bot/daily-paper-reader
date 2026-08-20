@@ -6,29 +6,28 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-08-19
-- 运行时间：2026-08-19 20:00:21 UTC
+- 最新运行日期：2026-08-20
+- 运行时间：2026-08-20 20:15:53 UTC
 - 运行状态：成功
 - 本次总论文数：2
-- 精读区：0
-- 速读区：2
+- 精读区：1
+- 速读区：1
 
 ### 今日简报（AI）
-今日速读2篇论文，聚焦脑成像与脑疾病检测，暂无精读。  
-最值得关注：一是用二次无约束二进制优化求解稀疏MEG源定位（7.0分），二是用多视图图学习检测脑认知疾病（6.0分）。  
-建议优先精读高分论文，并关注其与传统稀疏源重建方法的对比。
-- 详情：[/202608/19/README](/202608/19/README)
+今日精读聚焦癫痫灶定位，速读关注学习风格识别，共读2篇。  
+最值得看的是基于立体脑电的图神经网络方法（8.0分），为致痫区定位提供新思路；功能连接分析则可用于无个性化学习风格识别。  
+建议优先精读高分论文，后续可结合多中心数据验证模型泛化性。
+- 详情：[/202608/20/README](/202608/20/README)
 
 ### 精读区论文标签
-- 本次无精读推荐。
+1. [Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings](/202608/20/2608.18887v1-graph-based-approaches-to-learning-epileptogenic-zone-localization-using-stereo-eeg-recordings)  
+   标签：评分：8.0/10、query:eeg-priors
+   evidence：图拓扑作为先验用于基于立体脑电的致痫区源定位。
 
 ### 速读区论文标签
-1. [Quadratic Unconstrained Binary Optimization for Sparse Magnetoencephalography Source Localization](/202608/19/2608.14738v1-quadratic-unconstrained-binary-optimization-for-sparse-magnetoencephalography-source-localization)  
-   标签：评分：7.0/10、query:eeg-priors
-   evidence：脑磁图源定位使用稀疏先验与候选筛选
-2. [M-LINKX: Multiview Graph Learning for Brain Cognitive Disease Detection](/202608/19/2608.14847v1-m-linkx-multiview-graph-learning-for-brain-cognitive-disease-detection)  
+1. [Beyond Local Power: Functional Connectivity Analysis for Subject-Independent Learning Style Recognition](/202608/20/2608.12000v1-beyond-local-power-functional-connectivity-analysis-for-subject-independent-learning-style-recognition)  
    标签：评分：6.0/10、query:eeg-priors
-   evidence：基于EEG的疾病检测，通过多视图图学习建模电极通道关系，隐含编码脑区结构
+   evidence：将PLV功能连接与局部EEG特征对比，利用脑区连接先验进行学习风格识别。
 
 
 <div class="dpr-home-promo-card">

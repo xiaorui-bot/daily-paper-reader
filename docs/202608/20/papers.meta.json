@@ -1,0 +1,39 @@
+{
+  "label": "2026-08-20",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T20:15:58",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202608/20/2608.18887v1-graph-based-approaches-to-learning-epileptogenic-zone-localization-using-stereo-eeg-recordings",
+      "section": "deep",
+      "title_en": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+      "authors": "Daniel Wendelken, Brian Ervin, Ravindra Arya, Ali A. Minai",
+      "date": "2026-08-19",
+      "pdf": "https://arxiv.org/pdf/2608.18887v1",
+      "score": "8.0",
+      "evidence": "图拓扑作为先验用于基于立体脑电的致痫区源定位。",
+      "tldr": "局灶性癫痫的术前评估中，立体脑电(sEEG)记录的致痫区(EZ)定位至关重要。基于静息态功能连接的图模型需选择网络拓扑，但拓扑的影响尚缺乏系统研究。本文对40例患者的sEEG数据，在同一学习模型和留一患者评估下，比较了Dense、解剖/几何先验、预算稀疏化及学习稀疏化，并提出Region-Bridge-c。在约30%边保留率下，Region-Bridge-c取得最高平均PR-AUC 0.371±0.015，较Dense高0.022且边数少69%；Spatial-k也具竞争力。结论：图构建应作为可调设计显式优化，而非固定预处理。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "The epileptogenic zone (EZ) is the brain region that generates seizures in an individual, and is the target of epilepsy surgery. Localizing the EZ from stereo-EEG (sEEG) recordings supports surgical planning, but manual interpretation is time-consuming and focuses on seizure recordings. Graphical learning models of resting-state functional connectivity among the recorded brain regions are an attractive alternative, but depend crucially on the network topology chosen for the model.   We present a controlled study of graph-based models to explore how graph topology affects EZ localization from resting-state sEEG in 40 patients. Using the same simple learnable model and leave-one-patient-out evaluation, we compare dense graphs, anatomy- and geometry-informed priors, budgeted sparsification methods, and learned sparsification, including the proposed Region-Bridge-$c$ topology. To compare graph constructions fairly, we control the number of incoming edges per node and vary graph sparsity.   At $\\approx 30\\%$ edge retention, Region-Bridge-$c$ achieves the highest observed mean PR-AUC ($0.371\\pm0.015$; ROC-AUC $0.743\\pm0.010$) while using $\\approx 69\\%$ fewer edges than Dense (PR-AUC $0.349\\pm0.014$). Spatial-$k$ is competitive, whereas random pruning requires near-dense retention. Learned sparsification benefits from anatomical node metadata but, on average, does not surpass the best fixed prior. Across all topologies, the best choice varies by patient. These results suggest that graph construction should be evaluated explicitly rather than treated as fixed preprocessing.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202608/20/2608.12000v1-beyond-local-power-functional-connectivity-analysis-for-subject-independent-learning-style-recognition",
+      "section": "quick",
+      "title_en": "Beyond Local Power: Functional Connectivity Analysis for Subject-Independent Learning Style Recognition",
+      "authors": "Wiga Maulana Baihaqi, Indriana Hidayah, Sri Kusrohmaniah, Noor Akhmad Setiawan",
+      "date": "2026-08-12",
+      "pdf": "https://arxiv.org/pdf/2608.12000v1",
+      "score": "6.0",
+      "evidence": "将PLV功能连接与局部EEG特征对比，利用脑区连接先验进行学习风格识别。",
+      "tldr": "学习风格识别有助于优化个性化教学，但传统问卷依赖主观报告，行为追踪则需长期日志累积。针对这一时间瓶颈，本文提出基于脑电相位锁定值（PLV）功能连接特征的客观识别框架，在28名受试者完成Raven高级矩阵任务时采集数据，并采用SVM与留一受试者交叉验证评估Felder-Silverman的AR/VV维度。结果显示，VV维度取得70%的受试者级准确率，额-枕连接极化贡献显著；而AR维度仅55.56%，且存在“系统性神经反转”——个体稳定连接模式与全局分类边界相反（投票边际可达20-0）。这揭示生物多样性制约统一分类器，未来需发展自适应特征变换以弥合跨受试者泛化差距。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Identifying individual learning styles optimizes pedagogical efficacy. While traditional questionnaires are structured, behavioral tracking methods require prolonged interaction log accumulation. To overcome these temporal constraints, this paper proposes an objective Electroencephalography (EEG) approach evaluating Phase Locking Value (PLV) connectivity against localized features across the Active-Reflective (AR) and Verbal-Visual (VV) Felder-Silverman dimensions. EEG signals were recorded from 28 participants during Raven's Advanced Progressive Matrices tasks. Support Vector Machine classification used Leave-One-Subject-Out Cross-Validation (LOSO-CV) alongside a 70:30 intra-subject split. The VV dimension achieved 70.00% subject-level accuracy driven by distinct fronto-occipital polarization. Conversely, the AR dimension yielded lower cross-subject generalizability (55.56%) due to overlapping executive networks and a \"Systematic Neural Inversion\" phenomenon, where stable individual connectivity signatures operated diametrically opposed to global boundaries (up to 20-0 voting margins). Ultimately, these outcomes demonstrate that rigid \"one-size-fits-all\" classifiers are bounded by biological diversity, emphasizing the need for future adaptive feature transformation techniques to bridge the cross-subject generalization gap.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
