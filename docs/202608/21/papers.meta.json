@@ -1,0 +1,24 @@
+{
+  "label": "2026-08-21",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T20:20:35",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202608/21/biorxiv-10-64898-2026-08-16-745081-v1-from-scalp-to-source-precise-phase-retrieval-of-intracerebral-epileptic-sources-based-on-surface-eeg",
+      "section": "deep",
+      "title_en": "From Scalp to Source: Precise Phase Retrieval of Intracerebral Epileptic Sources Based on Surface EEG",
+      "authors": "Furuglyas, K., Huszar-Kis, M., Horvath, B., Pejin, A., Forgo, N., Lango, I., Singla, S., Gorog, M., Vass, P., Chadaide, Z., Laszlovszky, T., Devinsky, O., Bagic, A. I., Somogyvari, Z., Berenyi, A.",
+      "date": "2026-08-20",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.08.16.745081v1.full.pdf",
+      "score": "8.0",
+      "evidence": "EEG源定位，MRI引导逆解，偶极子估计",
+      "tldr": "深脑振荡相位追踪对闭环神经调控至关重要，但有创颅内记录在临床上受限，需无创方案。本文验证GN偶极子估计法，它无需解剖成像、计算高效，通过偶极子建模、降维及频率相关相位延迟校正从头皮EEG重建深脑源相位。在尸体重放与同步头皮-SEEG患者数据中，GN相位精度与信号保真度媲美MRI-informed逆解，尸体重建相关超过0.91且平均相位误差低于9度，患者相关约0.8。该方法为癫痫等疾病的相位锁定与闭环刺激提供低门槛、可扩展的无创通路。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Accurate phase tracking of deep-brain activity is critical for effective closed-loop and phase-locked neuromodulation therapies. However, direct access to deep neural phase through intracranial recordings remains clinically restrictive due to the invasiveness. Here we validate and clinically benchmark the Gabor-Nelson (GN) dipole estimation method for reconstructing deep-brain oscillatory phase from non-invasive scalp EEG. GN is a geometry-based, imaging-independent approach that offers computationally efficient dipole reconstruction and has rarely been applied to source-level phase estimation in human neuroscience. We compared GN with an established MRI-informed Inverse Solution (IS) method using a three-stage reconstruction pipeline consisting of dipole modeling, dimensionality reduction, and frequency-dependent phase-delay correction. Validation is performed using (i) cadaveric recordings, where known ground-truth seizure waveforms were replayed through implanted deep electrodes, and (ii) simultaneous scalp EEG and SEEG recordings in human patients, where pseudo-ground truth was approximated via the intracranial contacts. GN achieved phase accuracy and signal fidelity comparable to IS across both datasets despite requiring no anatomical imaging. In cadaver recordings, phase-corrected reconstruction correlations exceeded r > 0.91 and {Delta}{Phi} < 9{degrees} in mean phase error. In patient SEEG data, GN reached up to r {approx} 0.80 with phase offsets suitable for neuromodulatory timing. GN offers a viable, low-barrier, imaging-independent alternative to traditional inverse modeling for non-invasive seizure phase tracking. This framework opens pathways for scalable, phase-locked and closed-loop stimulation therapies in epilepsy and potentially other network-based brain disorders.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

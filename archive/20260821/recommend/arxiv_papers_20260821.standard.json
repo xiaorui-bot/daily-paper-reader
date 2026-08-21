@@ -1,0 +1,65 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-21T20:19:15.784960+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 0,
+    "quick_skim_target": 11,
+    "quick_selected": 0
+  },
+  "deep_dive": [
+    {
+      "id": "biorxiv-10-64898-2026-08-16-745081-v1",
+      "source": "biorxiv",
+      "title": "From Scalp to Source: Precise Phase Retrieval of Intracerebral Epileptic Sources Based on Surface EEG",
+      "abstract": "Accurate phase tracking of deep-brain activity is critical for effective closed-loop and phase-locked neuromodulation therapies. However, direct access to deep neural phase through intracranial recordings remains clinically restrictive due to the invasiveness. Here we validate and clinically benchmark the Gabor-Nelson (GN) dipole estimation method for reconstructing deep-brain oscillatory phase from non-invasive scalp EEG. GN is a geometry-based, imaging-independent approach that offers computationally efficient dipole reconstruction and has rarely been applied to source-level phase estimation in human neuroscience. We compared GN with an established MRI-informed Inverse Solution (IS) method using a three-stage reconstruction pipeline consisting of dipole modeling, dimensionality reduction, and frequency-dependent phase-delay correction. Validation is performed using (i) cadaveric recordings, where known ground-truth seizure waveforms were replayed through implanted deep electrodes, and (ii) simultaneous scalp EEG and SEEG recordings in human patients, where pseudo-ground truth was approximated via the intracranial contacts. GN achieved phase accuracy and signal fidelity comparable to IS across both datasets despite requiring no anatomical imaging. In cadaver recordings, phase-corrected reconstruction correlations exceeded r > 0.91 and {Delta}{Phi} < 9{degrees} in mean phase error. In patient SEEG data, GN reached up to r {approx} 0.80 with phase offsets suitable for neuromodulatory timing. GN offers a viable, low-barrier, imaging-independent alternative to traditional inverse modeling for non-invasive seizure phase tracking. This framework opens pathways for scalable, phase-locked and closed-loop stimulation therapies in epilepsy and potentially other network-based brain disorders.",
+      "authors": [
+        "Furuglyas, K.",
+        "Huszar-Kis, M.",
+        "Horvath, B.",
+        "Pejin, A.",
+        "Forgo, N.",
+        "Lango, I.",
+        "Singla, S.",
+        "Gorog, M.",
+        "Vass, P.",
+        "Chadaide, Z.",
+        "Laszlovszky, T.",
+        "Devinsky, O.",
+        "Bagic, A. I.",
+        "Somogyvari, Z.",
+        "Berenyi, A."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-08-20T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.16.745081v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "EEG source localization, MRI-informed inverse solution, dipole estimation",
+      "llm_evidence_cn": "EEG源定位，MRI引导逆解，偶极子估计",
+      "llm_evidence": "EEG源定位，MRI引导逆解，偶极子估计",
+      "canonical_evidence": "EEG源定位，MRI引导逆解，偶极子估计",
+      "llm_tldr_en": "Validates Gabor-Nelson dipole method for source-level EEG phase retrieval and compares with MRI-informed inverse solution, enabling non-invasive deep-brain source reconstruction.",
+      "llm_tldr_cn": "脑内深部振荡相位追踪对闭环和锁相神经调控至关重要，但颅内记录具有侵入性，临床受限。本文用头皮EEG验证并基准测试了Gabor-Nelson偶极子估计法，并与成熟的MRI引导逆解法比较。结果显示GN方法能高效重建深部脑振荡相位，且不依赖成像，为非侵入式EEG源定位与癫痫源相位恢复提供了有效的几何方法途径。",
+      "llm_tldr": "脑内深部振荡相位追踪对闭环和锁相神经调控至关重要，但颅内记录具有侵入性，临床受限。本文用头皮EEG验证并基准测试了Gabor-Nelson偶极子估计法，并与成熟的MRI引导逆解法比较。结果显示GN方法能高效重建深部脑振荡相位，且不依赖成像，为非侵入式EEG源定位与癫痫源相位恢复提供了有效的几何方法途径。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": []
+}

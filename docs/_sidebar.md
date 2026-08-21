@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-08-21 <!--dpr-date:20260821-->
+    * 精读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/21/biorxiv-10-64898-2026-08-16-745081-v1-from-scalp-to-source-precise-phase-retrieval-of-intracerebral-epileptic-sources-based-on-surface-eeg" data-sidebar-item="{&quot;title&quot;: &quot;From Scalp to Source: Precise Phase Retrieval of Intracerebral Epileptic Sources Based on Surface EEG&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-08-16-745081-v1-from-scalp-to-source-precise-phase-retrieval-of-intracerebral-epileptic-sources-based-on-surface-eeg&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;EEG源定位，MRI引导逆解，偶极子估计&quot;}">From Scalp to Source: Precise Phase Retrieval of Intracerebral Epileptic Sources Based on Surface EEG</a>
   * 2026-08-20 <!--dpr-date:20260820-->
     * 精读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/20/2608.18887v1-graph-based-approaches-to-learning-epileptogenic-zone-localization-using-stereo-eeg-recordings" data-sidebar-item="{&quot;title&quot;: &quot;Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.18887v1-graph-based-approaches-to-learning-epileptogenic-zone-localization-using-stereo-eeg-recordings&quot;, &quot;score&quot;: &quot;8.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;图拓扑作为先验用于基于立体脑电的致痫区源定位。&quot;}">Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings</a>
