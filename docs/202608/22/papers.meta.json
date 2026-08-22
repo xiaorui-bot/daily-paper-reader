@@ -1,0 +1,24 @@
+{
+  "label": "2026-08-22",
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T19:40:47",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202608/22/biorxiv-10-64898-2026-08-16-744304-v1-precise-functional-localization-of-the-foveolar-representation-in-anesthetized-macaque-visual-cortex",
+      "section": "quick",
+      "title_en": "Precise Functional Localization of the Foveolar Representation in Anesthetized Macaque Visual Cortex",
+      "authors": "Qian, M., Chen, M., Barczak, A., Zhang, X., Li, P., Roe, A. W.",
+      "date": "2026-08-20",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.08.16.744304v1.full.pdf",
+      "score": "7.0",
+      "evidence": "提供基于fMRI的皮层区域精确定位方法，可为EEG源成像提供解剖/功能先验",
+      "tldr": "麻醉状态下无法行为控制注视，精确定位灵长类中央凹皮层表征困难。本工作提出基于子午线的层级式7T fMRI策略，用递减尺度光栅条从粗到细映射垂直/水平子午线，并以0.2°点刺激细化，在多个视觉区边界外侧端发现离散中央凹位点，构成新发现的“中央凹核心”区域。该方法为麻醉灵长类提供可复现的功能定位框架。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "The foveola-the central ~1{degrees} of the visual field-supports the highest-acuity spatial vision, yet localizing its cortical representation in the primate brain is technically demanding, particularly under anesthesia where gaze cannot be behaviorally controlled. Here we describe a hierarchical, meridian-based 7T BOLD fMRI strategy for sub-degree functional localization of the foveolar representation in anesthetized macaques. Using drifting grating bars presented at three successively finer spatial scales (4.5{degrees}, 1.5{degrees}, and 0.5{degrees}), we independently mapped the vertical and horizontal meridian representations in early visual cortex through a coarse-to-fine refinement scheme. The vertical meridian was identified by the progressive transition from unilateral to bilaterally symmetric activation converging at the V1/V2 border, whereas the horizontal meridian was defined by simultaneous activation of dorsal and ventral V2/V3 borders at the fundus of the calcarine sulcus. The functional intersection of the two meridia defined candidate foveolar coordinates, which were then refined using localized 0.2{degrees} spot stimuli. Brain surface-based rendering revealed multiple discrete foveolar loci, one at the lateral end of each of the V1/V2, V2/V3, V3/V4, and V4/TEO borders. These distributed loci define the \"foveolar core\", a newly discovered visual area with distinct functional properties. This meridian-based hierarchical approach provides a reproducible framework for resolving central visual representations in anesthetized primates, providing a new avenue for studying foveolar cortex and circuitry.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

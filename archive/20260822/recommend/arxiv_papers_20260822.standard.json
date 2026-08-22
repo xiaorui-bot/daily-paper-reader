@@ -1,0 +1,57 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-22T19:40:31.673987+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-08-16-744304-v1",
+      "source": "biorxiv",
+      "title": "Precise Functional Localization of the Foveolar Representation in Anesthetized Macaque Visual Cortex",
+      "abstract": "The foveola-the central ~1{degrees} of the visual field-supports the highest-acuity spatial vision, yet localizing its cortical representation in the primate brain is technically demanding, particularly under anesthesia where gaze cannot be behaviorally controlled. Here we describe a hierarchical, meridian-based 7T BOLD fMRI strategy for sub-degree functional localization of the foveolar representation in anesthetized macaques. Using drifting grating bars presented at three successively finer spatial scales (4.5{degrees}, 1.5{degrees}, and 0.5{degrees}), we independently mapped the vertical and horizontal meridian representations in early visual cortex through a coarse-to-fine refinement scheme. The vertical meridian was identified by the progressive transition from unilateral to bilaterally symmetric activation converging at the V1/V2 border, whereas the horizontal meridian was defined by simultaneous activation of dorsal and ventral V2/V3 borders at the fundus of the calcarine sulcus. The functional intersection of the two meridia defined candidate foveolar coordinates, which were then refined using localized 0.2{degrees} spot stimuli. Brain surface-based rendering revealed multiple discrete foveolar loci, one at the lateral end of each of the V1/V2, V2/V3, V3/V4, and V4/TEO borders. These distributed loci define the \"foveolar core\", a newly discovered visual area with distinct functional properties. This meridian-based hierarchical approach provides a reproducible framework for resolving central visual representations in anesthetized primates, providing a new avenue for studying foveolar cortex and circuitry.",
+      "authors": [
+        "Qian, M.",
+        "Chen, M.",
+        "Barczak, A.",
+        "Zhang, X.",
+        "Li, P.",
+        "Roe, A. W."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-08-20T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.08.16.744304v1.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Precise fMRI-based functional localization of cortical regions, method can supply anatomical/functional priors for EEG source imaging",
+      "llm_evidence_cn": "提供基于fMRI的皮层区域精确定位方法，可为EEG源成像提供解剖/功能先验",
+      "llm_evidence": "提供基于fMRI的皮层区域精确定位方法，可为EEG源成像提供解剖/功能先验",
+      "canonical_evidence": "提供基于fMRI的皮层区域精确定位方法，可为EEG源成像提供解剖/功能先验",
+      "llm_tldr_en": "Describes a hierarchical meridian-based 7T fMRI strategy for sub-degree localization of the foveolar representation in macaque visual cortex, enabling precise cortical region mapping that can inform anatomical priors for EEG source localization.",
+      "llm_tldr_cn": "在麻醉猕猴上局部化中央凹视觉皮层表征具有挑战。本文提出基于子午线的分层7T fMRI策略，通过4.5°、1.5°和0.5°三个尺度的漂移光栅刺激，由粗到细地独立绘制早期视觉皮层的水平和垂直子午线表征。该方案实现了亚度级功能定位。这种精确的皮层脑区定位方法可为EEG源定位提供高分辨率的先验信息。",
+      "llm_tldr": "在麻醉猕猴上局部化中央凹视觉皮层表征具有挑战。本文提出基于子午线的分层7T fMRI策略，通过4.5°、1.5°和0.5°三个尺度的漂移光栅刺激，由粗到细地独立绘制早期视觉皮层的水平和垂直子午线表征。该方案实现了亚度级功能定位。这种精确的皮层脑区定位方法可为EEG源定位提供高分辨率的先验信息。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
