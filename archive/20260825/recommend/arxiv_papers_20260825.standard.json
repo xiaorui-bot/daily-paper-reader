@@ -1,0 +1,54 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-25T20:12:54.424711+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 0,
+    "quick_skim_target": 11,
+    "quick_selected": 0
+  },
+  "deep_dive": [
+    {
+      "id": "2608.22477v1",
+      "source": "arxiv",
+      "title": "Volume-Surface-Wire Integral Equations for EEG Source Imaging",
+      "abstract": "In EEG source imaging, the precision of the imaging of the brain activity depends on the accuracy of the forward head model which is, in turn, affected by the representation of tissue conductivity, including anisotropic compartments such as the skull and white matter. We introduce an EEG source imaging framework based on a hybrid volume-surface-wire integral formulation, enabling tract-aware modeling of anisotropic white matter contributions without a full volumetric head discretization. The proposed framework is assessed on a realistic MRI-derived head anatomy, showing close agreement with FEM reference solutions while avoiding full-volume meshing and providing a natural representation of white matter fiber tracts. We then integrate this model into a real-time pipeline that couples EEG processing with immersive visualization, enabling synchronized inspection of scalp potentials, cortical sources, and white matter fiber tracts-related quantities. The results support the proposed formulation as a tract-aware alternative to canonical formulations, combining robust localization performance with interactive visualization capabilities.",
+      "authors": [
+        "Paolo Ricci",
+        "Maxime Monin",
+        "Alessandro Mascherin",
+        "Adrien Merlini",
+        "Francesco P. Andriulli"
+      ],
+      "primary_category": "physics.comp-ph",
+      "categories": [
+        "physics.comp-ph"
+      ],
+      "published": "2026-08-23T16:03:13+00:00",
+      "link": "https://arxiv.org/pdf/2608.22477v1",
+      "tags": [
+        "keyword:eeg-priors"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Directly addresses EEG source imaging with anatomical head models and anisotropic white matter tract priors.",
+      "llm_evidence_cn": "直接针对EEG源成像中的解剖头模型与各向异性白质纤维束先验。",
+      "llm_evidence": "直接针对EEG源成像中的解剖头模型与各向异性白质纤维束先验。",
+      "canonical_evidence": "直接针对EEG源成像中的解剖头模型与各向异性白质纤维束先验。",
+      "llm_tldr_en": "This paper introduces a volume-surface-wire integral equation framework for EEG source imaging, enabling tract-aware anisotropic white matter modeling without full volumetric meshing; on realistic MRI-derived head anatomy it agrees closely with FEM references, and it is integrated into a real-time pipeline, making it directly relevant to priors in EEG source localization.",
+      "llm_tldr_cn": "该文针对EEG源成像中前向头模型精度受组织电导率及各向异性影响的问题，提出混合体-面-线积分方程框架，无需全容积网格即可表达白质纤维束的各向异性贡献。在真实MRI头解剖上的评估与FEM参考解高度一致，并集成到实时EEG源成像流程中。该工作直接对应EEG源定位中的解剖先验建模，是该需求的核心相关论文。",
+      "llm_tldr": "该文针对EEG源成像中前向头模型精度受组织电导率及各向异性影响的问题，提出混合体-面-线积分方程框架，无需全容积网格即可表达白质纤维束的各向异性贡献。在真实MRI头解剖上的评估与FEM参考解高度一致，并集成到实时EEG源成像流程中。该工作直接对应EEG源定位中的解剖先验建模，是该需求的核心相关论文。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": []
+}

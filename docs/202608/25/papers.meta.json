@@ -1,0 +1,24 @@
+{
+  "label": "2026-08-25",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T20:14:05",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202608/25/2608.22477v1-volume-surface-wire-integral-equations-for-eeg-source-imaging",
+      "section": "deep",
+      "title_en": "Volume-Surface-Wire Integral Equations for EEG Source Imaging",
+      "authors": "Paolo Ricci, Maxime Monin, Alessandro Mascherin, Adrien Merlini, Francesco P. Andriulli",
+      "date": "2026-08-23",
+      "pdf": "https://arxiv.org/pdf/2608.22477v1",
+      "score": "9.0",
+      "evidence": "直接针对EEG源成像中的解剖头模型与各向异性白质纤维束先验。",
+      "tldr": "EEG源成像的精度受头部模型影响，尤其各向异性组织如颅骨和白质难以建模。本文提出一种混合体积-表面-线积分方程框架，无需全容积网格即可实现白质纤维束各向异性建模。在真实MRI头部解剖上验证，与有限元参考解高度一致。该模型集成到实时处理管线，支持头皮电位、皮层源和纤维束相关量的同步可视化，为脑电成像提供兼具精度与交互性的新方案。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "In EEG source imaging, the precision of the imaging of the brain activity depends on the accuracy of the forward head model which is, in turn, affected by the representation of tissue conductivity, including anisotropic compartments such as the skull and white matter. We introduce an EEG source imaging framework based on a hybrid volume-surface-wire integral formulation, enabling tract-aware modeling of anisotropic white matter contributions without a full volumetric head discretization. The proposed framework is assessed on a realistic MRI-derived head anatomy, showing close agreement with FEM reference solutions while avoiding full-volume meshing and providing a natural representation of white matter fiber tracts. We then integrate this model into a real-time pipeline that couples EEG processing with immersive visualization, enabling synchronized inspection of scalp potentials, cortical sources, and white matter fiber tracts-related quantities. The results support the proposed formulation as a tract-aware alternative to canonical formulations, combining robust localization performance with interactive visualization capabilities.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

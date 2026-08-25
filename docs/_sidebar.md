@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-08-25 <!--dpr-date:20260825-->
+    * 精读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/25/2608.22477v1-volume-surface-wire-integral-equations-for-eeg-source-imaging" data-sidebar-item="{&quot;title&quot;: &quot;Volume-Surface-Wire Integral Equations for EEG Source Imaging&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.22477v1-volume-surface-wire-integral-equations-for-eeg-source-imaging&quot;, &quot;score&quot;: &quot;9.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;直接针对EEG源成像中的解剖头模型与各向异性白质纤维束先验。&quot;}">Volume-Surface-Wire Integral Equations for EEG Source Imaging</a>
   * 2026-08-22 <!--dpr-date:20260822-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/22/biorxiv-10-64898-2026-08-16-744304-v1-precise-functional-localization-of-the-foveolar-representation-in-anesthetized-macaque-visual-cortex" data-sidebar-item="{&quot;title&quot;: &quot;Precise Functional Localization of the Foveolar Representation in Anesthetized Macaque Visual Cortex&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2026-08-16-744304-v1-precise-functional-localization-of-the-foveolar-representation-in-anesthetized-macaque-visual-cortex&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;提供基于fMRI的皮层区域精确定位方法，可为EEG源成像提供解剖/功能先验&quot;}">Precise Functional Localization of the Foveolar Representation in Anesthetized Macaque Visual Cortex</a>
