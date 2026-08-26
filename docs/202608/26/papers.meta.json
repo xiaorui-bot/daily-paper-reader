@@ -1,0 +1,24 @@
+{
+  "label": "2026-08-26",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T21:11:36",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202608/26/biorxiv-10-64898-2025-12-03-692031-v2-a-unified-multiscale-modelling-framework-to-explore-the-brain-excitatory-inhibitory-balance-application-to-multiple-sclerosis",
+      "section": "quick",
+      "title_en": "A unified multiscale modelling framework to explore the brain excitatory-inhibitory balance: application to multiple sclerosis",
+      "authors": "Korkmaz, G., Lorenzi, R. M., Ravera, F., Alahmadi, A. A. S., Monteverdi, A., Kanber, B., Prados, F., D'Angelo, E. U., Palesi, F., Toosy, A., Gandini Wheeler-Kingshott, C. A. M.",
+      "date": "2026-08-19",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2025.12.03.692031v2.full.pdf",
+      "score": "6.0",
+      "evidence": "结合DCM与TVB，利用结构和功能先验建模脑亚网络，可迁移用于EEG脑区先验。",
+      "tldr": "兴奋-抑制平衡是大脑网络正常运作的基础，其失衡与多发性硬化症（MS）等神经疾病密切相关。本研究结合动态因果建模（DCM）与虚拟大脑（TVB），构建统一多尺度框架，分析健康对照和MS患者的视觉运动网络任务态及静息态fMRI数据。结果显示MS患者整体网络架构虽保留，但特定连接（如小脑至初级视觉皮层）由抑制性转为兴奋性，任务态反馈连接异常，且与行为及临床指标相关。该框架将网络级兴奋性增益与连接级有效连接强度关联起来，为揭示脑疾病中兴奋-抑制失衡机制提供了新途径。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Balanced excitation and inhibition are essential for brain dynamics, and their disruption can lead to network dysfunction in neurological diseases. Here, we present a conceptually unified multiscale brain modelling framework combining Dynamic Causal Modelling (DCM) applied to task and resting-state functional Magnetic Resonance Imaging (fMRI) data and The Virtual Brain (TVB) to characterise the excitatory/inhibitory balance of the brain. We applied the framework to a visuomotor brain subnetwork in a cohort of 9 healthy controls and 17 people with multiple sclerosis (pwMS). Acquired data included an event-related task fMRI experiment with variable grip force, resting-state fMRI, and diffusion-weighted imaging. The visuomotor network comprised the bilateral primary visual cortex (V1), left primary motor cortex (M1), supplementary motor and premotor cortex (SMAPMC), cingulate cortex (CC), superior parietal lobule (SPL), and right cerebellar lobule VI (CR). Results from DCM showed that while the overall network architecture was preserved in MS, there were significant alterations in the excitatory/inhibitory nature of effective connectivity: at rest, a statistical change was observed in CR-to-V1 connectivity, which was inhibitory in healthy volunteers but excitatory in MS. During task, effective connectivity feedback, including cerebellar self-connection, was positive in healthy volunteers but negative in MS and became increasingly dysregulated with higher motor demand. Alterations in functional and effective connectivity were associated with behavioural performance (task reaction time) and clinical measures (disability severity). At the overall group level, TVB parameters linked reduced NMDA-mediated excitatory gain to slower task responses. Moreover, integrating DCM and TVB demonstrated that higher global excitatory gain was associated with stronger task-engaged effective connectivity across sensorimotor and visuomotor pathways, linking network-level excitability captured by TVB to context-dependent reconfiguration of directed interactions and to connection-level strength revealed by DCM.",
+      "source": "biorxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

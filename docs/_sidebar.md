@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-08-26 <!--dpr-date:20260826-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/26/biorxiv-10-64898-2025-12-03-692031-v2-a-unified-multiscale-modelling-framework-to-explore-the-brain-excitatory-inhibitory-balance-application-to-multiple-sclerosis" data-sidebar-item="{&quot;title&quot;: &quot;A unified multiscale modelling framework to explore the brain excitatory-inhibitory balance: application to multiple sclerosis&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/biorxiv-10-64898-2025-12-03-692031-v2-a-unified-multiscale-modelling-framework-to-explore-the-brain-excitatory-inhibitory-balance-application-to-multiple-sclerosis&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;结合DCM与TVB，利用结构和功能先验建模脑亚网络，可迁移用于EEG脑区先验。&quot;}">A unified multiscale modelling framework to explore the brain excitatory-inhibitory balance: application to multiple sclerosis</a>
   * 2026-08-25 <!--dpr-date:20260825-->
     * 精读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/25/2608.22477v1-volume-surface-wire-integral-equations-for-eeg-source-imaging" data-sidebar-item="{&quot;title&quot;: &quot;Volume-Surface-Wire Integral Equations for EEG Source Imaging&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.22477v1-volume-surface-wire-integral-equations-for-eeg-source-imaging&quot;, &quot;score&quot;: &quot;9.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;直接针对EEG源成像中的解剖头模型与各向异性白质纤维束先验。&quot;}">Volume-Surface-Wire Integral Equations for EEG Source Imaging</a>

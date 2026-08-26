@@ -1,0 +1,62 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-26T21:10:41.361595+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2025-12-03-692031-v2",
+      "source": "biorxiv",
+      "title": "A unified multiscale modelling framework to explore the brain excitatory-inhibitory balance: application to multiple sclerosis",
+      "abstract": "Balanced excitation and inhibition are essential for brain dynamics, and their disruption can lead to network dysfunction in neurological diseases. Here, we present a conceptually unified multiscale brain modelling framework combining Dynamic Causal Modelling (DCM) applied to task and resting-state functional Magnetic Resonance Imaging (fMRI) data and The Virtual Brain (TVB) to characterise the excitatory/inhibitory balance of the brain. We applied the framework to a visuomotor brain subnetwork in a cohort of 9 healthy controls and 17 people with multiple sclerosis (pwMS). Acquired data included an event-related task fMRI experiment with variable grip force, resting-state fMRI, and diffusion-weighted imaging. The visuomotor network comprised the bilateral primary visual cortex (V1), left primary motor cortex (M1), supplementary motor and premotor cortex (SMAPMC), cingulate cortex (CC), superior parietal lobule (SPL), and right cerebellar lobule VI (CR). Results from DCM showed that while the overall network architecture was preserved in MS, there were significant alterations in the excitatory/inhibitory nature of effective connectivity: at rest, a statistical change was observed in CR-to-V1 connectivity, which was inhibitory in healthy volunteers but excitatory in MS. During task, effective connectivity feedback, including cerebellar self-connection, was positive in healthy volunteers but negative in MS and became increasingly dysregulated with higher motor demand. Alterations in functional and effective connectivity were associated with behavioural performance (task reaction time) and clinical measures (disability severity). At the overall group level, TVB parameters linked reduced NMDA-mediated excitatory gain to slower task responses. Moreover, integrating DCM and TVB demonstrated that higher global excitatory gain was associated with stronger task-engaged effective connectivity across sensorimotor and visuomotor pathways, linking network-level excitability captured by TVB to context-dependent reconfiguration of directed interactions and to connection-level strength revealed by DCM.",
+      "authors": [
+        "Korkmaz, G.",
+        "Lorenzi, R. M.",
+        "Ravera, F.",
+        "Alahmadi, A. A. S.",
+        "Monteverdi, A.",
+        "Kanber, B.",
+        "Prados, F.",
+        "D'Angelo, E. U.",
+        "Palesi, F.",
+        "Toosy, A.",
+        "Gandini Wheeler-Kingshott, C. A. M."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-08-19T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2025.12.03.692031v2.full.pdf",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Combines DCM and TVB with structural/functional priors to model brain subnetworks; transferable to EEG brain-region priors.",
+      "llm_evidence_cn": "结合DCM与TVB，利用结构和功能先验建模脑亚网络，可迁移用于EEG脑区先验。",
+      "llm_evidence": "结合DCM与TVB，利用结构和功能先验建模脑亚网络，可迁移用于EEG脑区先验。",
+      "canonical_evidence": "结合DCM与TVB，利用结构和功能先验建模脑亚网络，可迁移用于EEG脑区先验。",
+      "llm_tldr_en": "Unified multiscale brain modelling framework combining DCM and TVB to estimate excitatory/inhibitory balance, demonstrated in multiple sclerosis. Offers transferable anatomical/functional prior modelling useful for EEG brain-region priors.",
+      "llm_tldr_cn": "多发性硬化症等神经疾病中兴奋-抑制失衡的表现需要跨尺度建模来刻画。作者提出了一个结合动态因果建模（DCM）与虚拟大脑（TVB）的统一多尺度脑建模框架，并利用任务态和静息态功能磁共振成像及扩散加权数据估计视觉运动子网络的兴奋/抑制平衡。在9名健康对照和17名多发性硬化患者的实验中，该框架能够有效表征疾病状态相关的平衡改变。这项工作为整合解剖与功能先验的脑网络建模提供了可迁移的方法参照。",
+      "llm_tldr": "多发性硬化症等神经疾病中兴奋-抑制失衡的表现需要跨尺度建模来刻画。作者提出了一个结合动态因果建模（DCM）与虚拟大脑（TVB）的统一多尺度脑建模框架，并利用任务态和静息态功能磁共振成像及扩散加权数据估计视觉运动子网络的兴奋/抑制平衡。在9名健康对照和17名多发性硬化患者的实验中，该框架能够有效表征疾病状态相关的平衡改变。这项工作为整合解剖与功能先验的脑网络建模提供了可迁移的方法参照。",
+      "llm_tags": [
+        "query:eeg-priors:composite"
+      ],
+      "matched_query_tag": "query:eeg-priors:composite",
+      "matched_query_text": "Papers central to 请帮我查找EEG脑区先验的相关论文, especially work that connects or combines: electroencephalography brain region priors; anatomical prior information in EEG analysis; What priors are commonly used in EEG source localization?.",
+      "matched_requirement_id": "req-composite-eeg-priors",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
