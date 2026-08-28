@@ -1,0 +1,94 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-28T02:39:17.988160+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "2608.26998v1",
+      "source": "arxiv",
+      "title": "Virtual iEEG from Scalp EEG: Charting the Landscape of Source Imaging, Intracranial Inference and Reconstruction",
+      "abstract": "Intracranial electroencephalography (iEEG) provides temporally precise and spatially specific access to neural activity from focal and deep brain regions, but its invasiveness and restricted anatomical coverage limit routine use. These constraints have motivated scalp-to-intracranial inference, termed virtual iEEG when model outputs carry iEEG-defined event, feature, representation, or contact-level waveform semantics. This review presents a target-centred framework distinguishing event inference, feature translation, and waveform reconstruction, while separating predictability from observability, identifiability, fidelity, and utility. Evidence is evaluated according to cohort independence, anatomical and spectral coverage, train--test separation, and target-patient adaptation. Current studies support inference of selected intracranial events, low-frequency components, and task-related representations, but not unique recovery of arbitrary contact-level activity. Stronger validation requires appropriate controls, source-imaging baselines, uncertainty assessment, and incremental-utility testing. Future progress depends on independent paired datasets and prospective evidence that virtual iEEG adds value beyond scalp EEG and EEG source imaging.",
+      "authors": [
+        "Dongyi He",
+        "Xiangkai Wang",
+        "Hongjie Yan",
+        "Luping Song",
+        "Wai Ting Siok",
+        "Nizhuan Wang"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-08-27T11:44:05+00:00",
+      "link": "https://arxiv.org/pdf/2608.26998v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "review of source imaging and intracranial inference, relevant to priors in EEG source localization",
+      "llm_evidence_cn": "综述头皮EEG到颅内推断的源成像方法，涉及EEG源定位中的解剖与空间先验",
+      "llm_evidence": "综述头皮EEG到颅内推断的源成像方法，涉及EEG源定位中的解剖与空间先验",
+      "canonical_evidence": "综述头皮EEG到颅内推断的源成像方法，涉及EEG源定位中的解剖与空间先验",
+      "llm_tldr_en": "A target-centered framework categorizes scalp-to-intracranial inference into event inference, feature translation, and waveform reconstruction, clarifying observability, identifiability, fidelity, and utility, and reviewing anatomical/spatial priors for virtual iEEG.",
+      "llm_tldr_cn": "该综述针对头皮EEG推断颅内iEEG信号（虚拟iEEG）的挑战，提出以目标为中心的框架，区分事件推断、特征转换与波形重建三类任务，并分离可预测性、可观测性、可辨识性、保真度与实用性。文章从队列独立性、解剖和光谱（等）证据角度评估现有方法，系统梳理了源成像中的解剖与空间先验使用。该工作为EEG源定位及颅内推断中的先验选择提供了全面的分类学支撑，是脑区先验需求的重要参考。",
+      "llm_tldr": "该综述针对头皮EEG推断颅内iEEG信号（虚拟iEEG）的挑战，提出以目标为中心的框架，区分事件推断、特征转换与波形重建三类任务，并分离可预测性、可观测性、可辨识性、保真度与实用性。文章从队列独立性、解剖和光谱（等）证据角度评估现有方法，系统梳理了源成像中的解剖与空间先验使用。该工作为EEG源定位及颅内推断中的先验选择提供了全面的分类学支撑，是脑区先验需求的重要参考。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2608.20243v1",
+      "source": "arxiv",
+      "title": "A Bayesian Edge-Space Framework for Whole-Connectome Inference in Multisite Autism Neuroimaging",
+      "abstract": "Autism spectrum disorder (ASD) is associated with heterogeneous alterations across distributed brain systems, creating challenges for whole-connectome inference. The difficulty arises not only from the large number of connections, but also from dependence among effects indexed by anatomically and functionally related region pairs. We introduce a Bayesian Edge-Space regression framework that treats each participant's connectome as a network-valued response and models the adjusted ASD effect over unordered brain-region pairs. The main methodological contribution is a positive-semidefinite covariance construction defined directly on connections. Anatomical and diagnosis-blind functional similarities are lifted from regions to edge space through a symmetrized endpoint-matching operation that preserves endpoint identity and is invariant to endpoint ordering. An additive Bayesian hierarchy estimates anatomical, functional, and interaction contributions together with multisite adjustments and connection-specific effects. Theoretical results establish covariance validity and continuous nesting of the structured components. Low-rank kernel representations and an exact sufficient-statistic reduction enable whole-connectome computation without preliminary edgewise estimation. Simulations show improved recovery of the effect surface, particularly under weak signals. In the Autism Brain Imaging Data Exchange, the framework identifies widespread reductions together with localized increases in ASD-associated connectivity. This pattern supports heterogeneous reorganization across distributed neural systems rather than uniform hyper- or hypoconnectivity. Under the fitted parameterization, the functional component has the largest structural scale, indicating organization beyond anatomical proximity alone.",
+      "authors": [
+        "Montserrat Fuentes",
+        "Veronica B. Patterson"
+      ],
+      "primary_category": "stat.ME",
+      "categories": [
+        "stat.ME",
+        "stat.CO"
+      ],
+      "published": "2026-08-20T16:36:56+00:00",
+      "link": "https://arxiv.org/pdf/2608.20243v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Bayesian covariance priors built from anatomical and functional similarities between brain regions",
+      "llm_evidence_cn": "利用脑区间的解剖与功能相似性构造贝叶斯协方差先验",
+      "llm_evidence": "利用脑区间的解剖与功能相似性构造贝叶斯协方差先验",
+      "canonical_evidence": "利用脑区间的解剖与功能相似性构造贝叶斯协方差先验",
+      "llm_tldr_en": "A Bayesian edge-space regression framework for whole-connectome inference that defines covariance directly on connections, lifting anatomical and functional regional similarities to edge priors for multisite autism neuroimaging.",
+      "llm_tldr_cn": "针对多中心自闭症神经影像中全连接组推断维度高、脑区间效应相互依赖的难题，该文提出贝叶斯边空间回归框架，将每个被试的连接组视为网络值响应，并在连接上直接构造正半定协方差。其核心贡献是把脑区的解剖与功能相似性提升为边上的先验结构，从而同时刻画大量连接及其相关性。实验展示了该方法对全连接组推断的改进。该建模思路可直接迁移到EEG源定位中作为脑区空间先验。",
+      "llm_tldr": "针对多中心自闭症神经影像中全连接组推断维度高、脑区间效应相互依赖的难题，该文提出贝叶斯边空间回归框架，将每个被试的连接组视为网络值响应，并在连接上直接构造正半定协方差。其核心贡献是把脑区的解剖与功能相似性提升为边上的先验结构，从而同时刻画大量连接及其相关性。实验展示了该方法对全连接组推断的改进。该建模思路可直接迁移到EEG源定位中作为脑区空间先验。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "anatomical prior information in EEG analysis",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

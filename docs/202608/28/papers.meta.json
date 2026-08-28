@@ -1,0 +1,39 @@
+{
+  "label": "2026-08-28",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T02:43:11",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202608/28/2608.26998v1-virtual-ieeg-from-scalp-eeg-charting-the-landscape-of-source-imaging-intracranial-inference-and-reconstruction",
+      "section": "deep",
+      "title_en": "Virtual iEEG from Scalp EEG: Charting the Landscape of Source Imaging, Intracranial Inference and Reconstruction",
+      "authors": "Dongyi He, Xiangkai Wang, Hongjie Yan, Luping Song, Wai Ting Siok, Nizhuan Wang",
+      "date": "2026-08-27",
+      "pdf": "https://arxiv.org/pdf/2608.26998v1",
+      "score": "9.0",
+      "evidence": "综述头皮EEG到颅内推断的源成像方法，涉及EEG源定位中的解剖与空间先验",
+      "tldr": "颅内脑电图(iEEG)虽精度高但有创且覆盖有限，促使从头皮脑电推断颅内信号，即虚拟iEEG。本文提出目标中心框架，区分事件推断、特征翻译与波形重建，并分离可预测性等维度。现有研究支持推断特定颅内事件、低频成分和任务表征，但不能唯一恢复任意接触级活动。需要更强验证及独立配对数据集，以证明其超越头皮脑电和源成像的实用价值。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Intracranial electroencephalography (iEEG) provides temporally precise and spatially specific access to neural activity from focal and deep brain regions, but its invasiveness and restricted anatomical coverage limit routine use. These constraints have motivated scalp-to-intracranial inference, termed virtual iEEG when model outputs carry iEEG-defined event, feature, representation, or contact-level waveform semantics. This review presents a target-centred framework distinguishing event inference, feature translation, and waveform reconstruction, while separating predictability from observability, identifiability, fidelity, and utility. Evidence is evaluated according to cohort independence, anatomical and spectral coverage, train--test separation, and target-patient adaptation. Current studies support inference of selected intracranial events, low-frequency components, and task-related representations, but not unique recovery of arbitrary contact-level activity. Stronger validation requires appropriate controls, source-imaging baselines, uncertainty assessment, and incremental-utility testing. Future progress depends on independent paired datasets and prospective evidence that virtual iEEG adds value beyond scalp EEG and EEG source imaging.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202608/28/2608.20243v1-a-bayesian-edge-space-framework-for-whole-connectome-inference-in-multisite-autism-neuroimaging",
+      "section": "quick",
+      "title_en": "A Bayesian Edge-Space Framework for Whole-Connectome Inference in Multisite Autism Neuroimaging",
+      "authors": "Montserrat Fuentes, Veronica B. Patterson",
+      "date": "2026-08-20",
+      "pdf": "https://arxiv.org/pdf/2608.20243v1",
+      "score": "7.0",
+      "evidence": "利用脑区间的解剖与功能相似性构造贝叶斯协方差先验",
+      "tldr": "自闭症谱系障碍的连接组改变异质性强，全连接推断面临挑战。提出贝叶斯边空间回归框架，通过对称化端点匹配将区域级解剖与功能相似性提升至边空间，构造定义在连接上的正半定协方差，并加性分层估计解剖、功能、交互及多站点效应。在ABIDE数据中发现广泛连接减弱伴局部增强，支持异质性重组而非均匀高/低连接。该框架利用低秩核与充分统计量实现全连接组计算，显著提升弱信号恢复，为大规模脑网络推断提供可扩展方案。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Autism spectrum disorder (ASD) is associated with heterogeneous alterations across distributed brain systems, creating challenges for whole-connectome inference. The difficulty arises not only from the large number of connections, but also from dependence among effects indexed by anatomically and functionally related region pairs. We introduce a Bayesian Edge-Space regression framework that treats each participant's connectome as a network-valued response and models the adjusted ASD effect over unordered brain-region pairs. The main methodological contribution is a positive-semidefinite covariance construction defined directly on connections. Anatomical and diagnosis-blind functional similarities are lifted from regions to edge space through a symmetrized endpoint-matching operation that preserves endpoint identity and is invariant to endpoint ordering. An additive Bayesian hierarchy estimates anatomical, functional, and interaction contributions together with multisite adjustments and connection-specific effects. Theoretical results establish covariance validity and continuous nesting of the structured components. Low-rank kernel representations and an exact sufficient-statistic reduction enable whole-connectome computation without preliminary edgewise estimation. Simulations show improved recovery of the effect surface, particularly under weak signals. In the Autism Brain Imaging Data Exchange, the framework identifies widespread reductions together with localized increases in ASD-associated connectivity. This pattern supports heterogeneous reorganization across distributed neural systems rather than uniform hyper- or hypoconnectivity. Under the fitted parameterization, the functional component has the largest structural scale, indicating organization beyond anatomical proximity alone.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
