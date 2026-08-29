@@ -1,19 +1,22 @@
 # 日报 · 2026-08-29
 
-- 生成时间：2026-08-29 02:24:09 UTC
-- 当次推荐总数：2
+- 生成时间：2026-08-29 22:21:36 UTC
+- 当次推荐总数：1
 - 精读区：0
-- 速读区：2
+- 速读区：1
 
 ## 今日简报（AI）
-今日速读2篇论文，聚焦扩散模型求解线性逆问题与fMRI静息态动力学建模。最值得关注的是扩散模型后验信息动力学方向，以及从4万条fMRI序列学习脑动态的MnemoDyn方法。建议后续可深入对比这两类方法在时序数据上的适用场景与精度表现。
+今日仅速读1篇文献，聚焦神经影像数据格式转换工具。
+
+最值得关注的是《Surf_2_Volume》工作流，它解决了CIFTI皮层分区到NIfTI体素空间的转换问题，适合跨模态分析。
+
+建议普通读者先了解CIFTI与NIfTI格式差异，后续可关注该工具的实际应用案例。
 
 ## 精读区
 - 本次无精读推荐。
 
 ## 速读区
-1. [Posterior Information Dynamics of Diffusion Models for Linear Inverse Problems](/202608/29/2608.21709v1-posterior-information-dynamics-of-diffusion-models-for-linear-inverse-problems) （6.0/10）
-2. [MnemoDyn: Learning Resting State Dynamics from 40K FMRI sequences](/202608/29/2608.23936v1-mnemodyn-learning-resting-state-dynamics-from-40k-fmri-sequences) （6.0/10）
+1. [Surf_2_Volume: a workflow for converting CIFTI parcellations to NIfTI volume space](/202608/29/2608.27012v1-surf2volume-a-workflow-for-converting-cifti-parcellations-to-nifti-volume-space) （6.0/10）
 
 ---
 使用键盘方向键可在日报/论文之间快速切换。

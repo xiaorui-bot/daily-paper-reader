@@ -1,94 +1,56 @@
 {
   "mode": "standard",
-  "generated_at": "2026-08-29T02:21:52.235591+00:00",
+  "generated_at": "2026-08-29T22:20:53.971485+00:00",
   "stats": {
     "mode": "standard",
     "tag_count": 1,
     "deep_divecandidates": 0,
     "deep_cap": 6,
     "deep_selected": 0,
-    "quick_candidates": 2,
+    "quick_candidates": 1,
     "quick_skim_target": 11,
-    "quick_selected": 2
+    "quick_selected": 1
   },
   "deep_dive": [],
   "quick_skim": [
     {
-      "id": "2608.21709v1",
+      "id": "2608.27012v1",
       "source": "arxiv",
-      "title": "Posterior Information Dynamics of Diffusion Models for Linear Inverse Problems",
-      "abstract": "Diffusion models are widely used as priors for linear inverse problems, yet endpoint quality does not reveal when measurement information enters reverse denoising or how it is allocated across signal directions. We study this process through the smoothed likelihood force, the difference between exact posterior and prior scores at each noise level. For a fixed measurement, its expected squared norm gives both posterior--prior relative-entropy dissipation and reverse-path relative-entropy growth. Averaging over measurements yields an information--minimum mean-square error (I-MMSE) identity linking information gain to denoising-error reduction. Under finite second moments, the force energy and its ratio to prior-score energy decay quadratically in the noising kernel's signal coefficient at high noise. Solvable models show that conditioning removes class separation already explained by the measurement, reduces a uniform index entropy over \\(n\\) empirical samples from \\(\\log n\\) to \\(H(I\\mid r)\\), and makes assimilation depend on operator--prior alignment even for identical singular values. Experiments in models with tractable posteriors evaluate these predictions. In a separate illustration with a frozen FFHQ model, masks sharing the same spectrum yield different prior-normalized null-space trajectory statistics.",
+      "title": "Surf_2_Volume: a workflow for converting CIFTI parcellations to NIfTI volume space",
+      "abstract": "Parcellations distributed in Connectivity Informatics Technology Initiative (CIFTI) format cannot be used directly in many analysis programs that require volume input. Existing conversion options may leave voxels in cortical gray matter unlabeled or assign labels outside gray matter, depending on the mapping parameters. We present Surf_2_Volume, a workflow that combines Connectome Workbench, FreeSurfer, AFNI, neuromaps, and Python image processing to convert cortical and subcortical CIFTI parcellations into Neuroimaging Informatics Technology Initiative (NIfTI) volumes. The workflow separates cortical and subcortical components, transfers cortical labels through fsaverage and a surface representation of the target MNI152 template, restricts voxel assignment using an adjustable probability threshold for gray matter, and recombines the components. Using the Cole-Anticevic Brain-wide Network Partition, Surf_2_Volume had an adjusted Dice score of 0.776, compared with a maximum of 0.637 among the evaluated Connectome Workbench settings. In a separate test using the Schaefer 2018 17-network volume atlas, the scores were 0.727 for Surf_2_Volume and 0.535 for the best Workbench setting. Across both atlas evaluations, Surf_2_Volume had higher adjusted Dice scores than the evaluated Workbench settings. The workflow provides a way to use surface parcellations in software that requires NIfTI input while allowing explicit control over gray matter coverage.",
       "authors": [
-        "Xiangming Meng"
+        "Shuguang Yang",
+        "Ziyi Wang",
+        "Yujing Shen",
+        "Junyi Li",
+        "Yujing Nie",
+        "Feizhen Cao",
+        "Suiping Wang"
       ],
-      "primary_category": "cs.LG",
+      "primary_category": "q-bio.QM",
       "categories": [
-        "cs.LG",
-        "cs.IT",
-        "eess.SP"
+        "q-bio.QM"
       ],
-      "published": "2026-08-22T00:53:42+00:00",
-      "link": "https://arxiv.org/pdf/2608.21709v1",
+      "published": "2026-08-27T11:56:23+00:00",
+      "link": "https://arxiv.org/pdf/2608.27012v1",
       "tags": [
         "keyword:eeg-priors",
         "query:eeg-priors"
       ],
       "llm_score": 6.0,
-      "llm_evidence_en": "General theory for priors in linear inverse problems, directly relevant to EEG source localization",
-      "llm_evidence_cn": "线性逆问题中先验信息动力学的通用理论，直接关联EEG源定位",
-      "llm_evidence": "线性逆问题中先验信息动力学的通用理论，直接关联EEG源定位",
-      "canonical_evidence": "线性逆问题中先验信息动力学的通用理论，直接关联EEG源定位",
-      "llm_tldr_en": "This paper studies when and how measurement information enters the reverse denoising of diffusion models used as priors for linear inverse problems, via a smoothed likelihood force. It establishes I-MMSE identities and quadratic decay of force energy, offering a general framework applicable to EEG source localization.",
-      "llm_tldr_cn": "论文研究扩散模型作为线性逆问题先验时，测量信息在反向去噪过程中的注入时机与方向分配。作者定义平滑似然力（后验与先验分数之差），并证明其范数期望对应相对熵耗散与信息-最小均方误差恒等式。理论结果表明力能量随噪声尺度呈二次衰减，为评估不同先验在逆问题中的信息效率提供了工具。该方法虽不针对EEG，但EEG源定位本质上是一类线性逆问题，因此可为脑区先验的设计与分析提供可迁移的框架。",
-      "llm_tldr": "论文研究扩散模型作为线性逆问题先验时，测量信息在反向去噪过程中的注入时机与方向分配。作者定义平滑似然力（后验与先验分数之差），并证明其范数期望对应相对熵耗散与信息-最小均方误差恒等式。理论结果表明力能量随噪声尺度呈二次衰减，为评估不同先验在逆问题中的信息效率提供了工具。该方法虽不针对EEG，但EEG源定位本质上是一类线性逆问题，因此可为脑区先验的设计与分析提供可迁移的框架。",
+      "llm_evidence_en": "Provides conversion of brain parcellations to volume space, enabling anatomical brain-region priors for EEG source localization",
+      "llm_evidence_cn": "提供将脑分区转换为体素空间的工作流程，可为EEG源定位启用解剖脑区先验",
+      "llm_evidence": "提供将脑分区转换为体素空间的工作流程，可为EEG源定位启用解剖脑区先验",
+      "canonical_evidence": "提供将脑分区转换为体素空间的工作流程，可为EEG源定位启用解剖脑区先验",
+      "llm_tldr_en": "Surf_2_Volume converts CIFTI brain parcellations into NIfTI volumes, solving the format mismatch that prevents direct use of anatomical atlases in volume-based analysis programs and facilitating anatomical priors for EEG source localization.",
+      "llm_tldr_cn": "该工作流解决CIFTI格式的脑分区无法被需要体素输入的分析程序直接使用的问题。它结合Connectome Workbench、FreeSurfer、AFNI等工具，将皮层和皮层下分区转换为NIfTI体素，避免灰质体素未标记或标签外溢。这样得到的体素级脑区划分可作为EEG源定位中的解剖先验，有助于在体积域中使用标准脑图谱。",
+      "llm_tldr": "该工作流解决CIFTI格式的脑分区无法被需要体素输入的分析程序直接使用的问题。它结合Connectome Workbench、FreeSurfer、AFNI等工具，将皮层和皮层下分区转换为NIfTI体素，避免灰质体素未标记或标签外溢。这样得到的体素级脑区划分可作为EEG源定位中的解剖先验，有助于在体积域中使用标准脑图谱。",
       "llm_tags": [
         "query:eeg-priors"
       ],
       "matched_query_tag": "query:eeg-priors",
-      "matched_query_text": "What priors are commonly used in EEG source localization?",
-      "matched_requirement_id": "req-3",
-      "selection_source": "fresh_fetch",
-      "quick_tier": "6"
-    },
-    {
-      "id": "2608.23936v1",
-      "source": "arxiv",
-      "title": "MnemoDyn: Learning Resting State Dynamics from 40K FMRI sequences",
-      "abstract": "We present a dynamical-systems based model for resting-state functional magnetic resonance imaging (rs-fMRI), trained on a dataset of roughly 40K rs-fMRI sequences covering a wide variety of public and available-by-permission datasets. While most existing proposals use transformer backbones, we utilize multi-resolution temporal modeling of the dynamics across parcellated brain regions. We show that MnemoDyn is compute efficient and generalizes very well across diverse populations and scanning protocols. When benchmarked against current state-of-the-art transformer-based approaches, MnemoDyn consistently delivers superior reconstruction quality. Overall, we find that with such large-scale pre-training on (non-proprietary) rs-fMRI datasets, we get a highly performant model for various downstream tasks. Our results also provide evidence of the efficacy of the model on small sample size studies which has implications for neuroimaging studies at large where resting state fMRI is a commonly acquired imaging modality.",
-      "authors": [
-        "Sourav Pal",
-        "Viet Luong",
-        "Hoseok Lee",
-        "Tingting Dan",
-        "Guorong Wu",
-        "Richard Davidson",
-        "Won Hwa Kim",
-        "Vikas Singh"
-      ],
-      "primary_category": "cs.LG",
-      "categories": [
-        "cs.LG"
-      ],
-      "published": "2026-08-25T00:52:46+00:00",
-      "link": "https://arxiv.org/pdf/2608.23936v1",
-      "tags": [
-        "keyword:eeg-priors",
-        "query:eeg-priors"
-      ],
-      "llm_score": 6.0,
-      "llm_evidence_en": "Uses brain region parcellation as structural prior in neuroimaging dynamics, not EEG but transferable",
-      "llm_evidence_cn": "在神经影像动力学中使用脑区parcellation作为结构先验，非EEG但可迁移",
-      "llm_evidence": "在神经影像动力学中使用脑区parcellation作为结构先验，非EEG但可迁移",
-      "canonical_evidence": "在神经影像动力学中使用脑区parcellation作为结构先验，非EEG但可迁移",
-      "llm_tldr_en": "This paper presents MnemoDyn, a dynamical-systems model for rs-fMRI that leverages multi-resolution temporal modeling across parcellated brain regions. Pre-trained on 40K sequences, it outperforms transformer-based methods in reconstruction quality and generalization, demonstrating the value of brain region structure priors that can inspire EEG priors.",
-      "llm_tldr_cn": "论文提出MnemoDyn，一种基于动力系统的静息态fMRI建模方法，利用脑区parcellation后的多分辨率时序建模替代transformer主干。在约4万条rs-fMRI序列上预训练后，MnemoDyn在重建质量上持续优于现有transformer方法，并具有较高的计算效率和跨群体泛化能力。该结果说明脑区结构先验对于大规模神经影像动力学建模至关重要，虽面向fMRI，但对EEG脑区先验的研究具有直接的方法启发。",
-      "llm_tldr": "论文提出MnemoDyn，一种基于动力系统的静息态fMRI建模方法，利用脑区parcellation后的多分辨率时序建模替代transformer主干。在约4万条rs-fMRI序列上预训练后，MnemoDyn在重建质量上持续优于现有transformer方法，并具有较高的计算效率和跨群体泛化能力。该结果说明脑区结构先验对于大规模神经影像动力学建模至关重要，虽面向fMRI，但对EEG脑区先验的研究具有直接的方法启发。",
-      "llm_tags": [
-        "query:eeg-priors:composite"
-      ],
-      "matched_query_tag": "query:eeg-priors:composite",
-      "matched_query_text": "Papers central to 请帮我查找EEG脑区先验的相关论文, especially work that connects or combines: electroencephalography brain region priors; anatomical prior information in EEG analysis; What priors are commonly used in EEG source localization?.",
-      "matched_requirement_id": "req-composite-eeg-priors",
+      "matched_query_text": "electroencephalography brain region priors",
+      "matched_requirement_id": "req-1",
       "selection_source": "fresh_fetch",
       "quick_tier": "6"
     }
