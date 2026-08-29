@@ -1,0 +1,39 @@
+{
+  "label": "2026-08-29",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T02:24:13",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202608/29/2608.21709v1-posterior-information-dynamics-of-diffusion-models-for-linear-inverse-problems",
+      "section": "quick",
+      "title_en": "Posterior Information Dynamics of Diffusion Models for Linear Inverse Problems",
+      "authors": "Xiangming Meng",
+      "date": "2026-08-22",
+      "pdf": "https://arxiv.org/pdf/2608.21709v1",
+      "score": "6.0",
+      "evidence": "线性逆问题中先验信息动力学的通用理论，直接关联EEG源定位",
+      "tldr": "扩散模型求解线性逆问题时，测量信息进入反向去噪的时机与分配方式尚不明确。本文通过平滑似然力（后验与先验分数差）刻画信息动力学，并导出信息-最小均方误差（I-MMSE）恒等式。研究发现高噪声下力能量随信号系数二次衰减，条件化可将n个样本的均匀熵从log n降至H(I|r)，同化效果取决于算子-先验对齐。该框架为理解逆问题扩散模型的信息流动提供了理论工具。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Diffusion models are widely used as priors for linear inverse problems, yet endpoint quality does not reveal when measurement information enters reverse denoising or how it is allocated across signal directions. We study this process through the smoothed likelihood force, the difference between exact posterior and prior scores at each noise level. For a fixed measurement, its expected squared norm gives both posterior--prior relative-entropy dissipation and reverse-path relative-entropy growth. Averaging over measurements yields an information--minimum mean-square error (I-MMSE) identity linking information gain to denoising-error reduction. Under finite second moments, the force energy and its ratio to prior-score energy decay quadratically in the noising kernel's signal coefficient at high noise. Solvable models show that conditioning removes class separation already explained by the measurement, reduces a uniform index entropy over \\(n\\) empirical samples from \\(\\log n\\) to \\(H(I\\mid r)\\), and makes assimilation depend on operator--prior alignment even for identical singular values. Experiments in models with tractable posteriors evaluate these predictions. In a separate illustration with a frozen FFHQ model, masks sharing the same spectrum yield different prior-normalized null-space trajectory statistics.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202608/29/2608.23936v1-mnemodyn-learning-resting-state-dynamics-from-40k-fmri-sequences",
+      "section": "quick",
+      "title_en": "MnemoDyn: Learning Resting State Dynamics from 40K FMRI sequences",
+      "authors": "Sourav Pal, Viet Luong, Hoseok Lee, Tingting Dan, Guorong Wu, Richard Davidson, Won Hwa Kim, Vikas Singh",
+      "date": "2026-08-25",
+      "pdf": "https://arxiv.org/pdf/2608.23936v1",
+      "score": "6.0",
+      "evidence": "在神经影像动力学中使用脑区parcellation作为结构先验，非EEG但可迁移",
+      "tldr": "静息态功能磁共振成像建模常依赖Transformer，计算成本高且泛化受限。本文提出基于动力系统的多分辨率时间建模方法MnemoDyn，在约4万条rs-fMRI序列上预训练。模型在多样人群和扫描协议下重建质量优于现有SOTA，且计算高效。对小型研究也有良好适用性，为神经影像分析提供了高效预训练方案。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "We present a dynamical-systems based model for resting-state functional magnetic resonance imaging (rs-fMRI), trained on a dataset of roughly 40K rs-fMRI sequences covering a wide variety of public and available-by-permission datasets. While most existing proposals use transformer backbones, we utilize multi-resolution temporal modeling of the dynamics across parcellated brain regions. We show that MnemoDyn is compute efficient and generalizes very well across diverse populations and scanning protocols. When benchmarked against current state-of-the-art transformer-based approaches, MnemoDyn consistently delivers superior reconstruction quality. Overall, we find that with such large-scale pre-training on (non-proprietary) rs-fMRI datasets, we get a highly performant model for various downstream tasks. Our results also provide evidence of the efficacy of the model on small sample size studies which has implications for neuroimaging studies at large where resting state fMRI is a commonly acquired imaging modality.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
