@@ -6,24 +6,31 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-08-29
-- 运行时间：2026-08-29 22:21:36 UTC
+- 最新运行日期：2026-08-30
+- 运行时间：2026-08-30 21:23:21 UTC
 - 运行状态：成功
-- 本次总论文数：1
+- 本次总论文数：2
 - 精读区：0
-- 速读区：1
+- 速读区：2
 
 ### 今日简报（AI）
-今日速读1篇，聚焦神经影像工具；重点为《Surf_2_Volume》，该方法可将CIFTI皮层分区转为NIfTI体素空间。若处理表面-体素映射数据，可参考此流程提高转换效率。
-- 详情：[/202608/29/README](/202608/29/README)
+今日速读2篇扩散模型逆问题重建与脑MRI超分辨率论文，暂无精读。
+
+最值得关注的是扩散模型用于线性逆问题的后验信息动力学（7.0分），以及组织混合熵加权脑部MRI超分重建（6.0分）。
+
+若时间有限，建议优先补读前者的方法细节，并留意两篇在医学影像与逆问题中的实际应用差异。
+- 详情：[/202608/30/README](/202608/30/README)
 
 ### 精读区论文标签
 - 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Surf_2_Volume: a workflow for converting CIFTI parcellations to NIfTI volume space](/202608/29/2608.27012v1-surf2volume-a-workflow-for-converting-cifti-parcellations-to-nifti-volume-space)  
+1. [Posterior Information Dynamics of Diffusion Models for Linear Inverse Problems](/202608/30/2608.21709v1-posterior-information-dynamics-of-diffusion-models-for-linear-inverse-problems)  
+   标签：评分：7.0/10、query:eeg-priors
+   evidence：直接涉及线性逆问题中的先验分析，对EEG源定位有参考价值
+2. [Tissue-Mixture Entropy-Weighted Reconstruction for Partial-Volume-Aware Brain MRI Super-Resolution](/202608/30/2608.26647v1-tissue-mixture-entropy-weighted-reconstruction-for-partial-volume-aware-brain-mri-super-resolution)  
    标签：评分：6.0/10、query:eeg-priors
-   evidence：提供将脑分区转换为体素空间的工作流程，可为EEG源定位启用解剖脑区先验
+   evidence：脑MRI重建中利用组织混合解剖先验，可作为EEG分析中解剖先验的方法借鉴
 
 
 <div class="dpr-home-promo-card">
