@@ -1,0 +1,24 @@
+{
+  "label": "2026-08-31",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T23:57:11",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202608/31/2608.27770v1-accelerating-bayesian-variable-selection-using-piecewise-deterministic-markov-processes",
+      "section": "quick",
+      "title_en": "Accelerating Bayesian Variable Selection using Piecewise Deterministic Markov Processes",
+      "authors": "Don van den Bergh, Maarten Marsman",
+      "date": "2026-08-27",
+      "pdf": "https://arxiv.org/pdf/2608.27770v1",
+      "score": "6.0",
+      "evidence": "尖峰-板先验常用于EEG源定位；本文的PDMP采样器加速了这类先验的贝叶斯推断",
+      "tldr": "贝叶斯变量选择在参数强相关时计算成本极其高昂。本文提出使用粘性分段确定性马尔可夫过程（PDMP）采样器，将其扩展至依赖型先验与相关滑板分布，并引入无偏随机梯度以降低因子化似然的计算开销。在交叉滞后面板模型与序数马尔可夫随机场上与可逆跳跃MCMC进行了比较，PDMP表现出更高的采样效率，同时维持目标分布不变。",
+      "tags": "query:eeg-priors",
+      "abstract_en": "Bayesian variable selection becomes computationally challenging when models contain many dependent parameters. We study Piecewise Deterministic Markov Process (PDMP) samplers as a continuous-time alternative to conventional Markov chain Monte Carlo for spike-and-slab variable selection. In sticky PDMP samplers, active parameters evolve continuously until they reach zero, where they may remain for a random duration before re-entering the model. While one parameter enters or leaves the model, the remaining parameters continue to evolve along the deterministic flow, offering a potentially advantageous mechanism for exploring posteriors with strongly dependent parameters. We make two methodological contributions. First, we extend existing sticky PDMP methods beyond independent spike-and-slab priors to dependent model priors and dependent slab distributions. Second, we investigate the use of unbiased stochastic gradients to reduce the computational cost of variable selection when the likelihood decomposes into many factors while retaining the same target distribution. We study these extensions to two psychometric models: a Gaussian random intercept cross-lagged panel model and an ordinal Markov random field. For the former, marginalization yields a fixed-dimensional sufficient-statistic representation that permits efficient model evaluation. For the latter, the model factorizes, which enables subsampling over person-node contributions. In simulation studies, we compare ZigZag, Bouncy Particle, and Boomerang dynamics with reversible-jump MCMC, and examine the effects of prior dependence and stochastic-gradient subsampling on sampling efficiency. We illustrate the methodology using data from an empirical study on mental well-being. Finally, we discuss the advantages and challenges when using PDMP samplers for Bayesian variable selection.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

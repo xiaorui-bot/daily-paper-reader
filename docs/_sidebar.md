@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-08-31 <!--dpr-date:20260831-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/31/2608.27770v1-accelerating-bayesian-variable-selection-using-piecewise-deterministic-markov-processes" data-sidebar-item="{&quot;title&quot;: &quot;Accelerating Bayesian Variable Selection using Piecewise Deterministic Markov Processes&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.27770v1-accelerating-bayesian-variable-selection-using-piecewise-deterministic-markov-processes&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;尖峰-板先验常用于EEG源定位；本文的PDMP采样器加速了这类先验的贝叶斯推断&quot;}">Accelerating Bayesian Variable Selection using Piecewise Deterministic Markov Processes</a>
   * 2026-08-30 <!--dpr-date:20260830-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/30/2608.21709v1-posterior-information-dynamics-of-diffusion-models-for-linear-inverse-problems" data-sidebar-item="{&quot;title&quot;: &quot;Posterior Information Dynamics of Diffusion Models for Linear Inverse Problems&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.21709v1-posterior-information-dynamics-of-diffusion-models-for-linear-inverse-problems&quot;, &quot;score&quot;: &quot;7.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;直接涉及线性逆问题中的先验分析，对EEG源定位有参考价值&quot;}">Posterior Information Dynamics of Diffusion Models for Linear Inverse Problems</a>

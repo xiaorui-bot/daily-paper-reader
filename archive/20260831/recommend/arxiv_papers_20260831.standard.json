@@ -1,0 +1,53 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-31T23:55:36.786839+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2608.27770v1",
+      "source": "arxiv",
+      "title": "Accelerating Bayesian Variable Selection using Piecewise Deterministic Markov Processes",
+      "abstract": "Bayesian variable selection becomes computationally challenging when models contain many dependent parameters. We study Piecewise Deterministic Markov Process (PDMP) samplers as a continuous-time alternative to conventional Markov chain Monte Carlo for spike-and-slab variable selection. In sticky PDMP samplers, active parameters evolve continuously until they reach zero, where they may remain for a random duration before re-entering the model. While one parameter enters or leaves the model, the remaining parameters continue to evolve along the deterministic flow, offering a potentially advantageous mechanism for exploring posteriors with strongly dependent parameters. We make two methodological contributions. First, we extend existing sticky PDMP methods beyond independent spike-and-slab priors to dependent model priors and dependent slab distributions. Second, we investigate the use of unbiased stochastic gradients to reduce the computational cost of variable selection when the likelihood decomposes into many factors while retaining the same target distribution. We study these extensions to two psychometric models: a Gaussian random intercept cross-lagged panel model and an ordinal Markov random field. For the former, marginalization yields a fixed-dimensional sufficient-statistic representation that permits efficient model evaluation. For the latter, the model factorizes, which enables subsampling over person-node contributions. In simulation studies, we compare ZigZag, Bouncy Particle, and Boomerang dynamics with reversible-jump MCMC, and examine the effects of prior dependence and stochastic-gradient subsampling on sampling efficiency. We illustrate the methodology using data from an empirical study on mental well-being. Finally, we discuss the advantages and challenges when using PDMP samplers for Bayesian variable selection.",
+      "authors": [
+        "Don van den Bergh",
+        "Maarten Marsman"
+      ],
+      "primary_category": "stat.ME",
+      "categories": [
+        "stat.ME"
+      ],
+      "published": "2026-08-27T23:05:26+00:00",
+      "link": "https://arxiv.org/pdf/2608.27770v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "spike-and-slab priors are common in EEG source localization; PDMP samplers accelerate Bayesian inference with such priors",
+      "llm_evidence_cn": "尖峰-板先验常用于EEG源定位；本文的PDMP采样器加速了这类先验的贝叶斯推断",
+      "llm_evidence": "尖峰-板先验常用于EEG源定位；本文的PDMP采样器加速了这类先验的贝叶斯推断",
+      "canonical_evidence": "尖峰-板先验常用于EEG源定位；本文的PDMP采样器加速了这类先验的贝叶斯推断",
+      "llm_tldr_en": "This paper develops PDMP samplers to accelerate Bayesian variable selection with spike-and-slab priors. The method improves posterior exploration for dependent parameters and is relevant as a computational tool for applying sparsity-inducing priors in EEG source localization.",
+      "llm_tldr_cn": "该论文关注强相关参数下贝叶斯变量选择的计算难题，提出用分段确定性马尔可夫过程（PDMP）采样器替代传统MCMC。PDMP采样器允许活跃参数连续演化直至零，并在零处随机停留后再进入模型，从而更有效探索依赖参数的后验分布。本文对此进行了方法扩展并提供了理论贡献。由于尖峰-板先验是EEG源定位中常用的稀疏先验，该加速采样方法可作为相关贝叶斯计算的有用工具，有助于在神经成像逆问题中应用结构化先验。",
+      "llm_tldr": "该论文关注强相关参数下贝叶斯变量选择的计算难题，提出用分段确定性马尔可夫过程（PDMP）采样器替代传统MCMC。PDMP采样器允许活跃参数连续演化直至零，并在零处随机停留后再进入模型，从而更有效探索依赖参数的后验分布。本文对此进行了方法扩展并提供了理论贡献。由于尖峰-板先验是EEG源定位中常用的稀疏先验，该加速采样方法可作为相关贝叶斯计算的有用工具，有助于在神经成像逆问题中应用结构化先验。",
+      "llm_tags": [
+        "query:eeg-priors"
+      ],
+      "matched_query_tag": "query:eeg-priors",
+      "matched_query_text": "What priors are commonly used in EEG source localization?",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
