@@ -1,6 +1,9 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
+  * 2026-09-01 <!--dpr-date:20260901-->
+    * 速读区
+      * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202609/01/2608.28872v1-generative-translation-priors-bayesian-imaging-with-cross-modality-image-translation" data-sidebar-item="{&quot;title&quot;: &quot;Generative Translation Priors: Bayesian Imaging with Cross-Modality Image Translation&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.28872v1-generative-translation-priors-bayesian-imaging-with-cross-modality-image-translation&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;将翻译模型转化为逆问题先验的通用贝叶斯框架，可应用于EEG源成像&quot;}">Generative Translation Priors: Bayesian Imaging with Cross-Modality Image Translation</a>
   * 2026-08-31 <!--dpr-date:20260831-->
     * 速读区
       * <a class="dpr-sidebar-item-link dpr-sidebar-item-structured" href="#/202608/31/2608.27770v1-accelerating-bayesian-variable-selection-using-piecewise-deterministic-markov-processes" data-sidebar-item="{&quot;title&quot;: &quot;Accelerating Bayesian Variable Selection using Piecewise Deterministic Markov Processes&quot;, &quot;link&quot;: &quot;https://arxiv.org/abs/2608.27770v1-accelerating-bayesian-variable-selection-using-piecewise-deterministic-markov-processes&quot;, &quot;score&quot;: &quot;6.0&quot;, &quot;tags&quot;: [{&quot;kind&quot;: &quot;query&quot;, &quot;label&quot;: &quot;eeg-priors&quot;}], &quot;evidence&quot;: &quot;尖峰-板先验常用于EEG源定位；本文的PDMP采样器加速了这类先验的贝叶斯推断&quot;}">Accelerating Bayesian Variable Selection using Piecewise Deterministic Markov Processes</a>

@@ -1,0 +1,57 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-09-01T22:12:58.975573+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2608.28872v1",
+      "source": "arxiv",
+      "title": "Generative Translation Priors: Bayesian Imaging with Cross-Modality Image Translation",
+      "abstract": "The ability to leverage images from co-available modalities to inform target-domain reconstruction is highly desirable in imaging algorithms. In this work, we introduce Generative Translation Priors (GTP)--a Bayesian framework that transforms diffusion-based image-to-image translation models into cross-modality image priors for ill-posed imaging inverse problems. GTP incorporates target-domain measurements through likelihood guidance, steering the translation process toward the desired posterior distribution. The framework is grounded in a theoretical analysis of the resulting posterior dynamics, which reveals an intrinsic bias introduced by likelihood guidance. We further characterize this bias and derive a ground-truth-free formulation for its estimation, enabling it to serve as a practical metric for assessing posterior sampling quality. Building on this analysis, we derive two discretized GTP algorithms based on gradient and proximal likelihood guidance, respectively. We validate GTP on computed tomography reconstruction with magnetic resonance side information, and on positron emission tomography reconstruction with computed tomography side information. Experiments demonstrate that GTP effectively incorporates complementary cross-modality information and achieves high-fidelity reconstruction even under severely undersampled measurements.",
+      "authors": [
+        "Evan Bell",
+        "Jiaming Liu",
+        "Yifan Chen",
+        "Yu Sun"
+      ],
+      "primary_category": "eess.IV",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "published": "2026-08-28T21:16:09+00:00",
+      "link": "https://arxiv.org/pdf/2608.28872v1",
+      "tags": [
+        "keyword:eeg-priors",
+        "query:eeg-priors"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "General Bayesian framework converting translation models into priors for inverse problems, applicable to EEG source imaging",
+      "llm_evidence_cn": "将翻译模型转化为逆问题先验的通用贝叶斯框架，可应用于EEG源成像",
+      "llm_evidence": "将翻译模型转化为逆问题先验的通用贝叶斯框架，可应用于EEG源成像",
+      "canonical_evidence": "将翻译模型转化为逆问题先验的通用贝叶斯框架，可应用于EEG源成像",
+      "llm_tldr_en": "GTP is a Bayesian framework that converts diffusion-based image translation models into cross-modality priors for ill-posed imaging inverse problems, using likelihood guidance and bias correction; it is a transferable prior modeling approach applicable to EEG source localization.",
+      "llm_tldr_cn": "在成像逆问题中，利用共同可获取的其他模态信息来指导目标域重建非常有价值。本文提出生成式翻译先验（GTP）框架，将基于扩散的图像翻译模型转化为跨模态先验，并通过似然引导使翻译过程逼近目标后验分布。理论分析揭示了似然引导的固有偏差，并提出了无真值校准方法。该框架为包括EEG源定位在内的逆问题提供了一种通用的先验建模方式。",
+      "llm_tldr": "在成像逆问题中，利用共同可获取的其他模态信息来指导目标域重建非常有价值。本文提出生成式翻译先验（GTP）框架，将基于扩散的图像翻译模型转化为跨模态先验，并通过似然引导使翻译过程逼近目标后验分布。理论分析揭示了似然引导的固有偏差，并提出了无真值校准方法。该框架为包括EEG源定位在内的逆问题提供了一种通用的先验建模方式。",
+      "llm_tags": [
+        "query:eeg-priors:composite"
+      ],
+      "matched_query_tag": "query:eeg-priors:composite",
+      "matched_query_text": "Papers central to 请帮我查找EEG脑区先验的相关论文, especially work that connects or combines: electroencephalography brain region priors; anatomical prior information in EEG analysis; What priors are commonly used in EEG source localization?.",
+      "matched_requirement_id": "req-composite-eeg-priors",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
