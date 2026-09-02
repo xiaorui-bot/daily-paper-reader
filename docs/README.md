@@ -6,24 +6,28 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-09-01
-- 运行时间：2026-09-01 22:15:02 UTC
+- 最新运行日期：2026-09-02
+- 运行时间：2026-09-02 22:02:28 UTC
 - 运行状态：成功
 - 本次总论文数：1
-- 精读区：0
-- 速读区：1
+- 精读区：1
+- 速读区：0
 
 ### 今日简报（AI）
-今日仅有1篇速读论文，聚焦“生成式翻译先验”在跨模态图像翻译中的应用，值得快速了解其贝叶斯成像思路。最值得关注的是“用翻译模型作为先验”这一方向，可能提升跨模态成像质量。建议普通读者先读摘要与结论，重点看该先验如何融入贝叶斯框架及实验效果。
-- 详情：[/202609/01/README](/202609/01/README)
+今日精读1篇高分论文，聚焦皮层几何特征模态对欠定神经系统中源成像估计的时间约束方法。
+
+该研究利用皮层本征模态为脑源定位提供时间约束，在欠定条件下提升成像精度，值得关注计算神经成像方向。
+
+建议可延伸阅读本征模态分析在脑网络动态建模中的应用，或探索与深度学习源重构方法的结合。
+- 详情：[/202609/02/README](/202609/02/README)
 
 ### 精读区论文标签
-- 本次无精读推荐。
+1. [Temporally constraining source imaging estimates in an underdetermined neural system with eigenmodes of cortical geometry](/202609/02/2609.00809v1-temporally-constraining-source-imaging-estimates-in-an-underdetermined-neural-system-with-eigenmodes-of-cortical-geometry)  
+   标签：评分：9.0/10、query:eeg-priors
+   evidence：皮层几何本征模式为EEG源成像提供解剖先验并加入时间约束
 
 ### 速读区论文标签
-1. [Generative Translation Priors: Bayesian Imaging with Cross-Modality Image Translation](/202609/01/2608.28872v1-generative-translation-priors-bayesian-imaging-with-cross-modality-image-translation)  
-   标签：评分：6.0/10、query:eeg-priors
-   evidence：将翻译模型转化为逆问题先验的通用贝叶斯框架，可应用于EEG源成像
+- 本次无速读推荐。
 
 
 <div class="dpr-home-promo-card">
